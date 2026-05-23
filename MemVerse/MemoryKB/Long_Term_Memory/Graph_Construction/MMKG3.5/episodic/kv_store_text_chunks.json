@@ -1,0 +1,156 @@
+{
+  "chunk-d0d8e5fb4310903f4c2231b266aa6d56": {
+    "tokens": 363,
+    "content": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"perception_update\"\n        ],\n        \"summary\": \"Task initiated to move one of the pear items to the indicated sofa; environment observed.\",\n        \"details\": {\n            \"Task goal\": \"Move one of the pear items to the indicated sofa.\",\n            \"Environment context\": \"Indoor environment similar to a living room with various objects and furniture.\",\n            \"Key objects interacted with\": [\n                {\n                    \"name\": \"brown armchair\",\n                    \"attributes\": {\n                        \"color\": \"brown\",\n                        \"size\": \"cozy seating option\"\n                    }\n                },\n                {\n                    \"name\": \"dark gray spherical object\",\n                    \"attributes\": {\n                        \"size\": \"large\"\n                    }\n                },\n                {\n                    \"name\": \"small side table\",\n                    \"attributes\": {\n                        \"color\": \"wood\",\n                        \"size\": \"small\"\n                    }\n                },\n                {\n                    \"name\": \"robot arm\",\n                    \"attributes\": {\n                        \"color\": \"blue with white stripe\",\n                        \"state\": \"inactive\"\n                    }\n                }\n            ],\n            \"Spatial context\": \"Foreground: brown armchair left; dark gray sphere right of armchair; small side table next to sphere; robot arm right of table.\",\n            \"Action sequence\": \"None at this moment, initial environment observation.\",\n            \"Action results\": \"N/A\",\n            \"State changes\": \"N/A\",\n            \"Uncertainty\": \"N/A\",\n            \"Safety\": \"N/A\",\n            \"Final outcome\": \"Observed environment; no actions executed yet.\"\n        },\n        \"actor\": \"user\",\n        \"tree_path\": [\"home\", \"tasks\", \"living-room\", \"move-object\"]\n    }\n]\n```",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d0d8e5fb4310903f4c2231b266aa6d56",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f1ab042eb848fc176574019ec3a700bf",
+      "default:extract:188ea9b316ff6c0ff8b1f468d6ea9d74"
+    ],
+    "create_time": 1772703089,
+    "update_time": 1772703102,
+    "_id": "chunk-d0d8e5fb4310903f4c2231b266aa6d56"
+  },
+  "chunk-e4b89e749b87de9bd2b695656376100b": {
+    "tokens": 447,
+    "content": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"User navigated to the kitchen cabinet to observe the environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Observe the kitchen environment and assess the objects present.\",\n        \"Environment context\": \"Kitchen countertop area, workspace for food preparation.\",\n        \"Key objects interacted with\": [\n            {\n                \"name\": \"butter\",\n                \"attributes\": {\n                    \"color\": \"pale yellow\",\n                    \"shape\": \"rectangular block\",\n                    \"size\": \"average for a single serving\"\n                }\n            },\n            {\n                \"name\": \"strawberry\",\n                \"attributes\": {\n                    \"color\": \"red with small green patches\",\n                    \"size\": \"small and rounded\"\n                }\n            },\n            {\n                \"name\": \"spatula\",\n                \"attributes\": {\n                    \"color\": \"black\",\n                    \"position\": \"idle\",\n                    \"orientation\": \"handle towards viewer, flat section away\"\n                }\n            }\n        ],\n        \"Spatial context\": {\n            \"global location\": \"kitchen\",\n            \"local relations\": {\n                \"butter\": \"center of counter\",\n                \"strawberry\": \"below and to the left of butter\",\n                \"spatula\": \"near the strawberry\"\n            }\n        },\n        \"Action sequence\": [\n            {\n                \"action\": \"navigate\",\n                \"target\": \"cabinet 7\",\n                \"result\": \"success\"\n            },\n            {\n                \"action\": \"observe\",\n                \"target\": \"environment\",\n                \"result\": \"passive observation, no interactions\"\n            }\n        ],\n        \"Action results\": {\n            \"navigate\": \"success\",\n            \"observe\": \"passive, no interactions\"\n        },\n        \"State changes\": \"None observed; all objects stationary.\",\n        \"Uncertainty\": \"N/A\",\n        \"Safety\": \"N/A\",\n        \"Final outcome\": \"User successfully navigated and observed objects on the countertop.\"\n    },\n    \"actor\": \"user\",\n    \"tree_path\": [\"home\", \"tasks\", \"kitchen\", \"observation\"]\n}\n```",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e4b89e749b87de9bd2b695656376100b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:faae725eb5b6902076d19269f1abd151",
+      "default:extract:8f1dd8c90aadbcd8452efed356a71d95"
+    ],
+    "create_time": 1772703116,
+    "update_time": 1772703132,
+    "_id": "chunk-e4b89e749b87de9bd2b695656376100b"
+  },
+  "chunk-679a0eca9dc0e5e9a48835d7ff7c466a": {
+    "tokens": 281,
+    "content": "1. **event_type:** \n   - perception_update \n\n2. **summary:** \n   - Observed kitchen countertop with tools and food items.\n\n3. **details:** \n   - Task goal: N/A (observational activity, no specific task)\n   - Environment context: Kitchen area, specifically the countertop near the sink.\n   - Key objects interacted with: Sink (gray metallic, contains food items), wrench (metallic, adjustable, lying flat on countertop), robotic arm (blue, with white and brown segments, positioned above the countertop).\n   - Spatial context: Countertop space; sink is lower than the counter, wrench is closer to the sink, and the robotic arm extends above the countertop near the wrench.\n   - Action sequence: Navigate to the cabinet followed by observing the environment.\n   - Action results: N/A (observation only, no manipulative action taken).\n   - State changes: N/A (no tangible interactions or object state changes observed).\n   - Uncertainty: No ambiguous detections; all items are clearly observed.\n   - Safety: N/A (no hazards reported or safety events observed).\n   - Final outcome: N/A (still in the observation phase, no specific goal achieved).\n\n4. **actor:** \n   - embodied_agent\n\n5. **tree_path:** \n   - [\"home\", \"observations\", \"kitchen\", \"countertop\"]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-679a0eca9dc0e5e9a48835d7ff7c466a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3a367d33ccbcb028064af1ddb1b3c1f7",
+      "default:extract:08d496d4ae53126e246a66709b4528f1"
+    ],
+    "create_time": 1772703154,
+    "update_time": 1772703167,
+    "_id": "chunk-679a0eca9dc0e5e9a48835d7ff7c466a"
+  },
+  "chunk-1058b785568123c9dd67809d1e3c64cc": {
+    "tokens": 282,
+    "content": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to cabinet 5 and observed contents.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to cabinet 5 for observation.\",\n        \"Environment context\": \"Inside cabinet 5 characterized by a flat dark surface and lighter walls.\",\n        \"Key objects interacted with\": [\n            {\n                \"name\": \"pear\",\n                \"attributes\": {\n                    \"color\": \"green\",\n                    \"shape\": \"rounded\"\n                }\n            },\n            {\n                \"name\": \"hammer\",\n                \"attributes\": {\n                    \"head\": \"metallic\",\n                    \"handle\": \"wooden\"\n                }\n            }\n        ],\n        \"Spatial context\": \"Cabinet 5; pear is on the left of the hammer on the dark surface.\",\n        \"Action sequence\": [\n            \"navigate to cabinet 5\",\n            \"observe environment\"\n        ],\n        \"Action results\": \"Successfully reached cabinet 5 and observed objects.\",\n        \"State changes\": \"None.\",\n        \"Uncertainty\": \"N/A\",\n        \"Safety\": \"N/A\",\n        \"Final outcome\": \"Observation completed; potential for interaction with pear and hammer.\"\n    },\n    \"actor\": \"embodied_agent\",\n    \"tree_path\": [\"home\", \"tasks\", \"cabinet\", \"observation\"]\n}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1058b785568123c9dd67809d1e3c64cc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:dde8bc40a25a761e72af1bb92bdbbce6",
+      "default:extract:7be53d96d4b2026300934f8647b7edcd"
+    ],
+    "create_time": 1772703179,
+    "update_time": 1772703192,
+    "_id": "chunk-1058b785568123c9dd67809d1e3c64cc"
+  },
+  "chunk-05b12ac4b5e7ef4ee723211268193b96": {
+    "tokens": 366,
+    "content": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Robotic arm navigated to cabinet 4 and observed environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Navigate to cabinet 4. Prepare to interact with objects in the environment.\",\n        \"Environment context\": \"A flat dark surface resembling a countertop with a wall as a backdrop. Notable items include a hammer and a green pear.\",\n        \"Key objects interacted with\": {\n            \"Robotic Arm\": {\n                \"color\": \"blue, beige, white\",\n                \"position\": \"partially extended over the dark surface\"\n            },\n            \"Hammer\": {\n                \"color\": \"light brown, gray\",\n                \"position\": \"lying flat on the surface towards the lower left\"\n            },\n            \"Green Pear\": {\n                \"color\": \"green\",\n                \"position\": \"near the hammer, closer to the viewer's perspective\"\n            }\n        },\n        \"Spatial context\": \"Robotic arm above the hammer and pear, poised to interact.\",\n        \"Action sequence\": [\"navigate to cabinet 4\", \"observing environment\"],\n        \"Action results\": \"N/A - The robotic arm is in a poised position, indicating readiness but no action taken yet.\",\n        \"State changes\": \"N/A - No interactions executed yet.\",\n        \"Uncertainty\": \"No actions beyond navigation have taken place; the exact subsequent steps are unknown.\",\n        \"Safety\": \"N/A - No safety events noted.\",\n        \"Final outcome\": \"N/A - Not applicable at the time of observation; further actions are anticipated.\"\n    },\n    \"actor\": \"embodied_agent\",\n    \"tree_path\": [\n        \"home\",\n        \"tasks\",\n        \"navigation\",\n        \"observation\"\n    ]\n}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-05b12ac4b5e7ef4ee723211268193b96",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a92e1852de0f4351ad0bab1895291e4a",
+      "default:extract:79f4ff1a9585b1c56dfcd8067cc9d287"
+    ],
+    "create_time": 1772703206,
+    "update_time": 1772703218,
+    "_id": "chunk-05b12ac4b5e7ef4ee723211268193b96"
+  },
+  "chunk-53daedf4d04d6753bedcb7a46e631c8a": {
+    "tokens": 267,
+    "content": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the refrigerator push point; observing surrounding environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the refrigerator push point for potential interaction. No specific constraints reported.\",\n        \"Environment context\": \"Close to the refrigerator, likely within a kitchen area. Observations relate to structural elements such as walls or furniture components.\",\n        \"Key objects interacted with\": \"N/A\",\n        \"Spatial context\": \"Near refrigerator in kitchen area; visible surfaces include gray wall and brown furniture component.\",\n        \"Action sequence\": [\n            \"navigate to refrigerator push point\",\n            \"observe environment\"\n        ],\n        \"Action results\": \"Successfully navigated to the designated location. Observing environment with limited visible cues.\",\n        \"State changes\": \"N/A\",\n        \"Uncertainty\": \"Image did not provide clear identification of objects; limited visibility of the environment.\",\n        \"Safety\": \"N/A\",\n        \"Final outcome\": \"Reached refrigerator push point; further observations to identify next actions.\"\n    },\n    \"actor\": \"embodied_agent\",\n    \"tree_path\": [\n        \"home\",\n        \"tasks\",\n        \"kitchen\",\n        \"navigation\"\n    ]\n}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-53daedf4d04d6753bedcb7a46e631c8a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3cb061d0e526dc1f8879ef4c78e3c071",
+      "default:extract:13ef9a81dc84344cb20526c60f0a25b5"
+    ],
+    "create_time": 1772703235,
+    "update_time": 1772703250,
+    "_id": "chunk-53daedf4d04d6753bedcb7a46e631c8a"
+  },
+  "chunk-12916031e53dc924d9fcb0c41475bf10": {
+    "tokens": 289,
+    "content": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the chair and observed the environment.\",\n    \"details\": {\n        \"Task goal\": \"Navigate to the chair.\",\n        \"Environment context\": \"Interior corner of a room with beige and reddish-brown walls.\",\n        \"Key objects interacted with\": {\n            \"robot_arm\": {\n                \"color\": \"blue, white, beige\",\n                \"type\": \"mechanical gripper\"\n            },\n            \"chair\": {\n                \"color\": \"light beige\",\n                \"design\": \"upholstered, curved backrest\"\n            }\n        },\n        \"Spatial context\": {\n            \"global_location\": \"corner of the room\",\n            \"local_relations\": \"robot arm positioned above the chair near the wall\"\n        },\n        \"Action sequence\": [\n            \"navigate to the chair\",\n            \"observe the environment\"\n        ],\n        \"Action results\": \"Arm is positioned above the chair without contact.\",\n        \"State changes\": \"N/A\",\n        \"Uncertainty\": \"N/A\",\n        \"Safety\": \"N/A\",\n        \"Final outcome\": \"Reached the vicinity of the chair; observation in progress.\"\n    },\n    \"actor\": \"embodied_agent\",\n    \"tree_path\": [\n        \"home\",\n        \"tasks\",\n        \"navigation\",\n        \"observation\"\n    ]\n}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-12916031e53dc924d9fcb0c41475bf10",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f3646ab30e8e51d7000ca43306de8a0d",
+      "default:extract:14483f91fdf631e9c88cce37991c00ad"
+    ],
+    "create_time": 1772703265,
+    "update_time": 1772703277,
+    "_id": "chunk-12916031e53dc924d9fcb0c41475bf10"
+  },
+  "chunk-4efe4535ba7fd9b92fec1ad1e7648658": {
+    "tokens": 384,
+    "content": "{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Navigated to the table and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the table for observation.\",\n        \"Environment context\": \"Indoor room with a wooden table.\",\n        \"Key objects interacted with\": [\n            {\n                \"name\": \"plate\",\n                \"attributes\": {\"shape\": \"round\", \"material\": \"ceramic or metal\", \"location\": \"left side of the table\"}\n            },\n            {\n                \"name\": \"small blue object\",\n                \"attributes\": {\"type\": \"game piece or figurine\", \"location\": \"slightly right of the center of the table\"}\n            },\n            {\n                \"name\": \"apple\",\n                \"attributes\": {\"color\": \"bright green\", \"shape\": \"round\", \"location\": \"right edge of the table\"}\n            }\n        ],\n        \"Spatial context\": {\n            \"global_location\": \"room\",\n            \"local_relations\": [\n                {\"object\": \"plate\", \"position\": \"left of table\"},\n                {\"object\": \"small blue object\", \"position\": \"center of table\"},\n                {\"object\": \"apple\", \"position\": \"right of table\"}\n            ]\n        },\n        \"Action sequence\": [\n            {\"action\": \"navigate\", \"target\": \"table\", \"result\": \"completed\"}\n        ],\n        \"Action results\": \"Success in navigation to the table; observing the environment.\",\n        \"State changes\": \"N/A\",\n        \"Uncertainty\": \"N/A\",\n        \"Safety\": \"N/A\",\n        \"Final outcome\": \"Agent successfully navigated and is currently observing the surroundings.\"\n    },\n    \"actor\": \"embodied_agent\",\n    \"tree_path\": [\"home\", \"tasks\", \"observation\", \"navigation\"]\n}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4efe4535ba7fd9b92fec1ad1e7648658",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:661def7770fb5f4679345cb858c28ef1",
+      "default:extract:fd9cbfc09193d12e46e54ae64dd0801b"
+    ],
+    "create_time": 1772703293,
+    "update_time": 1772703308,
+    "_id": "chunk-4efe4535ba7fd9b92fec1ad1e7648658"
+  },
+  "chunk-386546b08f03613bd02a1961790cf077": {
+    "tokens": 528,
+    "content": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Agent observed the tabletop scene with various objects.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"Tabletop scene against a plain brown wall backdrop.\",\n        \"Key objects interacted with\": [\n            {\n                \"name\": \"orange sphere\",\n                \"attributes\": {\n                    \"color\": \"orange\",\n                    \"size\": \"small\"\n                }\n            },\n            {\n                \"name\": \"yellow toy car\",\n                \"attributes\": {\n                    \"color\": \"yellow\",\n                    \"wheels\": \"blue\",\n                    \"size\": \"small\"\n                }\n            },\n            {\n                \"name\": \"red cone-like object\",\n                \"attributes\": {\n                    \"color\": \"red\",\n                    \"shape\": \"cone-like\"\n                }\n            },\n            {\n                \"name\": \"key\",\n                \"attributes\": {\n                    \"color\": \"metallic gray\",\n                    \"shape\": \"key\"\n                }\n            },\n            {\n                \"name\": \"red circular plate\",\n                \"attributes\": {\n                    \"color\": \"red\",\n                    \"shape\": \"circular\",\n                    \"contents\": \"empty\"\n                }\n            },\n            {\n                \"name\": \"blue robotic arm\",\n                \"attributes\": {\n                    \"position\": \"vertical\",\n                    \"interaction\": \"near multi-colored cube\"\n                }\n            },\n            {\n                \"name\": \"multi-colored cube\",\n                \"attributes\": {\n                    \"shape\": \"cube\",\n                    \"appearance\": \"stackable toy\"\n                }\n            },\n            {\n                \"name\": \"black monitor\",\n                \"attributes\": {\n                    \"color\": \"black\",\n                    \"visibility\": \"partially visible\"\n                }\n            },\n            {\n                \"name\": \"red cylindrical object\",\n                \"attributes\": {\n                    \"color\": \"red\",\n                    \"shape\": \"cylindrical\"\n                }\n            }\n        ],\n        \"Spatial context\": \"Objects arranged on a table with varying distances; robotic arm and cube are prominent.\",\n        \"Action sequence\": \"navigate to the table, observe environment\",\n        \"Action results\": \"N/A\",\n        \"State changes\": \"N/A\",\n        \"Uncertainty\": \"N/A\",\n        \"Safety\": \"N/A\",\n        \"Final outcome\": \"Observation completed; no actions taken.\"\n    },\n    \"actor\": \"embodied_agent\",\n    \"tree_path\": [\n        \"home\",\n        \"observations\",\n        \"tabletop\",\n        \"environment\"\n    ]\n}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-386546b08f03613bd02a1961790cf077",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d3ad55943d3e2c17816dff269d507be9",
+      "default:extract:f600cffee9aa3ca776c72d3491e1f7b9"
+    ],
+    "create_time": 1772703330,
+    "update_time": 1772703357,
+    "_id": "chunk-386546b08f03613bd02a1961790cf077"
+  },
+  "chunk-23745efea012edbe0cdbde575e6dd39e": {
+    "tokens": 463,
+    "content": "```json\n{\n  \"event_type\": [\"perception_update\"],\n  \"summary\": \"The agent navigated to the TV stand and observed the environment.\",\n  \"details\": {\n    \"Task goal(s) and any constraints\": \"Navigate to the TV stand and observe the environment.\",\n    \"Environment context\": \"Living room or workspace; blue table present beneath a robotic arm, possibly near TV stand.\",\n    \"Key objects interacted with\": [\n      {\n        \"name\": \"robotic arm\",\n        \"attributes\": {\n          \"color\": \"blue with white accents\",\n          \"design\": \"segmented design\",\n          \"functionality\": \"grasping/manipulation\"\n        }\n      },\n      {\n        \"name\": \"red spherical object\",\n        \"attributes\": {\n          \"color\": \"red\",\n          \"shape\": \"round\",\n          \"resemblance\": \"tomato\"\n        }\n      },\n      {\n        \"name\": \"yellow-orange object\",\n        \"attributes\": {\n          \"potential_name\": \"peach or orange\",\n          \"color\": \"yellow-orange\",\n          \"morphology\": \"fruit-like\"\n        }\n      },\n      {\n        \"name\": \"metallic tool\",\n        \"attributes\": {\n          \"type\": \"tweezers or utensil\",\n          \"color\": \"metallic\",\n          \"form\": \"slender\"\n        }\n      },\n      {\n        \"name\": \"dark brown rectangular item\",\n        \"attributes\": {\n          \"type\": \"cardboard or paper\",\n          \"color\": \"dark brown\",\n          \"property\": \"flat\"\n        }\n      }\n    ],\n    \"Spatial context\": \"Table is centrally located within the image. Robotic arm is above the table, indicating the environment is geared towards manipulation tasks.\",\n    \"Action sequence\": [\n      \"navigate to the TV stand\",\n      \"observe the environment\"\n    ],\n    \"Action results\": \"N/A\",\n    \"State changes\": \"N/A\",\n    \"Uncertainty\": \"N/A\",\n    \"Safety\": \"N/A\",\n    \"Final outcome\": \"Observation of the environment was successful.\"\n  },\n  \"actor\": \"embodied_agent\",\n  \"tree_path\": [\"home\", \"tasks\", \"observation\", \"navigation\"]\n}\n```",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-23745efea012edbe0cdbde575e6dd39e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:75fe3ad0758fcef0ea45fd43977c4c34",
+      "default:extract:0dc470ccc024a452043f9b7d61b9d34e"
+    ],
+    "create_time": 1772703376,
+    "update_time": 1772703397,
+    "_id": "chunk-23745efea012edbe0cdbde575e6dd39e"
+  },
+  "chunk-5c4f8a99c2c3feb883c8a2b6716e4e6e": {
+    "tokens": 560,
+    "content": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the sink in the kitchen and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"To survey the environment around the sink in the kitchen.\",\n        \"Environment context\": \"Kitchen area with a sink as the focal point.\",\n        \"Key objects interacted with\": [\n            {\n                \"name\": \"power drill\",\n                \"attributes\": {\n                    \"color\": [\"red\", \"black\"],\n                    \"shape\": \"distinctive\"\n                }\n            },\n            {\n                \"name\": \"purple object\",\n                \"attributes\": {\n                    \"possible identity\": \"fruit (onion or plum)\"\n                }\n            },\n            {\n                \"name\": \"yellow rubber duck\",\n                \"attributes\": {}\n            },\n            {\n                \"name\": \"banana peel\",\n                \"attributes\": {\n                    \"state\": \"segment\"\n                }\n            },\n            {\n                \"name\": \"orange cup\",\n                \"attributes\": {\n                    \"position\": \"close to edge\"\n                }\n            },\n            {\n                \"name\": \"sponge\",\n                \"attributes\": {\n                    \"color\": \"pale yellow\",\n                    \"state\": \"flat\"\n                }\n            },\n            {\n                \"name\": \"blue-and-white robotic arm/appendage\",\n                \"attributes\": {\n                    \"position\": \"above the sink\"\n                }\n            }\n        ],\n        \"Spatial context\": {\n            \"global location\": \"kitchen\",\n            \"local relations\": {\n                \"sink\": {\n                    \"position\": \"center\",\n                    \"items_in_sink\": [\n                        \"power drill\",\n                        \"purple object\",\n                        \"yellow rubber duck\",\n                        \"banana peel\"\n                    ]\n                },\n                \"counter\": {\n                    \"position\": \"to the left of the sink\",\n                    \"items\": [\n                        \"orange cup\",\n                        \"sponge\"\n                    ]\n                },\n                \"robotic arm\": {\n                    \"position\": \"right side of the counter, above the sink\"\n                }\n            }\n        },\n        \"Action sequence\": [\n            \"navigate to the sink\",\n            \"observe environment\"\n        ],\n        \"Action results\": \"Observation of various objects in the sink and surrounding area.\",\n        \"State changes\": \"N/A\",\n        \"Uncertainty\": \"Object state of the purple object is uncertain (could be an onion or plum).\",\n        \"Safety\": \"N/A\",\n        \"Final outcome\": \"Observation completed; environment noted for further action.\"\n    },\n    \"actor\": \"embodied_agent\",\n    \"tree_path\": [\n        \"home\",\n        \"observation\",\n        \"kitchen\",\n        \"sink\"\n    ]\n}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5c4f8a99c2c3feb883c8a2b6716e4e6e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:25bf293248bcb9d83ac59ddc25e458b6",
+      "default:extract:11da413b25675d082e5b74af5437a981"
+    ],
+    "create_time": 1772703418,
+    "update_time": 1772703439,
+    "_id": "chunk-5c4f8a99c2c3feb883c8a2b6716e4e6e"
+  }
+}

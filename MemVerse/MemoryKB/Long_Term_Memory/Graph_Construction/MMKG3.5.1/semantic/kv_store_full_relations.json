@@ -1,0 +1,3346 @@
+{
+  "doc-802fe41abcd29068d1cfab2708fb0560": {
+    "relation_pairs": [
+      [
+        "Left Table",
+        "Spatula"
+      ],
+      [
+        "Robotic Arm",
+        "User"
+      ],
+      [
+        "Left Counter Receptacle",
+        "Spatula"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ],
+      [
+        "Robotic Arm",
+        "Spatula"
+      ],
+      [
+        "Task",
+        "User"
+      ],
+      [
+        "Robotic Arm",
+        "Task"
+      ],
+      [
+        "Indoor Scene",
+        "Task"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772712198,
+    "update_time": 1772712198,
+    "_id": "doc-802fe41abcd29068d1cfab2708fb0560"
+  },
+  "doc-c601eedff7367685c4571bf3fb4e6897": {
+    "relation_pairs": [
+      [
+        "embodied_agent",
+        "kitchen"
+      ],
+      [
+        "countertop",
+        "thin circular object"
+      ],
+      [
+        "kitchen",
+        "navigation"
+      ],
+      [
+        "blue cap",
+        "countertop"
+      ],
+      [
+        "countertop",
+        "rolling pin"
+      ],
+      [
+        "countertop",
+        "pliers"
+      ],
+      [
+        "countertop",
+        "embodied_agent"
+      ],
+      [
+        "action execution",
+        "countertop objects"
+      ],
+      [
+        "action execution",
+        "navigation"
+      ],
+      [
+        "embodied_agent",
+        "kitchen cabinet"
+      ],
+      [
+        "countertop",
+        "robotic arm"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772712224,
+    "update_time": 1772712224,
+    "_id": "doc-c601eedff7367685c4571bf3fb4e6897"
+  },
+  "doc-a8b3be8b062bd6f0259a3b5b87310e3b": {
+    "relation_pairs": [
+      [
+        "Agent",
+        "Task Request"
+      ],
+      [
+        "Countertop",
+        "Sink"
+      ],
+      [
+        "Agent",
+        "Cabinet"
+      ],
+      [
+        "Blue Robotic Arm",
+        "Kitchen Workspace"
+      ],
+      [
+        "Agent",
+        "Perception Update"
+      ],
+      [
+        "Red Object (Inside Sink)",
+        "Sink"
+      ],
+      [
+        "Perception Update",
+        "Task Request"
+      ],
+      [
+        "Agent",
+        "Kitchen Workspace"
+      ],
+      [
+        "Cabinet",
+        "Kitchen Workspace"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772712252,
+    "update_time": 1772712252,
+    "_id": "doc-a8b3be8b062bd6f0259a3b5b87310e3b"
+  },
+  "doc-41fbee3e9f402ceece091014bfc8aa59": {
+    "relation_pairs": [
+      [
+        "perception_update",
+        "task_request"
+      ],
+      [
+        "orange and black object",
+        "robot arm"
+      ],
+      [
+        "robot arm",
+        "sponge"
+      ],
+      [
+        "robot arm",
+        "table"
+      ],
+      [
+        "robot arm",
+        "spatula"
+      ],
+      [
+        "red apple",
+        "robot arm"
+      ],
+      [
+        "cabinet 5",
+        "table"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772712271,
+    "update_time": 1772712271,
+    "_id": "doc-41fbee3e9f402ceece091014bfc8aa59"
+  },
+  "doc-a69ef864f2a1c112d521af354d75117b": {
+    "relation_pairs": [
+      [
+        "embodied agent",
+        "robotic arm"
+      ],
+      [
+        "black spatula",
+        "robotic arm"
+      ],
+      [
+        "orange item",
+        "robotic arm"
+      ],
+      [
+        "robotic arm",
+        "small yellow square item"
+      ],
+      [
+        "red spherical object",
+        "robotic arm"
+      ],
+      [
+        "robotic arm",
+        "tabletop"
+      ],
+      [
+        "orange item",
+        "tabletop"
+      ],
+      [
+        "black spatula",
+        "tabletop"
+      ],
+      [
+        "red spherical object",
+        "tabletop"
+      ],
+      [
+        "cluttered tabletop environment",
+        "embodied agent"
+      ],
+      [
+        "small yellow square item",
+        "tabletop"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772712296,
+    "update_time": 1772712296,
+    "_id": "doc-a69ef864f2a1c112d521af354d75117b"
+  },
+  "doc-8ecda63622f4be34fc2a13f670bdb0fa": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Refrigerator"
+      ],
+      [
+        "Agent",
+        "Kitchen Environment"
+      ],
+      [
+        "Floor",
+        "Refrigerator"
+      ],
+      [
+        "Agent",
+        "Refrigerator"
+      ],
+      [
+        "Cabinetry/Wall",
+        "Refrigerator"
+      ],
+      [
+        "Action Sequence",
+        "Agent"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772712315,
+    "update_time": 1772712315,
+    "_id": "doc-8ecda63622f4be34fc2a13f670bdb0fa"
+  },
+  "doc-6637aa6d62e3c0cd174638fdbde9bed1": {
+    "relation_pairs": [
+      [
+        "Environment Context",
+        "embodied_agent"
+      ],
+      [
+        "chair",
+        "robotic_arm"
+      ],
+      [
+        "Environment Context",
+        "Red-Brown Wall"
+      ],
+      [
+        "Indoor Setting",
+        "Red-Brown Wall"
+      ],
+      [
+        "chair",
+        "embodied_agent"
+      ],
+      [
+        "flat_square_object",
+        "wooden_surface"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772712332,
+    "update_time": 1772712332,
+    "_id": "doc-6637aa6d62e3c0cd174638fdbde9bed1"
+  },
+  "doc-0f25348c99f083f8776a2ff0e1e0f6d8": {
+    "relation_pairs": [
+      [
+        "Embodied Agent",
+        "Red Spherical Object"
+      ],
+      [
+        "Embodied Agent",
+        "Multicolored Cube"
+      ],
+      [
+        "Embodied Agent",
+        "Yellow Star-like Object"
+      ],
+      [
+        "Embodied Agent",
+        "Orange Spherical Object"
+      ],
+      [
+        "Embodied Agent",
+        "Table"
+      ],
+      [
+        "Embodied Agent",
+        "Orange Cup"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772712359,
+    "update_time": 1772712359,
+    "_id": "doc-0f25348c99f083f8776a2ff0e1e0f6d8"
+  },
+  "doc-7a5ed4a89b2aa0297099f4ccbb1618fd": {
+    "relation_pairs": [
+      [
+        "Black-Handled Tool",
+        "Green Apple"
+      ],
+      [
+        "Green Apple",
+        "Table"
+      ],
+      [
+        "Agent",
+        "Room"
+      ],
+      [
+        "Agent",
+        "Environment"
+      ],
+      [
+        "Blue Container",
+        "Gray Rock"
+      ],
+      [
+        "Gray Rock",
+        "Table"
+      ],
+      [
+        "Objects",
+        "Wooden Table"
+      ],
+      [
+        "Environment",
+        "Wooden Table"
+      ],
+      [
+        "Green Apple",
+        "Red-Handled Knife"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772712381,
+    "update_time": 1772712381,
+    "_id": "doc-7a5ed4a89b2aa0297099f4ccbb1618fd"
+  },
+  "doc-81ff86ef90a934803ff45ce21199e7cd": {
+    "relation_pairs": [
+      [
+        "Bottle/Container",
+        "TV Stand"
+      ],
+      [
+        "Perception Update",
+        "Task Request"
+      ],
+      [
+        "Robotic Arm",
+        "TV Stand"
+      ],
+      [
+        "Bottle/Container",
+        "Observation"
+      ],
+      [
+        "Environment Context",
+        "TV Stand"
+      ],
+      [
+        "Observation",
+        "Robotic Arm"
+      ],
+      [
+        "Packaged Food Item",
+        "TV Stand"
+      ],
+      [
+        "Observation",
+        "Packaged Food Item"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772712399,
+    "update_time": 1772712399,
+    "_id": "doc-81ff86ef90a934803ff45ce21199e7cd"
+  },
+  "doc-81be1e6ebc963331233c20fadd377f38": {
+    "relation_pairs": [
+      [
+        "sink",
+        "yellow banana"
+      ],
+      [
+        "countertop",
+        "pear"
+      ],
+      [
+        "black ring-shaped object",
+        "countertop"
+      ],
+      [
+        "countertop",
+        "small blue item"
+      ],
+      [
+        "robotic arm",
+        "sink"
+      ],
+      [
+        "Spatial context",
+        "environment context"
+      ],
+      [
+        "red plate",
+        "sink"
+      ],
+      [
+        "embodied_agent",
+        "sink"
+      ],
+      [
+        "Task goal(s) and constraints",
+        "environment context"
+      ],
+      [
+        "embodied_agent",
+        "environment context"
+      ],
+      [
+        "countertop",
+        "red item"
+      ],
+      [
+        "red mug",
+        "sink"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772712427,
+    "update_time": 1772712427,
+    "_id": "doc-81be1e6ebc963331233c20fadd377f38"
+  },
+  "doc-870ef109d81ab32053f9af21c1d0a708": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Robotic Arm"
+      ],
+      [
+        "Black Spatula",
+        "Robotic Arm"
+      ],
+      [
+        "Kitchen",
+        "embodied_agent"
+      ],
+      [
+        "Countertop Area",
+        "Kitchen Counter"
+      ],
+      [
+        "Countertop Area",
+        "Kitchen"
+      ],
+      [
+        "Countertop Area",
+        "Environment"
+      ],
+      [
+        "Black Spatula",
+        "Yellow Sponge"
+      ],
+      [
+        "Black Spatula",
+        "Red Apple"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772712483,
+    "update_time": 1772712483,
+    "_id": "doc-870ef109d81ab32053f9af21c1d0a708"
+  },
+  "doc-677dbfb4fed4a90d6ad4e2e920765dbb": {
+    "relation_pairs": [
+      [
+        "observation of the environment",
+        "sofa"
+      ],
+      [
+        "living room",
+        "sofa"
+      ],
+      [
+        "Environmental Context",
+        "Key Objects Interacted With"
+      ],
+      [
+        "cup",
+        "observation of the environment"
+      ],
+      [
+        "Action Execution",
+        "Task goal(s)"
+      ],
+      [
+        "embodied agent",
+        "navigation to the sofa"
+      ],
+      [
+        "Action Execution",
+        "perception update"
+      ],
+      [
+        "navigation to the sofa",
+        "sofa"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772712504,
+    "update_time": 1772712504,
+    "_id": "doc-677dbfb4fed4a90d6ad4e2e920765dbb"
+  },
+  "doc-10ba8da3ef47ad6ee34b78a94deace59": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Small Blue Object"
+      ],
+      [
+        "Embodied Agent",
+        "Left Kitchen Counter"
+      ],
+      [
+        "Black Clamp",
+        "Kitchen"
+      ],
+      [
+        "Kitchen",
+        "Robotic Arm"
+      ],
+      [
+        "Countertop",
+        "Kitchen"
+      ],
+      [
+        "Coiled Black Cable",
+        "Kitchen"
+      ],
+      [
+        "Countertop",
+        "Left Kitchen Counter"
+      ],
+      [
+        "Agent",
+        "Kitchen"
+      ],
+      [
+        "Brown Wooden Stick",
+        "Kitchen"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772712511,
+    "update_time": 1772712511,
+    "_id": "doc-10ba8da3ef47ad6ee34b78a94deace59"
+  },
+  "doc-ec35a8ddafd6be77a53ae9f696da899c": {
+    "relation_pairs": [
+      [
+        "embodied_agent",
+        "navigation"
+      ],
+      [
+        "living room setting",
+        "refrigerator"
+      ],
+      [
+        "embodied_agent",
+        "refrigerator"
+      ],
+      [
+        "kitchen",
+        "refrigerator"
+      ],
+      [
+        "embodied_agent",
+        "environment context"
+      ],
+      [
+        "living room setting",
+        "navigation"
+      ],
+      [
+        "embodied_agent",
+        "observation"
+      ],
+      [
+        "kitchen",
+        "wooden cabinetry"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772712521,
+    "update_time": 1772712521,
+    "_id": "doc-ec35a8ddafd6be77a53ae9f696da899c"
+  },
+  "doc-8c6b53c2b60c482c47280b9bfb98e486": {
+    "relation_pairs": [
+      [
+        "Left Drawer of the Kitchen Counter",
+        "Small Square Object"
+      ],
+      [
+        "Kitchen Counter",
+        "Left Drawer of the Kitchen Counter"
+      ],
+      [
+        "Left Drawer of the Kitchen Counter",
+        "Robotic Arm"
+      ],
+      [
+        "Kitchen",
+        "Left Drawer of the Kitchen Counter"
+      ],
+      [
+        "Left Drawer of the Kitchen Counter",
+        "Pliers"
+      ],
+      [
+        "Action Execution",
+        "Task Goals"
+      ],
+      [
+        "Cable",
+        "Left Drawer of the Kitchen Counter"
+      ],
+      [
+        "Action Execution",
+        "Perception Update"
+      ],
+      [
+        "Embodied Agent",
+        "Left Drawer of the Kitchen Counter"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772712538,
+    "update_time": 1772712538,
+    "_id": "doc-8c6b53c2b60c482c47280b9bfb98e486"
+  },
+  "doc-d1fde43ad2483ca3cce0ed9d1fff41ca": {
+    "relation_pairs": [
+      [
+        "Agent",
+        "Right Drawer"
+      ],
+      [
+        "Kitchen",
+        "Kitchen Counter"
+      ],
+      [
+        "Black Spatula",
+        "Kitchen Counter"
+      ],
+      [
+        "Kitchen Counter",
+        "Red Apple"
+      ],
+      [
+        "Agent",
+        "Kitchen Counter"
+      ],
+      [
+        "Cleaning Pad",
+        "Kitchen Counter"
+      ],
+      [
+        "Embodied Agent",
+        "Task Goals"
+      ],
+      [
+        "Kitchen Counter",
+        "Power Drill"
+      ],
+      [
+        "Embodied Agent",
+        "Kitchen"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772712548,
+    "update_time": 1772712548,
+    "_id": "doc-d1fde43ad2483ca3cce0ed9d1fff41ca"
+  },
+  "doc-d0b2ba21d505fd28dd62306ebe7dabc6": {
+    "relation_pairs": [
+      [
+        "embodied_agent",
+        "perception_update"
+      ],
+      [
+        "perception_update",
+        "sink"
+      ],
+      [
+        "kitchen",
+        "perception_update"
+      ],
+      [
+        "left counter",
+        "sink"
+      ],
+      [
+        "kitchen",
+        "left counter"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772712590,
+    "update_time": 1772712590,
+    "_id": "doc-d0b2ba21d505fd28dd62306ebe7dabc6"
+  },
+  "doc-36f3683717d923b16cff2cf4b6372c30": {
+    "relation_pairs": [
+      [
+        "Metallic Curved Object",
+        "Robotic Arm"
+      ],
+      [
+        "Countertop Environment",
+        "Embodied Agent"
+      ],
+      [
+        "Countertop Workspace",
+        "Cylindrical Object"
+      ],
+      [
+        "Blue Rectangular Block",
+        "Countertop Workspace"
+      ],
+      [
+        "Embodied Agent",
+        "Task Goal"
+      ],
+      [
+        "Agent",
+        "Countertop Workspace"
+      ],
+      [
+        "Agent",
+        "Cabinet 7"
+      ],
+      [
+        "Countertop Environment",
+        "Countertop Workspace"
+      ],
+      [
+        "Countertop Workspace",
+        "Robotic Arm"
+      ],
+      [
+        "Countertop Workspace",
+        "Pliers"
+      ],
+      [
+        "Countertop Environment",
+        "Workshop or Laboratory Setting"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772712617,
+    "update_time": 1772712617,
+    "_id": "doc-36f3683717d923b16cff2cf4b6372c30"
+  },
+  "doc-886662ca03584defff8748507c0de09f": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Sink"
+      ],
+      [
+        "Environment Context",
+        "Kitchen"
+      ],
+      [
+        "Embodied Agent",
+        "Sink"
+      ],
+      [
+        "Sink",
+        "Task Goal(s) and Any Constraints"
+      ],
+      [
+        "Key Objects Interacted With",
+        "Sink"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772712625,
+    "update_time": 1772712625,
+    "_id": "doc-886662ca03584defff8748507c0de09f"
+  },
+  "doc-076095ba2122027b75302f3f5d2337c0": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Sink"
+      ],
+      [
+        "Embodied Agent",
+        "Kitchen"
+      ],
+      [
+        "Embodied Agent",
+        "Sink"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772712632,
+    "update_time": 1772712632,
+    "_id": "doc-076095ba2122027b75302f3f5d2337c0"
+  },
+  "doc-4a14dd52a4347d928d6c41c9c0ac0e6e": {
+    "relation_pairs": [
+      [
+        "Receptacle",
+        "Spatula"
+      ],
+      [
+        "Left Counter",
+        "Right Counter"
+      ],
+      [
+        "Perception Update",
+        "Task Request"
+      ],
+      [
+        "Task Request",
+        "User"
+      ],
+      [
+        "Left Counter",
+        "Receptacle"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772712649,
+    "update_time": 1772712649,
+    "_id": "doc-4a14dd52a4347d928d6c41c9c0ac0e6e"
+  },
+  "doc-b925f80758e59af0292fad540647ac31": {
+    "relation_pairs": [
+      [
+        "Receptacle",
+        "Spatula"
+      ],
+      [
+        "Key Objects Interacted With",
+        "Spatula"
+      ],
+      [
+        "Key Objects Interacted With",
+        "Receptacle"
+      ],
+      [
+        "Spatula",
+        "Task Request"
+      ],
+      [
+        "Environment Context",
+        "Task Request"
+      ],
+      [
+        "Left Counter",
+        "Receptacle"
+      ],
+      [
+        "Left Counter",
+        "Living Space"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ],
+      [
+        "Living Space",
+        "Right Counter"
+      ],
+      [
+        "Task Goal",
+        "Task Request"
+      ],
+      [
+        "Grey Exercise Ball",
+        "Left Counter"
+      ],
+      [
+        "Left Counter",
+        "Small Dark-Colored Table"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772712663,
+    "update_time": 1772712663,
+    "_id": "doc-b925f80758e59af0292fad540647ac31"
+  },
+  "doc-b3766328c3cde2e0365b9ffc47d9f6bb": {
+    "relation_pairs": [
+      [
+        "Exercise Ball",
+        "Indoor Scene"
+      ],
+      [
+        "Indoor Scene",
+        "Sofa"
+      ],
+      [
+        "Indoor Scene",
+        "Spatula"
+      ],
+      [
+        "Indoor Scene",
+        "Robotic Arm"
+      ],
+      [
+        "Exercise Equipment",
+        "Indoor Scene"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772712675,
+    "update_time": 1772712675,
+    "_id": "doc-b3766328c3cde2e0365b9ffc47d9f6bb"
+  },
+  "doc-2b71b6fbeda10c5a938a71961c2150e8": {
+    "relation_pairs": [
+      [
+        "Kitchen Environment",
+        "Tools"
+      ],
+      [
+        "Crafting",
+        "Wire or Bracelet"
+      ],
+      [
+        "Blue Cap",
+        "Rolling Pin"
+      ],
+      [
+        "Counter",
+        "Kitchen Environment"
+      ],
+      [
+        "Blue Cap",
+        "Wire or Bracelet"
+      ],
+      [
+        "Blue Cap",
+        "Pliers"
+      ],
+      [
+        "Blue Robotic Arm",
+        "Pliers"
+      ],
+      [
+        "Kitchen Environment",
+        "Utensils"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772712684,
+    "update_time": 1772712684,
+    "_id": "doc-2b71b6fbeda10c5a938a71961c2150e8"
+  },
+  "doc-0c200ce7eb06ff3e3c2dd1282801f14a": {
+    "relation_pairs": [
+      [
+        "Robot Arm",
+        "Sponge"
+      ],
+      [
+        "Food Preparation Process",
+        "Spatula"
+      ],
+      [
+        "Orange and Black Object",
+        "Robot Arm"
+      ],
+      [
+        "Red Apple",
+        "Robot Arm"
+      ],
+      [
+        "Kitchen Utensils",
+        "Spatula"
+      ],
+      [
+        "Robot Arm",
+        "Spatula"
+      ],
+      [
+        "Red Apple",
+        "Spatula"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772712742,
+    "update_time": 1772712742,
+    "_id": "doc-0c200ce7eb06ff3e3c2dd1282801f14a"
+  },
+  "doc-589d4413084aecca4c21e8dc794be2e9": {
+    "relation_pairs": [
+      [
+        "Countertop",
+        "Green Object (Lime-like)"
+      ],
+      [
+        "Countertop",
+        "Sink"
+      ],
+      [
+        "Blue Robotic Arm",
+        "Countertop"
+      ],
+      [
+        "Countertop",
+        "Red Object (Sphere-like Fruit)"
+      ],
+      [
+        "Blue Robotic Arm",
+        "Kitchen Environment"
+      ],
+      [
+        "Green Object (Lime-like)",
+        "Kitchen Environment"
+      ],
+      [
+        "Red Object (Inside Sink)",
+        "Sink"
+      ],
+      [
+        "Kitchen Environment",
+        "Silver/Metallic Tool (Knife)"
+      ],
+      [
+        "Black Object",
+        "Red Object"
+      ],
+      [
+        "Black Object",
+        "Sink"
+      ],
+      [
+        "Kitchen Environment",
+        "Sink"
+      ],
+      [
+        "Countertop",
+        "Silver/Metallic Tool (Knife)"
+      ],
+      [
+        "Kitchen Environment",
+        "Red Object (Sphere-like Fruit)"
+      ],
+      [
+        "Countertop",
+        "Red Object"
+      ],
+      [
+        "Countertop",
+        "Kitchen Environment"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1772712774,
+    "update_time": 1772712774,
+    "_id": "doc-589d4413084aecca4c21e8dc794be2e9"
+  },
+  "doc-fdc906fd17b2cd2dc03c0315b87b8508": {
+    "relation_pairs": [
+      [
+        "Orange Handheld Tool",
+        "Yellow Square Item"
+      ],
+      [
+        "Mechanical Device",
+        "Robotic Arm"
+      ],
+      [
+        "Mechanical Device",
+        "Yellow Square Item"
+      ],
+      [
+        "Orange Handheld Tool",
+        "Robotic Arm"
+      ],
+      [
+        "Black Spatula",
+        "Red Spherical Object"
+      ],
+      [
+        "Mechanical Device",
+        "Orange Handheld Tool"
+      ],
+      [
+        "Black Spatula",
+        "Tabletop"
+      ],
+      [
+        "Black Spatula",
+        "Yellow Square Item"
+      ],
+      [
+        "Red Spherical Object",
+        "Tabletop"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772712781,
+    "update_time": 1772712781,
+    "_id": "doc-fdc906fd17b2cd2dc03c0315b87b8508"
+  },
+  "doc-73995cd074f2d02e31397068516bddbb": {
+    "relation_pairs": [
+      [
+        "Refrigerator",
+        "Smooth Surfaces"
+      ],
+      [
+        "Cabinetry",
+        "Refrigerator Environment"
+      ],
+      [
+        "Cabinetry",
+        "Textured Vertical Wood Grain Pattern"
+      ],
+      [
+        "Floor",
+        "Refrigerator Environment"
+      ],
+      [
+        "Cabinetry",
+        "Floor"
+      ],
+      [
+        "Refrigerator",
+        "Refrigerator Environment"
+      ],
+      [
+        "Kitchen Setting",
+        "Refrigerator Environment"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772712822,
+    "update_time": 1772712822,
+    "_id": "doc-73995cd074f2d02e31397068516bddbb"
+  },
+  "doc-27b0cc1e0b1f231d87d93c83ec8e6611": {
+    "relation_pairs": [
+      [
+        "Chair",
+        "Movement"
+      ],
+      [
+        "Chair",
+        "Robotic Arm"
+      ],
+      [
+        "Paper/Thin Book",
+        "Wooden Surface"
+      ],
+      [
+        "Movement",
+        "Robotic Arm"
+      ],
+      [
+        "Environment",
+        "Indoor Scene"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772712831,
+    "update_time": 1772712831,
+    "_id": "doc-27b0cc1e0b1f231d87d93c83ec8e6611"
+  },
+  "doc-4ac94d1c456fb5588f12d3570cd9c12f": {
+    "relation_pairs": [
+      [
+        "Environment",
+        "Spherical Object"
+      ],
+      [
+        "Furniture",
+        "Table"
+      ],
+      [
+        "Orange Cup",
+        "Table"
+      ],
+      [
+        "Red Spherical Object",
+        "Table"
+      ],
+      [
+        "Multicolored Cube",
+        "Table"
+      ],
+      [
+        "Environment",
+        "Orange"
+      ],
+      [
+        "Environment",
+        "Tripod"
+      ],
+      [
+        "Table",
+        "Yellow Star-like Object"
+      ],
+      [
+        "Environment",
+        "Potted Plant"
+      ],
+      [
+        "Multicolored Cube",
+        "Robotic Arm"
+      ],
+      [
+        "Tabletop Items",
+        "Yellow Star-like Object"
+      ],
+      [
+        "Environment",
+        "Table"
+      ],
+      [
+        "Robotic Arm",
+        "Spherical Object"
+      ],
+      [
+        "Orange",
+        "Robotic Arm"
+      ],
+      [
+        "Orange Spherical Object",
+        "Tabletop Items"
+      ],
+      [
+        "Robotic Arm",
+        "Robotics"
+      ],
+      [
+        "Couch",
+        "Environment"
+      ],
+      [
+        "Multicolored Cube",
+        "Tabletop Items"
+      ],
+      [
+        "Robotic Arm",
+        "Table"
+      ],
+      [
+        "Red Spherical Object",
+        "Tabletop Items"
+      ],
+      [
+        "Orange Spherical Object",
+        "Table"
+      ],
+      [
+        "Table",
+        "Tabletop Items"
+      ],
+      [
+        "Orange Cup",
+        "Tabletop Items"
+      ]
+    ],
+    "count": 23,
+    "create_time": 1772712866,
+    "update_time": 1772712866,
+    "_id": "doc-4ac94d1c456fb5588f12d3570cd9c12f"
+  },
+  "doc-e4777aea07de3273cb48b304a72c4329": {
+    "relation_pairs": [
+      [
+        "Domestic Interior Environment",
+        "Light Fixture"
+      ],
+      [
+        "Decorative Plant",
+        "Domestic Interior Environment"
+      ],
+      [
+        "Decorative Plant",
+        "Staircase"
+      ],
+      [
+        "Gray Rock",
+        "Green Apple"
+      ],
+      [
+        "Green Apple",
+        "Wooden Table"
+      ],
+      [
+        "Blue Container",
+        "Gray Rock"
+      ],
+      [
+        "Green Apple",
+        "Table"
+      ],
+      [
+        "Black-Handled Tool",
+        "Wooden Table"
+      ],
+      [
+        "Domestic Interior Environment",
+        "Staircase"
+      ],
+      [
+        "Blue Container",
+        "Utensil Set"
+      ],
+      [
+        "Gray Rock",
+        "Wooden Table"
+      ],
+      [
+        "Blue Container",
+        "Wooden Table"
+      ],
+      [
+        "Utensil Set",
+        "Wooden Table"
+      ],
+      [
+        "Red-Handled Knife",
+        "Wooden Table"
+      ],
+      [
+        "Domestic Interior Environment",
+        "Robotic Arm"
+      ],
+      [
+        "Red-Handled Knife",
+        "Table"
+      ],
+      [
+        "Black-Handled Tool",
+        "Red-Handled Knife"
+      ],
+      [
+        "Green Apple",
+        "Red-Handled Knife"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1772712868,
+    "update_time": 1772712868,
+    "_id": "doc-e4777aea07de3273cb48b304a72c4329"
+  },
+  "doc-b55a7a977924461ee01696486e160bd6": {
+    "relation_pairs": [
+      [
+        "Light Source",
+        "Nighttime Environment"
+      ],
+      [
+        "Nighttime Environment",
+        "Robotic Arm"
+      ],
+      [
+        "Blue Table/TV Stand",
+        "Bottle/Container"
+      ],
+      [
+        "Packaged Food Item",
+        "Robotic Arm"
+      ],
+      [
+        "Aged Food Item",
+        "Table/TV Stand"
+      ],
+      [
+        "Aged Food Item",
+        "Robotic Arm"
+      ],
+      [
+        "Blue Table/TV Stand",
+        "Robotic Arm"
+      ],
+      [
+        "Bottle/Container",
+        "Robotic Arm"
+      ],
+      [
+        "Blue Table/TV Stand",
+        "Packaged Food Item"
+      ],
+      [
+        "Blue Table/TV Stand",
+        "Nighttime Environment"
+      ],
+      [
+        "Aged Food Item",
+        "Bottle/Container"
+      ],
+      [
+        "Bottle/Container",
+        "Nighttime Environment"
+      ],
+      [
+        "Nighttime Environment",
+        "Nighttime Setting"
+      ],
+      [
+        "Bottle/Container",
+        "Table/TV Stand"
+      ],
+      [
+        "Packaged Food Item",
+        "Rectangular Object"
+      ],
+      [
+        "Robotic Arm",
+        "Table/TV Stand"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1772712898,
+    "update_time": 1772712898,
+    "_id": "doc-b55a7a977924461ee01696486e160bd6"
+  },
+  "doc-fb6154c2abe67c7926831c7bd44c5822": {
+    "relation_pairs": [
+      [
+        "Black Ring-Shaped Object",
+        "Kitchen Sink"
+      ],
+      [
+        "Kitchen Sink",
+        "Small Blue Item"
+      ],
+      [
+        "Countertop",
+        "Sink"
+      ],
+      [
+        "Kitchen Sink",
+        "Pear"
+      ],
+      [
+        "Kitchen Sink",
+        "Small Red Item Resembling an Apple"
+      ],
+      [
+        "Kitchen Sink",
+        "Red Plate"
+      ],
+      [
+        "Kitchen Sink",
+        "Yellow Banana"
+      ],
+      [
+        "Countertop",
+        "Kitchen"
+      ],
+      [
+        "Kitchen Sink",
+        "Red Mug"
+      ],
+      [
+        "Apple",
+        "Countertop"
+      ],
+      [
+        "Countertop",
+        "Kitchen Sink"
+      ],
+      [
+        "Apple",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772712899,
+    "update_time": 1772712899,
+    "_id": "doc-fb6154c2abe67c7926831c7bd44c5822"
+  },
+  "doc-ebc19ab4d513c3db9c7a41a4c1208fa1": {
+    "relation_pairs": [
+      [
+        "Black Clamp",
+        "Countertop"
+      ],
+      [
+        "Countertop",
+        "Small Blue Object"
+      ],
+      [
+        "Coiled Black Cable",
+        "Countertop"
+      ],
+      [
+        "Black Clamp",
+        "Robotic Arm"
+      ],
+      [
+        "blue",
+        "robotic-arm"
+      ],
+      [
+        "Brown Wooden Stick",
+        "Small Blue Object"
+      ],
+      [
+        "Beige Cylindrical Object",
+        "Coiled Black Cable"
+      ],
+      [
+        "Brown Wooden Stick",
+        "Countertop"
+      ],
+      [
+        "Countertop",
+        "Robotic Arm"
+      ],
+      [
+        "Black Clamp",
+        "Brown Wooden Stick"
+      ],
+      [
+        "Beige Cylindrical Object",
+        "Countertop"
+      ],
+      [
+        "countertop",
+        "kitchen"
+      ],
+      [
+        "global position",
+        "local relations"
+      ],
+      [
+        "functional",
+        "robotic-arm"
+      ],
+      [
+        "countertop",
+        "robotic-arm"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1772712928,
+    "update_time": 1772712928,
+    "_id": "doc-ebc19ab4d513c3db9c7a41a4c1208fa1"
+  },
+  "doc-7d9ad9f9d9ea63530e30288fe9253a7c": {
+    "relation_pairs": [
+      [
+        "Glossy Finish",
+        "Yellow Cup"
+      ],
+      [
+        "Robotic Arm",
+        "Yellow Cup"
+      ],
+      [
+        "Blue Color",
+        "Robotic Arm"
+      ],
+      [
+        "Robotic Arm",
+        "Sofa"
+      ],
+      [
+        "Sofa",
+        "Yellow Cup"
+      ],
+      [
+        "Light Gray Cushions",
+        "Sofa"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772712957,
+    "update_time": 1772712957,
+    "_id": "doc-7d9ad9f9d9ea63530e30288fe9253a7c"
+  },
+  "doc-1acaff11bbff5a86e31bcdd5bfb75840": {
+    "relation_pairs": [
+      [
+        "Red Apple",
+        "Robotic Arm"
+      ],
+      [
+        "Flathead Screwdriver",
+        "Red Apple"
+      ],
+      [
+        "Robotic Arm",
+        "Yellow Sponge"
+      ],
+      [
+        "Black Spatula",
+        "Kitchen Countertop"
+      ],
+      [
+        "Flathead Screwdriver",
+        "Hand Tools"
+      ],
+      [
+        "Hand Tools",
+        "Orange-handled Tool"
+      ],
+      [
+        "Kitchen Countertop",
+        "Yellow Sponge"
+      ],
+      [
+        "Flathead Screwdriver",
+        "Kitchen Countertop"
+      ],
+      [
+        "Flathead Screwdriver",
+        "Robotic Arm"
+      ],
+      [
+        "Kitchen Countertop",
+        "Robotic Arm"
+      ],
+      [
+        "Black Spatula",
+        "Red Apple"
+      ],
+      [
+        "Orange-handled Tool",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772712964,
+    "update_time": 1772712964,
+    "_id": "doc-1acaff11bbff5a86e31bcdd5bfb75840"
+  },
+  "doc-df3ed2454d9a0ce69819c98cb60a8d0b": {
+    "relation_pairs": [
+      [
+        "Pliers",
+        "Robotic Arm"
+      ],
+      [
+        "Cooking Tools",
+        "Kitchen Environment"
+      ],
+      [
+        "Small Blue Object",
+        "Wire/Cable"
+      ],
+      [
+        "Electrical Connections",
+        "Wire/Cable"
+      ],
+      [
+        "Pliers",
+        "Wire/Cable"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772712983,
+    "update_time": 1772712983,
+    "_id": "doc-df3ed2454d9a0ce69819c98cb60a8d0b"
+  },
+  "doc-3699944aea7cf0fb421f72ed8a80c364": {
+    "relation_pairs": [
+      [
+        "Cabinetry",
+        "Handle (Blue Circular Object)"
+      ],
+      [
+        "Blue Circular Object",
+        "Brown Surface"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1772712998,
+    "update_time": 1772712998,
+    "_id": "doc-3699944aea7cf0fb421f72ed8a80c364"
+  },
+  "doc-1719a68ee00ddb7af0b3ec1cdd6dd669": {
+    "relation_pairs": [
+      [
+        "Power Drill",
+        "Robotic Arm"
+      ],
+      [
+        "Apple",
+        "Kitchen Counter"
+      ],
+      [
+        "Apple",
+        "Cleaning Sponge"
+      ],
+      [
+        "Kitchen Counter",
+        "Power Drill"
+      ],
+      [
+        "Apple",
+        "Fruits"
+      ],
+      [
+        "Robotic Arm",
+        "Spatula"
+      ],
+      [
+        "Apple",
+        "Spatula"
+      ],
+      [
+        "Kitchen Counter",
+        "Spatula"
+      ],
+      [
+        "Cleaning Sponge",
+        "Kitchen Counter"
+      ],
+      [
+        "Kitchen Counter",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772713020,
+    "update_time": 1772713020,
+    "_id": "doc-1719a68ee00ddb7af0b3ec1cdd6dd669"
+  },
+  "doc-eefe0a513a8ff2bc724194eaab74d7b7": {
+    "relation_pairs": [
+      [
+        "Robotic Arm",
+        "Workspace"
+      ],
+      [
+        "Laboratory",
+        "Workspace"
+      ],
+      [
+        "Flexible Hose",
+        "Workspace"
+      ],
+      [
+        "Wooden Dowel",
+        "Workspace"
+      ],
+      [
+        "Environment",
+        "Workspace"
+      ],
+      [
+        "Light Brown Wood",
+        "Wooden Dowel"
+      ],
+      [
+        "Dark Pliers",
+        "Red Tips"
+      ],
+      [
+        "Dark Pliers",
+        "Workspace"
+      ],
+      [
+        "Mechanical Systems",
+        "Workspace"
+      ],
+      [
+        "Global Position",
+        "Local Relations"
+      ],
+      [
+        "Local Relations",
+        "Tools"
+      ],
+      [
+        "Image Description",
+        "Semantic Memory Store"
+      ],
+      [
+        "Dark Colors",
+        "Dark Pliers"
+      ],
+      [
+        "Blue Rectangular Block",
+        "Workspace"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1772713027,
+    "update_time": 1772713027,
+    "_id": "doc-eefe0a513a8ff2bc724194eaab74d7b7"
+  },
+  "doc-cd3d2ef7b90ecc51fe01d28be313595d": {
+    "relation_pairs": [
+      [
+        "Left Counter",
+        "Sink"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1772713032,
+    "update_time": 1772713032,
+    "_id": "doc-cd3d2ef7b90ecc51fe01d28be313595d"
+  },
+  "doc-62fd5bc5149a51dfc46863346c5e8c37": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Sink"
+      ],
+      [
+        "Container",
+        "Sink"
+      ],
+      [
+        "Receptacle",
+        "Sink"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772713044,
+    "update_time": 1772713044,
+    "_id": "doc-62fd5bc5149a51dfc46863346c5e8c37"
+  },
+  "doc-d178dad5c42c696b656b21ab2b6d2aee": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Sink"
+      ],
+      [
+        "Container",
+        "Sink"
+      ],
+      [
+        "Sink",
+        "Washing Dishes"
+      ],
+      [
+        "Faucet",
+        "Sink"
+      ],
+      [
+        "Materials",
+        "Sink"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772713053,
+    "update_time": 1772713053,
+    "_id": "doc-d178dad5c42c696b656b21ab2b6d2aee"
+  },
+  "doc-fbd19b552f2796429c56aa27ab89f6bc": {
+    "relation_pairs": [
+      [
+        "Decorative Layout",
+        "Room"
+      ],
+      [
+        "Mechanical System",
+        "Robotic Arm"
+      ],
+      [
+        "Gray Sofa",
+        "Tall Plant"
+      ],
+      [
+        "Graphic Layout",
+        "Room"
+      ],
+      [
+        "Gray Sofa",
+        "Wooden Counter"
+      ],
+      [
+        "Room",
+        "Spatial"
+      ],
+      [
+        "Decorative Plant",
+        "Spatial"
+      ],
+      [
+        "Decorative Plant",
+        "Gray Sofa"
+      ],
+      [
+        "Image Description",
+        "Wooden Counter"
+      ],
+      [
+        "Robotic Arm",
+        "Wooden Counter"
+      ],
+      [
+        "Exercise Ball",
+        "Red Bicycle"
+      ],
+      [
+        "Image Description",
+        "Robotic Arm"
+      ],
+      [
+        "Automation",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1772713080,
+    "update_time": 1772713080,
+    "_id": "doc-fbd19b552f2796429c56aa27ab89f6bc"
+  },
+  "doc-e777f77f816e4ff69eb46597d7711d02": {
+    "relation_pairs": [
+      [
+        "Exercise Ball",
+        "Robotic Arm"
+      ],
+      [
+        "Light-Colored Wood",
+        "Small Table"
+      ],
+      [
+        "Exercise Ball",
+        "Light Grey Rug"
+      ],
+      [
+        "Grey Couch",
+        "Tall Plant"
+      ],
+      [
+        "Bicycle",
+        "Robotic Arm"
+      ],
+      [
+        "Bicycle",
+        "Wooden Counter"
+      ],
+      [
+        "Robotic Arm",
+        "Wooden Counter"
+      ],
+      [
+        "Grey Couch",
+        "Small Table"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772713082,
+    "update_time": 1772713082,
+    "_id": "doc-e777f77f816e4ff69eb46597d7711d02"
+  },
+  "doc-4e4732c09360078976a5ca82ab6343d3": {
+    "relation_pairs": [
+      [
+        "Action Sequence",
+        "Final Outcome"
+      ],
+      [
+        "Action Sequence",
+        "Task Goals"
+      ],
+      [
+        "Actor",
+        "Task to Move Spatula"
+      ],
+      [
+        "Kitchen",
+        "Task to Move Spatula"
+      ],
+      [
+        "Sink",
+        "Spatula"
+      ],
+      [
+        "Spatula",
+        "Task to Move Spatula"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772713104,
+    "update_time": 1772713104,
+    "_id": "doc-4e4732c09360078976a5ca82ab6343d3"
+  },
+  "doc-c52f295cd0cbfdbfe68b4b29e6768f84": {
+    "relation_pairs": [
+      [
+        "Exercise Ball",
+        "Fitness Equipment"
+      ],
+      [
+        "Couch",
+        "Exercise Ball"
+      ],
+      [
+        "Kitchen Utensil",
+        "Spatula"
+      ],
+      [
+        "Couch",
+        "Green Plant"
+      ],
+      [
+        "Plumbing Fixture",
+        "Sink"
+      ],
+      [
+        "Bicycle",
+        "Robotic Arm Component"
+      ],
+      [
+        "Couch",
+        "Furniture"
+      ],
+      [
+        "Sink",
+        "Spatula"
+      ],
+      [
+        "Carpet",
+        "Exercise Ball"
+      ],
+      [
+        "Mechanical System",
+        "Robotic Arm Component"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772713114,
+    "update_time": 1772713114,
+    "_id": "doc-c52f295cd0cbfdbfe68b4b29e6768f84"
+  },
+  "doc-4871e034512b0b2f656d2ac6e551a0ef": {
+    "relation_pairs": [
+      [
+        "Indoor Room",
+        "Sofa"
+      ],
+      [
+        "Left Counter",
+        "Screwdriver"
+      ],
+      [
+        "Action Sequence",
+        "Task"
+      ],
+      [
+        "Indoor Room",
+        "Left Counter"
+      ],
+      [
+        "Task",
+        "User"
+      ],
+      [
+        "Screwdriver",
+        "Sofa"
+      ],
+      [
+        "Task",
+        "Task Constraints"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772713131,
+    "update_time": 1772713131,
+    "_id": "doc-4871e034512b0b2f656d2ac6e551a0ef"
+  },
+  "doc-689a0dcf20eb6228bd70e41f54283f8d": {
+    "relation_pairs": [
+      [
+        "Indoor Environment",
+        "Sofa"
+      ],
+      [
+        "Indoor Environment",
+        "Plant"
+      ],
+      [
+        "Indoor Environment",
+        "Table"
+      ],
+      [
+        "Armchair",
+        "Indoor Environment"
+      ],
+      [
+        "Container or Box",
+        "Indoor Environment"
+      ],
+      [
+        "Indoor Environment",
+        "Robotic Arm"
+      ],
+      [
+        "Bicycle",
+        "Indoor Environment"
+      ],
+      [
+        "Indoor Environment",
+        "Light Wooden Floor"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772713140,
+    "update_time": 1772713140,
+    "_id": "doc-689a0dcf20eb6228bd70e41f54283f8d"
+  },
+  "doc-c5d1f841c3ffd95eea19b16e4235fab4": {
+    "relation_pairs": [
+      [
+        "action_execution",
+        "sofa"
+      ],
+      [
+        "task_goal",
+        "task_request"
+      ],
+      [
+        "action_execution",
+        "action_sequence"
+      ],
+      [
+        "left counter",
+        "screwdriver"
+      ],
+      [
+        "failure_outcome",
+        "state_changes"
+      ],
+      [
+        "failure_outcome",
+        "task_request"
+      ],
+      [
+        "screwdriver",
+        "sofa"
+      ],
+      [
+        "action_execution",
+        "screwdriver"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772713154,
+    "update_time": 1772713154,
+    "_id": "doc-c5d1f841c3ffd95eea19b16e4235fab4"
+  },
+  "doc-a1f21be762aa6dcf22e2e46bd7c66b1f": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Kitchen Counter"
+      ],
+      [
+        "Potted Plant",
+        "Sofa"
+      ],
+      [
+        "Kitchen Counter",
+        "Sofa"
+      ],
+      [
+        "Room",
+        "Sofa"
+      ],
+      [
+        "Kitchen",
+        "Room"
+      ],
+      [
+        "Kitchen Counter",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772713174,
+    "update_time": 1772713174,
+    "_id": "doc-a1f21be762aa6dcf22e2e46bd7c66b1f"
+  },
+  "doc-597005f2046052883060cb8d0b574098": {
+    "relation_pairs": [
+      [
+        "Kitchen Countertop",
+        "Screwdriver"
+      ],
+      [
+        "Embodied Agent",
+        "Screwdriver"
+      ],
+      [
+        "Screwdriver",
+        "Verification of Screwdriver's Location"
+      ],
+      [
+        "Screwdriver",
+        "User"
+      ],
+      [
+        "Correction of Object's Location",
+        "Screwdriver"
+      ],
+      [
+        "Screwdriver",
+        "Sofa"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772713195,
+    "update_time": 1772713195,
+    "_id": "doc-597005f2046052883060cb8d0b574098"
+  },
+  "doc-0f518dde25f16f006065bce4c2af2e78": {
+    "relation_pairs": [
+      [
+        "Screwdriver",
+        "Tool"
+      ],
+      [
+        "Kitchen Countertop",
+        "Screwdriver"
+      ],
+      [
+        "Driving Screws",
+        "Screwdriver"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772713204,
+    "update_time": 1772713204,
+    "_id": "doc-0f518dde25f16f006065bce4c2af2e78"
+  },
+  "doc-5ee945a4b15b508158ca170520f68be9": {
+    "relation_pairs": [
+      [
+        "Memory Entry",
+        "Semantic Memory"
+      ],
+      [
+        "New Concept or Abstraction",
+        "Semantic Memory"
+      ],
+      [
+        "Information",
+        "Memory Entry"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772713218,
+    "update_time": 1772713218,
+    "_id": "doc-5ee945a4b15b508158ca170520f68be9"
+  },
+  "doc-3dab3b2ab25624ac7380dc7e69935118": {
+    "relation_pairs": [
+      [
+        "Right Counter",
+        "Screwdriver"
+      ],
+      [
+        "Final Outcome",
+        "Task Goal"
+      ],
+      [
+        "Kitchen Countertop",
+        "Screwdriver"
+      ],
+      [
+        "Agent",
+        "User"
+      ],
+      [
+        "Agent",
+        "Kitchen Countertop"
+      ],
+      [
+        "Agent",
+        "Right Counter"
+      ],
+      [
+        "Correction",
+        "User"
+      ],
+      [
+        "Environment Context",
+        "Kitchen Countertop"
+      ],
+      [
+        "Correction",
+        "Task Goal"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772713225,
+    "update_time": 1772713225,
+    "_id": "doc-3dab3b2ab25624ac7380dc7e69935118"
+  },
+  "doc-543ffef2ab0f0d3ee367be8b0c6e247d": {
+    "relation_pairs": [
+      [
+        "Robotic Arm",
+        "User"
+      ],
+      [
+        "Left Receptacle",
+        "Strawberry"
+      ],
+      [
+        "Left Counter",
+        "Left Receptacle"
+      ],
+      [
+        "Indoor Environment",
+        "Task Request"
+      ],
+      [
+        "Indoor Environment",
+        "Perception Update"
+      ],
+      [
+        "Right Counter",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772713245,
+    "update_time": 1772713245,
+    "_id": "doc-543ffef2ab0f0d3ee367be8b0c6e247d"
+  },
+  "doc-9b8db25a35289e1a832bc77e482b0e29": {
+    "relation_pairs": [
+      [
+        "Wall Shelf",
+        "Wooden Table"
+      ],
+      [
+        "Food",
+        "Strawberry"
+      ],
+      [
+        "Interior Door",
+        "Wall Shelf"
+      ],
+      [
+        "Furniture",
+        "Wooden Table"
+      ],
+      [
+        "Robotic Arm",
+        "Wooden Table"
+      ],
+      [
+        "Furniture",
+        "Wall Shelf"
+      ],
+      [
+        "Architecture",
+        "Interior Door"
+      ],
+      [
+        "Robotic Arm",
+        "Robotics"
+      ],
+      [
+        "Strawberry",
+        "Wooden Table"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772713252,
+    "update_time": 1772713252,
+    "_id": "doc-9b8db25a35289e1a832bc77e482b0e29"
+  },
+  "doc-b639cd1c084b9a66144da184b9c32741": {
+    "relation_pairs": [
+      [
+        "Receptacle",
+        "Spatula"
+      ],
+      [
+        "Left Counter",
+        "Right Counter"
+      ],
+      [
+        "Left Counter",
+        "Spatula"
+      ],
+      [
+        "Couch",
+        "Indoor Living Space"
+      ],
+      [
+        "Left Counter",
+        "Receptacle"
+      ],
+      [
+        "Bicycle",
+        "Indoor Living Space"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ],
+      [
+        "Right Counter",
+        "Robotic Arm"
+      ],
+      [
+        "Robotic Arm",
+        "Task"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772713274,
+    "update_time": 1772713274,
+    "_id": "doc-b639cd1c084b9a66144da184b9c32741"
+  },
+  "doc-14b68d865c57f0b7173522ab03c09161": {
+    "relation_pairs": [
+      [
+        "Bicycle",
+        "Couch"
+      ],
+      [
+        "Aesthetic Benefits",
+        "Living Plant"
+      ],
+      [
+        "Exercise Ball",
+        "Wooden Counter"
+      ],
+      [
+        "Background",
+        "Couch"
+      ],
+      [
+        "Background",
+        "Living Plant"
+      ],
+      [
+        "Couch",
+        "Indoor Plant"
+      ],
+      [
+        "Bowl",
+        "Exercise Ball"
+      ],
+      [
+        "Living Plant",
+        "User Query"
+      ],
+      [
+        "Bicycle",
+        "Exercise Ball"
+      ],
+      [
+        "Indoor Plants",
+        "Living Plant"
+      ],
+      [
+        "Bowl",
+        "Wooden Counter"
+      ],
+      [
+        "Air Quality Benefits",
+        "Living Plant"
+      ],
+      [
+        "Bicycle",
+        "Robotic Arm"
+      ],
+      [
+        "Semantic Memory System",
+        "User Query"
+      ],
+      [
+        "Robotic Arm",
+        "Wooden Counter"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1772713285,
+    "update_time": 1772713285,
+    "_id": "doc-14b68d865c57f0b7173522ab03c09161"
+  },
+  "doc-36c21ce0cac5376fb97197d20a05ec65": {
+    "relation_pairs": [
+      [
+        "Receptacle",
+        "Spatula"
+      ],
+      [
+        "Left Counter",
+        "Receptacle"
+      ],
+      [
+        "Receptacle",
+        "Sink"
+      ],
+      [
+        "Spatula",
+        "User"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ],
+      [
+        "Sink",
+        "Spatula"
+      ],
+      [
+        "Left Counter",
+        "Sink"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772714340,
+    "update_time": 1772714340,
+    "_id": "doc-36c21ce0cac5376fb97197d20a05ec65"
+  },
+  "doc-ebb0449f8b1154979b33180229558760": {
+    "relation_pairs": [
+      [
+        "Receptacle",
+        "Spatula"
+      ],
+      [
+        "Culinary Tasks",
+        "Spatula"
+      ],
+      [
+        "Kitchen Utensil",
+        "Spatula"
+      ],
+      [
+        "Spatula",
+        "User Message"
+      ],
+      [
+        "Counter",
+        "Spatula"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772714364,
+    "update_time": 1772714364,
+    "_id": "doc-ebb0449f8b1154979b33180229558760"
+  },
+  "doc-9eeb441be53fc268e39b960b325a5189": {
+    "relation_pairs": [
+      [
+        "left counter",
+        "right counter"
+      ],
+      [
+        "task_request",
+        "user"
+      ],
+      [
+        "receptacle",
+        "spatula"
+      ],
+      [
+        "action sequence",
+        "task goal"
+      ],
+      [
+        "left counter",
+        "receptacle"
+      ],
+      [
+        "right counter",
+        "spatula"
+      ],
+      [
+        "environment context",
+        "left counter"
+      ],
+      [
+        "task goal",
+        "task_request"
+      ],
+      [
+        "environment context",
+        "right counter"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772714485,
+    "update_time": 1772714485,
+    "_id": "doc-9eeb441be53fc268e39b960b325a5189"
+  },
+  "doc-0b34e0bd973ce36ba976971b3ec8a7a8": {
+    "relation_pairs": [
+      [
+        "Left Counter",
+        "Spatula"
+      ],
+      [
+        "Kitchen Tools",
+        "Spatula"
+      ],
+      [
+        "Kitchen Utensil",
+        "Spatula"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1772714500,
+    "update_time": 1772714500,
+    "_id": "doc-0b34e0bd973ce36ba976971b3ec8a7a8"
+  },
+  "doc-798eb7758d55600cec34d19901420b51": {
+    "relation_pairs": [
+      [
+        "Spatula",
+        "Wooden Counter"
+      ],
+      [
+        "Bicycle",
+        "Living Room/Open Space"
+      ],
+      [
+        "Receptacle",
+        "Spatula"
+      ],
+      [
+        "Exercise Ball",
+        "Living Room/Open Space"
+      ],
+      [
+        "Left Counter",
+        "Receptacle"
+      ],
+      [
+        "Living Room/Open Space",
+        "Sofa"
+      ],
+      [
+        "Living Room/Open Space",
+        "Plant"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772714618,
+    "update_time": 1772714618,
+    "_id": "doc-798eb7758d55600cec34d19901420b51"
+  },
+  "doc-7f0d1f3253c28a48c436a5876fd78f21": {
+    "relation_pairs": [
+      [
+        "Bowl of Fruits",
+        "Small Table"
+      ],
+      [
+        "Exercise Ball",
+        "Robotic Arm"
+      ],
+      [
+        "Potted Plant",
+        "Room"
+      ],
+      [
+        "Bicycle",
+        "Gray Rug"
+      ],
+      [
+        "Room",
+        "Small Table"
+      ],
+      [
+        "Green Potted Plant",
+        "Sofa"
+      ],
+      [
+        "Small Table",
+        "Sofa"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772714637,
+    "update_time": 1772714637,
+    "_id": "doc-7f0d1f3253c28a48c436a5876fd78f21"
+  },
+  "doc-68cacdd6054d2c5a724c318f2293b37e": {
+    "relation_pairs": [
+      [
+        "robotic arm",
+        "task_request"
+      ],
+      [
+        "action sequence",
+        "environment context"
+      ],
+      [
+        "action sequence",
+        "task goal"
+      ],
+      [
+        "failure outcome",
+        "key objects interacted"
+      ],
+      [
+        "right counter",
+        "spatula"
+      ],
+      [
+        "robotic arm",
+        "spatula"
+      ],
+      [
+        "action results",
+        "failure outcome"
+      ],
+      [
+        "left counter",
+        "left receptacle"
+      ],
+      [
+        "left receptacle",
+        "spatula"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772714798,
+    "update_time": 1772714798,
+    "_id": "doc-68cacdd6054d2c5a724c318f2293b37e"
+  },
+  "doc-4d1f9bba3ce5abf1a1ab4116ebc3d7a2": {
+    "relation_pairs": [
+      [
+        "Robotic Arm",
+        "Spatula"
+      ],
+      [
+        "Kitchen Tools",
+        "Semantic Memory Entry"
+      ],
+      [
+        "Kitchen Tools",
+        "Spatula"
+      ],
+      [
+        "Kitchen Tools",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1772714817,
+    "update_time": 1772714817,
+    "_id": "doc-4d1f9bba3ce5abf1a1ab4116ebc3d7a2"
+  },
+  "doc-9b6b2acc8305133b9f878445cdab5bbd": {
+    "relation_pairs": [
+      [
+        "Left Counter",
+        "Living Area"
+      ],
+      [
+        "Left Counter",
+        "Screwdriver"
+      ],
+      [
+        "Robotic Arm",
+        "User"
+      ],
+      [
+        "Living Area",
+        "Room"
+      ],
+      [
+        "Living Area",
+        "Perception Update"
+      ],
+      [
+        "Left Counter",
+        "Robotic Arm"
+      ],
+      [
+        "Task Request",
+        "User"
+      ],
+      [
+        "Living Area",
+        "Sofa"
+      ],
+      [
+        "Bicycle",
+        "Living Area"
+      ],
+      [
+        "Screwdriver",
+        "Sofa"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772714889,
+    "update_time": 1772714889,
+    "_id": "doc-9b6b2acc8305133b9f878445cdab5bbd"
+  },
+  "doc-1f9b97c37b1f2246853727990c5b65df": {
+    "relation_pairs": [
+      [
+        "Living Area",
+        "Screwdriver"
+      ],
+      [
+        "Living Area",
+        "Sofa"
+      ],
+      [
+        "Counter on Wheels",
+        "Living Area"
+      ],
+      [
+        "Bicycle",
+        "Living Area"
+      ],
+      [
+        "Living Area",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772714907,
+    "update_time": 1772714907,
+    "_id": "doc-1f9b97c37b1f2246853727990c5b65df"
+  },
+  "doc-5d09a9faf402d6241ce1f575ca4d6e56": {
+    "relation_pairs": [
+      [
+        "embodied_agent",
+        "sink"
+      ],
+      [
+        "kitchen",
+        "sink"
+      ],
+      [
+        "kitchen",
+        "left counter"
+      ],
+      [
+        "left counter",
+        "sink"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1772714912,
+    "update_time": 1772714912,
+    "_id": "doc-5d09a9faf402d6241ce1f575ca4d6e56"
+  },
+  "doc-88973b588d1feb7be9ea10c1a68d74ae": {
+    "relation_pairs": [
+      [
+        "Counter",
+        "Sink"
+      ],
+      [
+        "Left Counter",
+        "Sink"
+      ],
+      [
+        "Receptacle",
+        "Sink"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772714919,
+    "update_time": 1772714919,
+    "_id": "doc-88973b588d1feb7be9ea10c1a68d74ae"
+  },
+  "doc-d3dbaa7b765a38212b8b35fadd389fdf": {
+    "relation_pairs": [
+      [
+        "spatula",
+        "task_request"
+      ],
+      [
+        "spatula",
+        "user"
+      ],
+      [
+        "task_request",
+        "user"
+      ],
+      [
+        "living area",
+        "perception_update"
+      ],
+      [
+        "left receptacle",
+        "living area"
+      ],
+      [
+        "left receptacle",
+        "spatula"
+      ],
+      [
+        "right counter",
+        "spatula"
+      ],
+      [
+        "living area",
+        "right counter"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772715220,
+    "update_time": 1772715220,
+    "_id": "doc-d3dbaa7b765a38212b8b35fadd389fdf"
+  },
+  "doc-e391549283d4b78128c8685286cade94": {
+    "relation_pairs": [
+      [
+        "Seating",
+        "Sofa"
+      ],
+      [
+        "Sofa",
+        "Windows"
+      ],
+      [
+        "Furniture",
+        "Seating"
+      ],
+      [
+        "Green Potted Plant",
+        "Light Gray Rug"
+      ],
+      [
+        "Bowl of Colorful Items",
+        "Small Table"
+      ],
+      [
+        "Clean Design",
+        "Light Gray"
+      ],
+      [
+        "Light Gray Rug",
+        "Light Wood Flooring"
+      ],
+      [
+        "Exercise Ball",
+        "Small Table"
+      ],
+      [
+        "Bicycle",
+        "Sofa"
+      ],
+      [
+        "Robotic Arm",
+        "Wooden Countertop"
+      ],
+      [
+        "Green Potted Plant",
+        "Light Wood Flooring"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772715246,
+    "update_time": 1772715246,
+    "_id": "doc-e391549283d4b78128c8685286cade94"
+  },
+  "doc-5be286acead4ef1bc70824041a807170": {
+    "relation_pairs": [
+      [
+        "Receptacle",
+        "Spatula"
+      ],
+      [
+        "Domestic Room",
+        "Right Counter"
+      ],
+      [
+        "Lesson Learned",
+        "Procedural Skill"
+      ],
+      [
+        "Action Execution",
+        "Failure Outcome"
+      ],
+      [
+        "Failure Outcome",
+        "Lesson Learned"
+      ],
+      [
+        "Environment Context",
+        "Task Request"
+      ],
+      [
+        "Left Counter",
+        "Receptacle"
+      ],
+      [
+        "Domestic Room",
+        "Left Counter"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ],
+      [
+        "Action Execution",
+        "Task Request"
+      ],
+      [
+        "Embodied Agent",
+        "Spatula"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772715396,
+    "update_time": 1772715396,
+    "_id": "doc-5be286acead4ef1bc70824041a807170"
+  },
+  "doc-4a40a7080f080163a5b021c623248055": {
+    "relation_pairs": [
+      [
+        "Kitchen Utensil",
+        "Spatula"
+      ],
+      [
+        "Bicycle",
+        "Domestic Environment"
+      ],
+      [
+        "Left Counter",
+        "Spatula"
+      ],
+      [
+        "Articulated Robot",
+        "Robotic Arm"
+      ],
+      [
+        "Left Counter",
+        "Robotic Arm"
+      ],
+      [
+        "Domestic Environment",
+        "Left Counter"
+      ],
+      [
+        "Domestic Environment",
+        "Exercise Ball"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772715420,
+    "update_time": 1772715420,
+    "_id": "doc-4a40a7080f080163a5b021c623248055"
+  },
+  "doc-22ea0022d19a84caef9943d67d71da06": {
+    "relation_pairs": [
+      [
+        "Action Sequence",
+        "Final Outcome"
+      ],
+      [
+        "Kitchen",
+        "Right Counter"
+      ],
+      [
+        "Action Sequence",
+        "Embodied Agent"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ],
+      [
+        "Embodied Agent",
+        "Task Goal"
+      ],
+      [
+        "Embodied Agent",
+        "Spatula"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772715454,
+    "update_time": 1772715454,
+    "_id": "doc-22ea0022d19a84caef9943d67d71da06"
+  },
+  "doc-3bbb30025846d31c16ebf72f6b1f6420": {
+    "relation_pairs": [
+      [
+        "Kitchen Utensils",
+        "Spatula"
+      ],
+      [
+        "Memory Entry",
+        "User Correction Message"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772715469,
+    "update_time": 1772715469,
+    "_id": "doc-3bbb30025846d31c16ebf72f6b1f6420"
+  },
+  "doc-fae1e4a0a20d9a09831a9b5d49619d65": {
+    "relation_pairs": [
+      [
+        "Brown Table",
+        "Living Room"
+      ],
+      [
+        "Living Room",
+        "Plant"
+      ],
+      [
+        "Living Room",
+        "Right Counter"
+      ],
+      [
+        "Brown Table",
+        "Right Counter"
+      ],
+      [
+        "Bicycle",
+        "Living Room"
+      ],
+      [
+        "Living Room",
+        "Sofa"
+      ],
+      [
+        "Left Receptacle",
+        "Spatula"
+      ],
+      [
+        "Exercise Ball",
+        "Living Room"
+      ],
+      [
+        "Right Counter",
+        "Spatula"
+      ],
+      [
+        "Plant",
+        "Sofa"
+      ],
+      [
+        "Left Receptacle",
+        "Living Room"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772715744,
+    "update_time": 1772715744,
+    "_id": "doc-fae1e4a0a20d9a09831a9b5d49619d65"
+  },
+  "doc-dd717652fd4474e55f4df3f31f73880a": {
+    "relation_pairs": [
+      [
+        "Countertop",
+        "Mechanical Arm"
+      ],
+      [
+        "Bowl of Fruits",
+        "Countertop"
+      ],
+      [
+        "Bowl of Fruits",
+        "Fruits"
+      ],
+      [
+        "Bowl of Fruits",
+        "Spatula"
+      ],
+      [
+        "Mechanical Arm",
+        "Spatula"
+      ],
+      [
+        "Countertop",
+        "Furniture Pieces"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772715767,
+    "update_time": 1772715767,
+    "_id": "doc-dd717652fd4474e55f4df3f31f73880a"
+  },
+  "doc-e66f7d50943014b841289e58b40ba36d": {
+    "relation_pairs": [
+      [
+        "action_execution",
+        "failure_outcome"
+      ],
+      [
+        "action_sequence",
+        "failure_outcome"
+      ],
+      [
+        "receptacle",
+        "spatula"
+      ],
+      [
+        "Environment Context",
+        "spatula"
+      ],
+      [
+        "Environment Context",
+        "receptacle"
+      ],
+      [
+        "room",
+        "spatula"
+      ],
+      [
+        "receptacle",
+        "room"
+      ],
+      [
+        "action_execution",
+        "task_request"
+      ],
+      [
+        "action_execution",
+        "task_goal"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772715919,
+    "update_time": 1772715919,
+    "_id": "doc-e66f7d50943014b841289e58b40ba36d"
+  },
+  "doc-dfc453e875e1e275b8aea0f63b599324": {
+    "relation_pairs": [
+      [
+        "Gray Couch",
+        "Room Environment"
+      ],
+      [
+        "Exercise Ball",
+        "Room Environment"
+      ],
+      [
+        "Exercise Equipment",
+        "Spatial Arrangement"
+      ],
+      [
+        "Room Environment",
+        "Spatula"
+      ],
+      [
+        "Plant",
+        "Room Environment"
+      ],
+      [
+        "Kitchen Utensils",
+        "Robotic Arm"
+      ],
+      [
+        "Functional and Recreational Items",
+        "Spatial Arrangement"
+      ],
+      [
+        "Kitchen Utensils",
+        "Spatula"
+      ],
+      [
+        "Functional and Recreational Items",
+        "Multi-Functional Layout"
+      ],
+      [
+        "Robotic Arm",
+        "Spatial Arrangement"
+      ],
+      [
+        "Multi-Functional Layout",
+        "User Query"
+      ],
+      [
+        "Furniture",
+        "Spatial Arrangement"
+      ],
+      [
+        "Bicycle",
+        "Spatial Arrangement"
+      ],
+      [
+        "Bicycle",
+        "Room Environment"
+      ],
+      [
+        "Robotic Arm",
+        "Room Environment"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1772715954,
+    "update_time": 1772715954,
+    "_id": "doc-dfc453e875e1e275b8aea0f63b599324"
+  }
+}

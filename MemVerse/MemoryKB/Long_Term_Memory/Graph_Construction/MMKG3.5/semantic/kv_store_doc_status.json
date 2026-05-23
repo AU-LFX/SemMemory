@@ -1,0 +1,1855 @@
+{
+  "doc-d0d8e5fb4310903f4c2231b266aa6d56": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d0d8e5fb4310903f4c2231b266aa6d56"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"perception_update\"\n        ],\n        \"summary\": \"Task initiated to move one of the pear items to the indicated sofa; environment observed.\",\n        \"details\": {\n      ...",
+    "content_length": 1972,
+    "created_at": "2026-03-05T08:55:17.961276+00:00",
+    "updated_at": "2026-03-05T08:55:47.752611+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165517_c7fd249f",
+    "metadata": {
+      "processing_start_time": 1772700917,
+      "processing_end_time": 1772700947
+    }
+  },
+  "doc-e4b89e749b87de9bd2b695656376100b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e4b89e749b87de9bd2b695656376100b"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"User navigated to the kitchen cabinet to observe the environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Observe the kitchen environment and assess the objects pr...",
+    "content_length": 2241,
+    "created_at": "2026-03-05T08:55:47.970212+00:00",
+    "updated_at": "2026-03-05T08:56:12.128626+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165547_9441dbc9",
+    "metadata": {
+      "processing_start_time": 1772700947,
+      "processing_end_time": 1772700972
+    }
+  },
+  "doc-679a0eca9dc0e5e9a48835d7ff7c466a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-679a0eca9dc0e5e9a48835d7ff7c466a"
+    ],
+    "content_summary": "1. **event_type:** \n   - perception_update \n\n2. **summary:** \n   - Observed kitchen countertop with tools and food items.\n\n3. **details:** \n   - Task goal: N/A (observational activity, no specific task)\n   - Environment context: Kitchen area, specifi...",
+    "content_length": 1253,
+    "created_at": "2026-03-05T08:56:12.298150+00:00",
+    "updated_at": "2026-03-05T08:56:47.704783+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165612_74c756ed",
+    "metadata": {
+      "processing_start_time": 1772700972,
+      "processing_end_time": 1772701007
+    }
+  },
+  "doc-1058b785568123c9dd67809d1e3c64cc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1058b785568123c9dd67809d1e3c64cc"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to cabinet 5 and observed contents.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to cabinet 5 for observation.\",\n        \"Environment context...",
+    "content_length": 1336,
+    "created_at": "2026-03-05T08:56:47.867924+00:00",
+    "updated_at": "2026-03-05T08:57:15.179904+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165647_f24df294",
+    "metadata": {
+      "processing_start_time": 1772701007,
+      "processing_end_time": 1772701035
+    }
+  },
+  "doc-05b12ac4b5e7ef4ee723211268193b96": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-05b12ac4b5e7ef4ee723211268193b96"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Robotic arm navigated to cabinet 4 and observed environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Navigate to cabinet 4. Prepare to interact with objects in the environme...",
+    "content_length": 1714,
+    "created_at": "2026-03-05T08:57:15.374769+00:00",
+    "updated_at": "2026-03-05T08:57:52.708481+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165715_421f3c7e",
+    "metadata": {
+      "processing_start_time": 1772701035,
+      "processing_end_time": 1772701072
+    }
+  },
+  "doc-53daedf4d04d6753bedcb7a46e631c8a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-53daedf4d04d6753bedcb7a46e631c8a"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the refrigerator push point; observing surrounding environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to ...",
+    "content_length": 1366,
+    "created_at": "2026-03-05T08:57:52.873964+00:00",
+    "updated_at": "2026-03-05T08:58:12.610128+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165752_e252bf9e",
+    "metadata": {
+      "processing_start_time": 1772701072,
+      "processing_end_time": 1772701092
+    }
+  },
+  "doc-12916031e53dc924d9fcb0c41475bf10": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-12916031e53dc924d9fcb0c41475bf10"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the chair and observed the environment.\",\n    \"details\": {\n        \"Task goal\": \"Navigate to the chair.\",\n        \"Environment context\":...",
+    "content_length": 1323,
+    "created_at": "2026-03-05T08:58:12.811540+00:00",
+    "updated_at": "2026-03-05T08:58:51.580959+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165812_736bb3cb",
+    "metadata": {
+      "processing_start_time": 1772701092,
+      "processing_end_time": 1772701131
+    }
+  },
+  "doc-4efe4535ba7fd9b92fec1ad1e7648658": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4efe4535ba7fd9b92fec1ad1e7648658"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Navigated to the table and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the table for observation.\",\n        \"Envi...",
+    "content_length": 1745,
+    "created_at": "2026-03-05T08:58:51.756243+00:00",
+    "updated_at": "2026-03-05T08:59:11.586987+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165851_dcadaf2b",
+    "metadata": {
+      "processing_start_time": 1772701131,
+      "processing_end_time": 1772701151
+    }
+  },
+  "doc-386546b08f03613bd02a1961790cf077": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-386546b08f03613bd02a1961790cf077"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Agent observed the tabletop scene with various objects.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"Tabletop scene agai...",
+    "content_length": 2787,
+    "created_at": "2026-03-05T08:59:11.792355+00:00",
+    "updated_at": "2026-03-05T08:59:51.303908+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165911_2165e229",
+    "metadata": {
+      "processing_start_time": 1772701151,
+      "processing_end_time": 1772701191
+    }
+  },
+  "doc-23745efea012edbe0cdbde575e6dd39e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-23745efea012edbe0cdbde575e6dd39e"
+    ],
+    "content_summary": "```json\n{\n  \"event_type\": [\"perception_update\"],\n  \"summary\": \"The agent navigated to the TV stand and observed the environment.\",\n  \"details\": {\n    \"Task goal(s) and any constraints\": \"Navigate to the TV stand and observe the environment.\",\n    \"En...",
+    "content_length": 1942,
+    "created_at": "2026-03-05T08:59:51.475816+00:00",
+    "updated_at": "2026-03-05T09:00:20.028276+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_165951_eb55b410",
+    "metadata": {
+      "processing_start_time": 1772701191,
+      "processing_end_time": 1772701220
+    }
+  },
+  "doc-5c4f8a99c2c3feb883c8a2b6716e4e6e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5c4f8a99c2c3feb883c8a2b6716e4e6e"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the sink in the kitchen and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"To survey the environm...",
+    "content_length": 3013,
+    "created_at": "2026-03-05T09:00:20.215938+00:00",
+    "updated_at": "2026-03-05T09:01:06.775284+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170020_16807c60",
+    "metadata": {
+      "processing_start_time": 1772701220,
+      "processing_end_time": 1772701266
+    }
+  },
+  "doc-9f4b6af94a6822cfe2dcbf1cfd9ea301": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9f4b6af94a6822cfe2dcbf1cfd9ea301"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Observed kitchen counter with a pear, hammer, wrench, and robotic arm.\",\n    \"details\": {\n        \"Task goal\": \"N/A\",\n        \"Environment context\": \"Kitchen, countertop\",\n        \"Ke...",
+    "content_length": 1733,
+    "created_at": "2026-03-05T09:01:06.995324+00:00",
+    "updated_at": "2026-03-05T09:01:39.184297+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170106_4012d559",
+    "metadata": {
+      "processing_start_time": 1772701266,
+      "processing_end_time": 1772701299
+    }
+  },
+  "doc-fd7a3f830c9003a2fcb1b91e91ae47a2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-fd7a3f830c9003a2fcb1b91e91ae47a2"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to the left counter and observed various kitchen objects.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Observe kitchen countertop scene; potential...",
+    "content_length": 1955,
+    "created_at": "2026-03-05T09:01:39.362674+00:00",
+    "updated_at": "2026-03-05T09:02:41.651245+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170139_684d5432",
+    "metadata": {
+      "processing_start_time": 1772701299,
+      "processing_end_time": 1772701361
+    }
+  },
+  "doc-e558aa1ffffc9e3ee9d5eba4ef6bacfe": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e558aa1ffffc9e3ee9d5eba4ef6bacfe"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to the sofa and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the sofa and observe surrounding object...",
+    "content_length": 1831,
+    "created_at": "2026-03-05T09:02:25.315016+00:00",
+    "updated_at": "2026-03-05T09:03:55.258239+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_914fc940",
+    "metadata": {
+      "processing_start_time": 1772701361,
+      "processing_end_time": 1772701435
+    }
+  },
+  "doc-e6a9da891ede12376a00cfbf3a48e356": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e6a9da891ede12376a00cfbf3a48e356"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to the refrigerator and observed the interior.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the refrigerator to observe its co...",
+    "content_length": 964,
+    "created_at": "2026-03-05T09:02:25.316747+00:00",
+    "updated_at": "2026-03-05T09:04:04.725877+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_59d801f1",
+    "metadata": {
+      "processing_start_time": 1772701361,
+      "processing_end_time": 1772701444
+    }
+  },
+  "doc-26187e3c991b49bfc7f789f4aafc93f5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-26187e3c991b49bfc7f789f4aafc93f5"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the left drawer of the kitchen counter, observed several kitchen items.\",\n    \"details\": {\n        \"Task...",
+    "content_length": 1952,
+    "created_at": "2026-03-05T09:02:25.320636+00:00",
+    "updated_at": "2026-03-05T09:04:35.766350+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_bcb32ec7",
+    "metadata": {
+      "processing_start_time": 1772701435,
+      "processing_end_time": 1772701475
+    }
+  },
+  "doc-8b6a597b9f445063e4005e101216236e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8b6a597b9f445063e4005e101216236e"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Agent navigated to the right drawer of the kitchen counter and is observing the environment.\",\n    \"details\": {\n        \"Task goal\": \"Observe the environment near the right drawer of ...",
+    "content_length": 1694,
+    "created_at": "2026-03-05T09:02:25.322160+00:00",
+    "updated_at": "2026-03-05T09:04:37.669910+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_ca8221aa",
+    "metadata": {
+      "processing_start_time": 1772701444,
+      "processing_end_time": 1772701477
+    }
+  },
+  "doc-2663373a7c15d583525613b528aaf782": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2663373a7c15d583525613b528aaf782"
+    ],
+    "content_summary": "{\n  \"event_type\": [\n    \"task_request\",\n    \"perception_update\"\n  ],\n  \"summary\": \"Agent navigated to the cabinet and observed the kitchen environment.\",\n  \"details\": {\n    \"task_goal\": \"Observe the kitchen environment for relevant objects.\",\n    \"en...",
+    "content_length": 2001,
+    "created_at": "2026-03-05T09:02:25.323366+00:00",
+    "updated_at": "2026-03-05T09:05:18.431587+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_3e6e15aa",
+    "metadata": {
+      "processing_start_time": 1772701475,
+      "processing_end_time": 1772701518
+    }
+  },
+  "doc-512c99ba00abd1351acdffc5f28ef60b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-512c99ba00abd1351acdffc5f28ef60b"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a pear item to the sofa; initial environmental observations recorded.\",\n    \"details\": {\n        \"Task goal(s)\": \"Move a pear item to the indica...",
+    "content_length": 1789,
+    "created_at": "2026-03-05T09:02:25.324548+00:00",
+    "updated_at": "2026-03-05T09:05:10.283816+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_9b54a8f0",
+    "metadata": {
+      "processing_start_time": 1772701477,
+      "processing_end_time": 1772701510
+    }
+  },
+  "doc-42a8800fd5eb4780419dd640aa3c2edf": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-42a8800fd5eb4780419dd640aa3c2edf"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Environment observed with multiple items on the kitchen countertop.\",\n    \"details\": {\n        \"Task goal(s)\": \"N/A\",\n        \"Environment context\": \"kitchen countertop\",\n        \"Key...",
+    "content_length": 1641,
+    "created_at": "2026-03-05T09:02:25.325672+00:00",
+    "updated_at": "2026-03-05T09:05:39.137736+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_7d0ea6de",
+    "metadata": {
+      "processing_start_time": 1772701510,
+      "processing_end_time": 1772701539
+    }
+  },
+  "doc-31e979835f2804ff8d1ce116dbce00c9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-31e979835f2804ff8d1ce116dbce00c9"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to refrigerator; observed a close-up view of a monotonous textured surface.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the refrigera...",
+    "content_length": 1321,
+    "created_at": "2026-03-05T09:02:25.326796+00:00",
+    "updated_at": "2026-03-05T09:05:48.415817+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_df140404",
+    "metadata": {
+      "processing_start_time": 1772701518,
+      "processing_end_time": 1772701548
+    }
+  },
+  "doc-d938391f0c5ac3146df4cf04a3a65025": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d938391f0c5ac3146df4cf04a3a65025"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"action_execution\", \"perception_update\"],\n    \"summary\": \"Agent navigated to the left drawer of the kitchen counter and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraint...",
+    "content_length": 2233,
+    "created_at": "2026-03-05T09:02:25.328650+00:00",
+    "updated_at": "2026-03-05T09:06:13.160724+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_4be21d75",
+    "metadata": {
+      "processing_start_time": 1772701539,
+      "processing_end_time": 1772701573
+    }
+  },
+  "doc-88d09cfcfcedc2adcc16d0314fe78275": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-88d09cfcfcedc2adcc16d0314fe78275"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Navigated to kitchen counter; observed pear and hammer.\",\n    \"details\": {\n        \"Task goal\": \"Navigate to the right drawer of the kitchen counter and observe th...",
+    "content_length": 1528,
+    "created_at": "2026-03-05T09:02:25.330265+00:00",
+    "updated_at": "2026-03-05T09:06:15.951968+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_01aaee8e",
+    "metadata": {
+      "processing_start_time": 1772701548,
+      "processing_end_time": 1772701575
+    }
+  },
+  "doc-61e0642e7493eaadc2d0ef8540a842ac": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-61e0642e7493eaadc2d0ef8540a842ac"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Observing kitchen counter with objects and robotic arm position.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"Kitchen co...",
+    "content_length": 2132,
+    "created_at": "2026-03-05T09:02:25.331850+00:00",
+    "updated_at": "2026-03-05T09:06:50.411597+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_7c048984",
+    "metadata": {
+      "processing_start_time": 1772701573,
+      "processing_end_time": 1772701610
+    }
+  },
+  "doc-dbc9e5b1a99517c95fb6c76a1254a379": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dbc9e5b1a99517c95fb6c76a1254a379"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigating to the refrigerator; observing environment texture.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the refrigerat...",
+    "content_length": 1386,
+    "created_at": "2026-03-05T09:02:25.333450+00:00",
+    "updated_at": "2026-03-05T09:06:37.316854+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_5d3632c1",
+    "metadata": {
+      "processing_start_time": 1772701576,
+      "processing_end_time": 1772701597
+    }
+  },
+  "doc-3110c2c46307410294a70a5f9d323898": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3110c2c46307410294a70a5f9d323898"
+    ],
+    "content_summary": "{\n  \"event_type\": [\n    \"perception_update\",\n    \"action_execution\"\n  ],\n  \"summary\": \"Navigated to the left drawer of the kitchen counter and observed the environment.\",\n  \"details\": {\n    \"Task goal(s) and any constraints\": \"Navigate to the left dr...",
+    "content_length": 1723,
+    "created_at": "2026-03-05T09:02:25.335030+00:00",
+    "updated_at": "2026-03-05T09:07:08.543826+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_19a64511",
+    "metadata": {
+      "processing_start_time": 1772701597,
+      "processing_end_time": 1772701628
+    }
+  },
+  "doc-c3bc1c91eadc47a11af404b983abb2d8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c3bc1c91eadc47a11af404b983abb2d8"
+    ],
+    "content_summary": "1. \n(a) event_type: \n   - perception_update\n   - action_execution \n\n(b) summary: \n   The embodied agent navigated to the right drawer of the kitchen counter and observed the environment.\n\n(c) details: \n   - Task goal: Navigate to the right drawer of ...",
+    "content_length": 1404,
+    "created_at": "2026-03-05T09:02:25.336324+00:00",
+    "updated_at": "2026-03-05T09:07:25.700238+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_dbc9d890",
+    "metadata": {
+      "processing_start_time": 1772701610,
+      "processing_end_time": 1772701645
+    }
+  },
+  "doc-e8fe7206d4da4b1264ec81ca9a6de819": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e8fe7206d4da4b1264ec81ca9a6de819"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\"task_request\", \"action_execution\", \"success_outcome\"],\n        \"summary\": \"Successfully moved a pear from the kitchen counter to the indicated sofa.\",\n        \"details\": {\n            \"task_goal\": \"Move one of ...",
+    "content_length": 2507,
+    "created_at": "2026-03-05T09:02:25.337925+00:00",
+    "updated_at": "2026-03-05T09:07:46.698896+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_9d294264",
+    "metadata": {
+      "processing_start_time": 1772701628,
+      "processing_end_time": 1772701666
+    }
+  },
+  "doc-8de0c8dda21f0a7bd359abef42ad2fc5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8de0c8dda21f0a7bd359abef42ad2fc5"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\",\n        \"success_outcome\"\n    ],\n    \"summary\": \"The task to find an orange on the TV stand and move it to the sink was successful.\",\n    \"details\"...",
+    "content_length": 2234,
+    "created_at": "2026-03-05T09:02:25.339338+00:00",
+    "updated_at": "2026-03-05T09:08:02.391198+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_07ddea85",
+    "metadata": {
+      "processing_start_time": 1772701645,
+      "processing_end_time": 1772701682
+    }
+  },
+  "doc-9649295b1c57c65b39ff8bcbd920173a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9649295b1c57c65b39ff8bcbd920173a"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Failed to pick up the pear and transfer it to the allocated left counter.\",\n    \"details\": {\n        \"Task goal\": \"Take a pear ...",
+    "content_length": 3821,
+    "created_at": "2026-03-05T09:02:25.341053+00:00",
+    "updated_at": "2026-03-05T09:08:12.782194+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_66fea34c",
+    "metadata": {
+      "processing_start_time": 1772701666,
+      "processing_end_time": 1772701692
+    }
+  },
+  "doc-a4d2c0d609132b708454a6e443bb635b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a4d2c0d609132b708454a6e443bb635b"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"failure_outcome\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Attempted to pick up an orange from the sink, but failed due to obscured visibility and access iss...",
+    "content_length": 1995,
+    "created_at": "2026-03-05T09:02:25.342633+00:00",
+    "updated_at": "2026-03-05T09:08:45.239673+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_2b9096fc",
+    "metadata": {
+      "processing_start_time": 1772701682,
+      "processing_end_time": 1772701725
+    }
+  },
+  "doc-49e81386ebdc9a6d8f85d441f2f0278a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-49e81386ebdc9a6d8f85d441f2f0278a"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"failure_outcome\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Failed to retrieve a toy airplane and an orange from the right counter.\",\n    \"details\": {...",
+    "content_length": 1490,
+    "created_at": "2026-03-05T09:02:25.344134+00:00",
+    "updated_at": "2026-03-05T09:09:05.584743+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_ec26efab",
+    "metadata": {
+      "processing_start_time": 1772701692,
+      "processing_end_time": 1772701745
+    }
+  },
+  "doc-26ad68c6116f014d0032d19c0c00e620": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-26ad68c6116f014d0032d19c0c00e620"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\", \"action_execution\", \"success_outcome\"],\n    \"summary\": \"Closed the refrigerator successfully after it was left open.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Help close ...",
+    "content_length": 1526,
+    "created_at": "2026-03-05T09:02:25.345705+00:00",
+    "updated_at": "2026-03-05T09:09:18.805221+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_0c595081",
+    "metadata": {
+      "processing_start_time": 1772701725,
+      "processing_end_time": 1772701758
+    }
+  },
+  "doc-177fe53d62cd8f8a4738a850efb9bf13": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-177fe53d62cd8f8a4738a850efb9bf13"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Task to place a plate on the TV stand failed due to the plate's absence and misidentification.\",\n    \"details\": {\n        \"Tas...",
+    "content_length": 1210,
+    "created_at": "2026-03-05T09:02:25.347323+00:00",
+    "updated_at": "2026-03-05T09:09:41.443429+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_1e41f907",
+    "metadata": {
+      "processing_start_time": 1772701745,
+      "processing_end_time": 1772701781
+    }
+  },
+  "doc-74343abbe74fb662fca49366a4533755": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-74343abbe74fb662fca49366a4533755"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\"task_request\", \"action_execution\", \"failure_outcome\", \"success_outcome\"],\n        \"summary\": \"Task to move a pear to the sofa succeeded after initially attempting to pick a banana.\",\n        \"details\": {\n      ...",
+    "content_length": 2402,
+    "created_at": "2026-03-05T09:02:25.349190+00:00",
+    "updated_at": "2026-03-05T09:10:03.313251+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b14a0a5d",
+    "metadata": {
+      "processing_start_time": 1772701759,
+      "processing_end_time": 1772701803
+    }
+  },
+  "doc-e335795bdb56810ade9af1bf265d39ca": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e335795bdb56810ade9af1bf265d39ca"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\",\n        \"success_outcome\"\n    ],\n    \"summary\": \"Successfully retrieved an orange from the TV stand and moved it to the sink.\",\n    \"detail...",
+    "content_length": 2385,
+    "created_at": "2026-03-05T09:02:25.351052+00:00",
+    "updated_at": "2026-03-05T09:10:05.337706+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_004b2d8f",
+    "metadata": {
+      "processing_start_time": 1772701781,
+      "processing_end_time": 1772701805
+    }
+  },
+  "doc-afdf9f4094ebfcd9a79a5e321661284a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-afdf9f4094ebfcd9a79a5e321661284a"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\",\n        \"success_outcome\"\n    ],\n    \"summary\": \"Task to take a pear and transfer it to the allocated left counter succeeded.\",\n    \"detail...",
+    "content_length": 2119,
+    "created_at": "2026-03-05T09:02:25.352964+00:00",
+    "updated_at": "2026-03-05T09:10:29.062442+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_74ef42b3",
+    "metadata": {
+      "processing_start_time": 1772701803,
+      "processing_end_time": 1772701829
+    }
+  },
+  "doc-a7c42d63a0e69a4bf2d9cacdbfa34900": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a7c42d63a0e69a4bf2d9cacdbfa34900"
+    ],
+    "content_summary": "```json\n{\n  \"event_type\": [\n    \"task_request\",\n    \"failure_outcome\",\n    \"action_execution\",\n    \"perception_update\"\n  ],\n  \"summary\": \"Attempt to find and move an orange failed.\",\n  \"details\": {\n    \"Task goal\": \"Find an orange and move it to the ...",
+    "content_length": 1379,
+    "created_at": "2026-03-05T09:02:25.354624+00:00",
+    "updated_at": "2026-03-05T09:10:47.994042+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_447755fc",
+    "metadata": {
+      "processing_start_time": 1772701805,
+      "processing_end_time": 1772701847
+    }
+  },
+  "doc-25e2e04b3134120f184b293556f1036b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-25e2e04b3134120f184b293556f1036b"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Task to fetch a toy airplane and an orange failed due to items not present on the right counter.\",...",
+    "content_length": 2956,
+    "created_at": "2026-03-05T09:02:25.356774+00:00",
+    "updated_at": "2026-03-05T09:11:12.854192+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_91813666",
+    "metadata": {
+      "processing_start_time": 1772701829,
+      "processing_end_time": 1772701872
+    }
+  },
+  "doc-f141569c90d0dc3f466444b6898c4311": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f141569c90d0dc3f466444b6898c4311"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"success_outcome\"\n    ],\n    \"summary\": \"Task involved closing an open refrigerator door; execution was successful.\",\n    \"details\": {\n        \"Task goal(s) and any con...",
+    "content_length": 1461,
+    "created_at": "2026-03-05T09:02:25.358777+00:00",
+    "updated_at": "2026-03-05T09:12:47.160091+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_e6c54c5c",
+    "metadata": {
+      "processing_start_time": 1772701848,
+      "processing_end_time": 1772701967
+    }
+  },
+  "doc-028f6690692ef73c234cec42aeb674e3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-028f6690692ef73c234cec42aeb674e3"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a pear item to the indicated sofa; initial environment observed.\",\n    \"details\": {\n        \"Task goal(s)\": \"Move one of the pear items to the indicated...",
+    "content_length": 1499,
+    "created_at": "2026-03-05T09:02:25.360500+00:00",
+    "updated_at": "2026-03-05T09:12:44.297810+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_40499214",
+    "metadata": {
+      "processing_start_time": 1772701873,
+      "processing_end_time": 1772701964
+    }
+  },
+  "doc-7e1755ee0885b26158e70eacaecd29a1": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7e1755ee0885b26158e70eacaecd29a1"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Agent navigates to the cabinet and observes the kitchen countertop environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the cabinet...",
+    "content_length": 1909,
+    "created_at": "2026-03-05T09:02:25.362189+00:00",
+    "updated_at": "2026-03-05T09:13:24.393835+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_fd6d2fee",
+    "metadata": {
+      "processing_start_time": 1772701964,
+      "processing_end_time": 1772702004
+    }
+  },
+  "doc-4f0459b7526159414e9c224e45d3bd9c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4f0459b7526159414e9c224e45d3bd9c"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Agent observed the kitchen countertop with key items.\",\n    \"details\": {\n        \"Task goal\": \"N/A\",\n        \"Environment context\": \"Kitchen countertop with notable items.\",\n        \"Key obje...",
+    "content_length": 1694,
+    "created_at": "2026-03-05T09:02:25.363962+00:00",
+    "updated_at": "2026-03-05T09:13:28.864890+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_d6f25e56",
+    "metadata": {
+      "processing_start_time": 1772701967,
+      "processing_end_time": 1772702008
+    }
+  },
+  "doc-b1a0c00327c58a2daa9dcadbc0296695": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b1a0c00327c58a2daa9dcadbc0296695"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Observed environment on the countertop with a pear and hammer.\",\n    \"details\": {\n        \"Task goal(s)\": \"N/A\",\n        \"Environment context\": \"countertop\",\n        \"Key objects inte...",
+    "content_length": 1483,
+    "created_at": "2026-03-05T09:02:25.365784+00:00",
+    "updated_at": "2026-03-05T09:13:24.663486+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_00715aa9",
+    "metadata": {
+      "processing_start_time": 1772702004
+    }
+  },
+  "doc-ce4f49383d443b658dbd884fe5690166": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ce4f49383d443b658dbd884fe5690166"
+    ],
+    "content_summary": "```json\n{\n  \"event_type\": [\n    \"perception_update\"\n  ],\n  \"summary\": \"Observed environment after navigating to the cabinet 4.\",\n  \"details\": {\n    \"Task goal(s) and any constraints\": \"Observe the environment after navigation; no specific manipulatio...",
+    "content_length": 1947,
+    "created_at": "2026-03-05T09:02:25.367833+00:00",
+    "updated_at": "2026-03-05T09:13:29.073814+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_eb50cce4",
+    "metadata": {
+      "processing_start_time": 1772702009
+    }
+  },
+  "doc-4f4c860f4e0a24a098668b16d32d0ceb": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Agent navigated to the refrigerator push point and is observing the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the refrigerator and observe the s...",
+    "content_length": 1143,
+    "created_at": "2026-03-05T09:02:25.369906+00:00",
+    "updated_at": "2026-03-05T09:02:25.369911+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_bc4ddca2",
+    "chunks_list": []
+  },
+  "doc-b875acc27aada74fbf5b8b08480ffe8a": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"The agent navigated to the chair and is observing the environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Navigate to the chair and perform an o...",
+    "content_length": 1464,
+    "created_at": "2026-03-05T09:02:25.372079+00:00",
+    "updated_at": "2026-03-05T09:02:25.372086+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_4db5ab22",
+    "chunks_list": []
+  },
+  "doc-9289f8ca67693e3941f314811a41ed52": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"The agent observed the kitchen countertop with notable objects.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Observe the environment and likely prepare for in...",
+    "content_length": 2087,
+    "created_at": "2026-03-05T09:02:25.374409+00:00",
+    "updated_at": "2026-03-05T09:02:25.374416+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b5d42ea4",
+    "chunks_list": []
+  },
+  "doc-faf1504e51a4189248aa38fd2ee3413b": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"The agent navigated to the cabinet and is observing the environment.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"N/A; observing the e...",
+    "content_length": 2187,
+    "created_at": "2026-03-05T09:02:25.376591+00:00",
+    "updated_at": "2026-03-05T09:02:25.376597+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_67a48166",
+    "chunks_list": []
+  },
+  "doc-a6068a26afa3ae2f5ec17f4b2db45c81": {
+    "status": "pending",
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"User requested navigation to the cabinet 5 and agent observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to cabinet 5 and ob...",
+    "content_length": 1975,
+    "created_at": "2026-03-05T09:02:25.378514+00:00",
+    "updated_at": "2026-03-05T09:02:25.378520+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_f874e1d1",
+    "chunks_list": []
+  },
+  "doc-d98281e318fd7984f676c6dcb97da97a": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"The agent navigated to the cabinet 4 and observed the countertop environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Observe the environment after navigating to cabinet 4.\"...",
+    "content_length": 1400,
+    "created_at": "2026-03-05T09:02:25.380531+00:00",
+    "updated_at": "2026-03-05T09:02:25.380537+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b793644e",
+    "chunks_list": []
+  },
+  "doc-273ac18b06d95c7b3abceb0025006fd4": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Agent observed a textured vertical surface while navigating towards the refrigerator push point.\",\n    \"details\": {\n        \"Task goal\": \"Navigate to the refrigerator push point.\",\n        \"E...",
+    "content_length": 1006,
+    "created_at": "2026-03-05T09:02:25.382439+00:00",
+    "updated_at": "2026-03-05T09:02:25.382445+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_04a044f6",
+    "chunks_list": []
+  },
+  "doc-aaf85ea58596caeb672ae3390aa377c7": {
+    "status": "pending",
+    "content_summary": "(a) event_type: \n- perception_update \n- action_execution \n\n(b) summary: \nAgent navigated to the chair and observed the environment.\n\n(c) details: \n- Task goal: Observe the environment around the chair. \n- Environment context: The chair is located in ...",
+    "content_length": 1273,
+    "created_at": "2026-03-05T09:02:25.385018+00:00",
+    "updated_at": "2026-03-05T09:02:25.385025+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_f27d4868",
+    "chunks_list": []
+  },
+  "doc-44c7d4402d89e167772ed7b4de4c2e2d": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the table and observed various objects.\",\n    \"details\": {\n        \"task_goal\": \"Observe the environment, specif...",
+    "content_length": 2292,
+    "created_at": "2026-03-05T09:02:25.387456+00:00",
+    "updated_at": "2026-03-05T09:02:25.387463+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_6a8db64d",
+    "chunks_list": []
+  },
+  "doc-b597fcaf9e1c9465bb32c6ee53f5cfd3": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Navigated to the table and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"Tabletop, characterized by a wooden ...",
+    "content_length": 3017,
+    "created_at": "2026-03-05T09:02:25.389645+00:00",
+    "updated_at": "2026-03-05T09:02:25.389651+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_6ae64ad6",
+    "chunks_list": []
+  },
+  "doc-d8c75d39513265b557d4b3ba5fc81b93": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Agent navigated to the TV stand and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"The agent navigated to the TV stand to observe the ...",
+    "content_length": 2260,
+    "created_at": "2026-03-05T09:02:25.392069+00:00",
+    "updated_at": "2026-03-05T09:02:25.392076+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_a350e268",
+    "chunks_list": []
+  },
+  "doc-9b53e4715d0fd6b6527a9cb079b06d1b": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the sink and observed various objects in the environment.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to the sink i...",
+    "content_length": 2608,
+    "created_at": "2026-03-05T09:02:25.394149+00:00",
+    "updated_at": "2026-03-05T09:02:25.394155+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_c03ce838",
+    "chunks_list": []
+  },
+  "doc-b4227f865845247f9e29eb245d9c49c9": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the right counter in the kitchen; observed stationary objects.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to t...",
+    "content_length": 1942,
+    "created_at": "2026-03-05T09:02:25.396251+00:00",
+    "updated_at": "2026-03-05T09:02:25.396255+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_e2210f1c",
+    "chunks_list": []
+  },
+  "doc-cb5f80c3116a93720e49290acef46cc7": {
+    "status": "pending",
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\"perception_update\"],\n        \"summary\": \"Agent observed kitchen counter with key objects.\",\n        \"details\": {\n            \"Task goal\": \"N/A\",\n            \"Environment context\": \"kitchen counter\",\n           ...",
+    "content_length": 1226,
+    "created_at": "2026-03-05T09:02:25.398242+00:00",
+    "updated_at": "2026-03-05T09:02:25.398246+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b0071044",
+    "chunks_list": []
+  },
+  "doc-2a5775202b3072d4fa78b0ef7ee2bf3f": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Navigated to the sofa and observed surrounding objects.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to the sofa to inspect and identify objects pr...",
+    "content_length": 1950,
+    "created_at": "2026-03-05T09:02:25.400430+00:00",
+    "updated_at": "2026-03-05T09:02:25.400436+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_2ebd2fad",
+    "chunks_list": []
+  },
+  "doc-0cc334f02ecda8658cd08b8999f1cf6a": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Observed a close-up view of a patterned wooden surface while navigating.\",\n    \"details\": {\n        \"Task goal(s)\": \"Navigate to the refrigerator.\",\n        \"Environment context...",
+    "content_length": 889,
+    "created_at": "2026-03-05T09:02:25.402508+00:00",
+    "updated_at": "2026-03-05T09:02:25.402514+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_46e332bc",
+    "chunks_list": []
+  },
+  "doc-84aaf0b30ba83e298b755bb648e6079e": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the left drawer of the kitchen counter and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) an...",
+    "content_length": 1830,
+    "created_at": "2026-03-05T09:02:25.404735+00:00",
+    "updated_at": "2026-03-05T09:02:25.404741+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_f2ada0a8",
+    "chunks_list": []
+  },
+  "doc-bfd0f8cd733e3a8c8ba2e17fdc4e0b68": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Navigated to the right drawer of the kitchen counter; observed kitchen countertop environment.\",\n    \"details\": {\n        \"task_goal\": \"Navigate to the right drawer of the...",
+    "content_length": 1745,
+    "created_at": "2026-03-05T09:02:25.406836+00:00",
+    "updated_at": "2026-03-05T09:02:25.406842+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_53f701a9",
+    "chunks_list": []
+  },
+  "doc-11413516097f075e866c473f86e575f8": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the cabinet and observed the kitchen workspace.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the cabinet;...",
+    "content_length": 2154,
+    "created_at": "2026-03-05T09:02:25.409045+00:00",
+    "updated_at": "2026-03-05T09:02:25.409050+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_1847bebe",
+    "chunks_list": []
+  },
+  "doc-21781aa47fdef07c741fafc0daf56d42": {
+    "status": "pending",
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a spatula from the right counter to the left receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Move a spatula from the right counter to the r...",
+    "content_length": 1062,
+    "created_at": "2026-03-05T09:02:25.411213+00:00",
+    "updated_at": "2026-03-05T09:02:25.411219+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_8ae3580b",
+    "chunks_list": []
+  },
+  "doc-8a5e48d2ff5b0e6cf0b9025d4ef04014": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\", \"action_execution\", \"failure_outcome\"],\n    \"summary\": \"Task to move a spatula from right counter to left receptacle failed.\",\n    \"details\": {\n        \"Task goal\": \"Move a spatula from the ri...",
+    "content_length": 1671,
+    "created_at": "2026-03-05T09:02:25.413546+00:00",
+    "updated_at": "2026-03-05T09:02:25.413554+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_d72eda29",
+    "chunks_list": []
+  },
+  "doc-8ef495c3da8ad2e873c7dd3f68549a05": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a spatula from the right counter to the left receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Move a spatula from the right counter to the right rec...",
+    "content_length": 2448,
+    "created_at": "2026-03-05T09:02:25.416653+00:00",
+    "updated_at": "2026-03-05T09:02:25.416663+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_4d69db1c",
+    "chunks_list": []
+  },
+  "doc-d9a1e3929880811a0a5d3b7f0c6c5747": {
+    "status": "pending",
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\"task_request\", \"action_execution\", \"failure_outcome\"],\n        \"summary\": \"Task: Move spatula from right counter to left receptacle; Outcome: Failed.\",\n        \"details\": {\n            \"task_goal\": \"Move a spat...",
+    "content_length": 2622,
+    "created_at": "2026-03-05T09:02:25.419534+00:00",
+    "updated_at": "2026-03-05T09:02:25.419542+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_91e2abf7",
+    "chunks_list": []
+  },
+  "doc-cea350cefdc642e2d44bcc81397b05d4": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task initiated to move a screwdriver from the sofa to the left counter receptacle; initial environment observed.\",\n    \"details\": {\n        \"Task goal(s)...",
+    "content_length": 1544,
+    "created_at": "2026-03-05T09:02:25.421912+00:00",
+    "updated_at": "2026-03-05T09:02:25.421918+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_cbb5780a",
+    "chunks_list": []
+  },
+  "doc-94076792deffc3715105da0518f7c401": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"User provided clarification about the left counter's right receptacle being the sink.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Understanding the location and function o...",
+    "content_length": 861,
+    "created_at": "2026-03-05T09:02:25.424338+00:00",
+    "updated_at": "2026-03-05T09:02:25.424343+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_654455fc",
+    "chunks_list": []
+  },
+  "doc-6878dc8cc7c3d9d8b574d4ab20c10418": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Identified kitchen sink as a receptacle.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"kitchen, sink area\",\n        \"Key objects intera...",
+    "content_length": 718,
+    "created_at": "2026-03-05T09:02:25.426620+00:00",
+    "updated_at": "2026-03-05T09:02:25.426626+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_dde9d57e",
+    "chunks_list": []
+  },
+  "doc-f916d756d505b13bb0db6b4cc824c291": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Observational input regarding the kitchen sink.\",\n    \"details\": {\n        \"Task goal\": \"N/A\",\n        \"Environment context\": \"Kitchen, area around the sink\",\n        \"Key objects interacted ...",
+    "content_length": 753,
+    "created_at": "2026-03-05T09:02:25.428869+00:00",
+    "updated_at": "2026-03-05T09:02:25.428874+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_38c8e7cf",
+    "chunks_list": []
+  },
+  "doc-f7f0fdb089894fccdb13df2ba4e5c945": {
+    "status": "pending",
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a spatula from the right counter to the left receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Move a spatula from the right counter to the r...",
+    "content_length": 1292,
+    "created_at": "2026-03-05T09:02:25.431189+00:00",
+    "updated_at": "2026-03-05T09:02:25.431194+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_dea6365c",
+    "chunks_list": []
+  },
+  "doc-83e487c95a61038aa96df99ce4d9dd7e": {
+    "status": "pending",
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"perception_update\",\n            \"action_execution\",\n            \"failure_outcome\"\n        ],\n        \"summary\": \"Failed to move the spatula from the right counter to the...",
+    "content_length": 2977,
+    "created_at": "2026-03-05T09:02:25.433737+00:00",
+    "updated_at": "2026-03-05T09:02:25.433743+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_ff4ec2f4",
+    "chunks_list": []
+  },
+  "doc-12f8717b377b7c2a7ebfe09e99c2a221": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The provided message and image describe an indoor environment with multiple furniture pieces and objects. Key items include a brown armchair, a large dark gray spherical object, a small side table, and a blue robot arm, along ...",
+    "content_length": 3337,
+    "created_at": "2026-03-05T09:02:25.436212+00:00",
+    "updated_at": "2026-03-05T09:02:25.436218+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_bb2e86ee",
+    "chunks_list": []
+  },
+  "doc-54db96677933eae2def56d385069570f": {
+    "status": "pending",
+    "content_summary": "### Semantic Memory Update\n\n**1. Analyze content:**\nThe query and image description provide detailed observations about a kitchen environment with specific objects: a robotic arm, butter, a strawberry, and a black spatula. The descriptions include co...",
+    "content_length": 3450,
+    "created_at": "2026-03-05T09:02:25.438690+00:00",
+    "updated_at": "2026-03-05T09:02:25.438695+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_d2775af2",
+    "chunks_list": []
+  },
+  "doc-9bf34c6a958b339208ad3a08c0ce1da5": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The incoming information describes a kitchen environment with several specific objects, including a sink, a wrench, and a robotic arm. Each object has unique attributes and spatial relationships.\n\n2. **Decide what to save**: I...",
+    "content_length": 2525,
+    "created_at": "2026-03-05T09:02:25.441315+00:00",
+    "updated_at": "2026-03-05T09:02:25.441322+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_e002b616",
+    "chunks_list": []
+  },
+  "doc-2d89b523e359142053ba13f77d063f7f": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The messages provide information about a scene inside a cabinet, highlighting the presence of a pear, a hammer, and a robotic arm. Each object is described with specific attributes and spatial relationships.\n\n2. **Decide what ...",
+    "content_length": 2615,
+    "created_at": "2026-03-05T09:02:25.444078+00:00",
+    "updated_at": "2026-03-05T09:02:25.444083+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_04b4717c",
+    "chunks_list": []
+  },
+  "doc-c373a33b7f40d867bb7889415b47e8ff": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content:**\n   - The input describes a scene with three main objects: a robotic arm, a hammer, and a green pear. Each object has specific attributes and spatial relationships. This information can be recorded in the semantic memory.\n\n2. *...",
+    "content_length": 2791,
+    "created_at": "2026-03-05T09:02:25.446792+00:00",
+    "updated_at": "2026-03-05T09:02:25.446799+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b38c3113",
+    "chunks_list": []
+  },
+  "doc-3b8b3a4fb04507003659df37d33f648c": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The provided description includes observations about an environment, focusing on two large planes—one gray and one brown—a wall or furniture element. No specific actions or functional details about navigating to a refrigerator...",
+    "content_length": 1618,
+    "created_at": "2026-03-05T09:02:25.449630+00:00",
+    "updated_at": "2026-03-05T09:02:25.449636+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_304547de",
+    "chunks_list": []
+  },
+  "doc-ecf2280bc7b5bd1b98c3a9bcdb00e426": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** \n   The input describes a robot arm and a chair in a corner of a room, providing specific details about their appearances and spatial relationships. \n\n2. **Decide what to save:**\n   - For the robot arm:\n   ...",
+    "content_length": 3069,
+    "created_at": "2026-03-05T09:02:25.452260+00:00",
+    "updated_at": "2026-03-05T09:02:25.452266+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_69a0e969",
+    "chunks_list": []
+  },
+  "doc-c269103be499222e8125b51616c31474": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** The input describes a room with various objects, including a table, a plate, a blue object, an apple, a robotic arm, stairs, and a potted plant. Each object has specific attributes and spatial relationships...",
+    "content_length": 5255,
+    "created_at": "2026-03-05T09:02:25.455098+00:00",
+    "updated_at": "2026-03-05T09:02:25.455104+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_ef67cf42",
+    "chunks_list": []
+  },
+  "doc-f256dcf7e476eb47b4a04340d5a96f14": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The provided message describes a detailed scene of various objects on a table, including their appearances, spatial relationships, and potential interactions. This content provides valuable insights into several concepts that ...",
+    "content_length": 5617,
+    "created_at": "2026-03-05T09:02:25.458278+00:00",
+    "updated_at": "2026-03-05T09:02:25.458285+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_613b19da",
+    "chunks_list": []
+  },
+  "doc-fb088bdb1e42101b1ffa67137cd54633": {
+    "status": "pending",
+    "content_summary": "### Semantic Memory Update\n\n1. **Analyze Content**: \n   - The input provides a detailed description of a scene containing various objects, particularly focusing on a robotic arm and several items on a blue table. The objects include a red spherical i...",
+    "content_length": 3693,
+    "created_at": "2026-03-05T09:02:25.461113+00:00",
+    "updated_at": "2026-03-05T09:02:25.461118+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_00c45a0f",
+    "chunks_list": []
+  },
+  "doc-193d29bedab9bb0491791d15ed3cce20": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input describes a kitchen environment with specific objects present in and around the sink. The objects include a power drill, a small purple object, a yellow rubber duck, a banana peel, an orange cup, a sponge, and a blue...",
+    "content_length": 4785,
+    "created_at": "2026-03-05T09:02:25.464224+00:00",
+    "updated_at": "2026-03-05T09:02:25.464231+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_3b693f28",
+    "chunks_list": []
+  },
+  "doc-842e2fbd96c01331a0e8b984f377b9eb": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content:** The input contains several new concepts related to the objects on the kitchen counter, including a pear, a hammer, a wrench, and a robotic arm. Each object has specific characteristics that can be recorded in the semantic memo...",
+    "content_length": 3635,
+    "created_at": "2026-03-05T09:02:25.467091+00:00",
+    "updated_at": "2026-03-05T09:02:25.467097+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_116a5ee6",
+    "chunks_list": []
+  },
+  "doc-fcc62d13e4271cfab3b042fbaf82ff07": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** The input describes a kitchen environment with specific objects and a robotic arm. It provides details about the appearance and potential functions of these objects, as well as their spatial relationships.\n...",
+    "content_length": 3690,
+    "created_at": "2026-03-05T09:02:25.470111+00:00",
+    "updated_at": "2026-03-05T09:02:25.470118+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_c47ffd2d",
+    "chunks_list": []
+  },
+  "doc-91f43fc8a040da99c992aca0c6fa2b9e": {
+    "status": "pending",
+    "content_summary": "### Memory Update\n\n**Name:** Sofa  \n**Summary:** The sofa is a grey indoor seating furniture designed for two or more people, characterized by a simple design with straight lines.  \n**Details:**  \n1. **Concept:** Indoor furniture primarily used for s...",
+    "content_length": 2727,
+    "created_at": "2026-03-05T09:02:25.472946+00:00",
+    "updated_at": "2026-03-05T09:02:25.472952+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_c26d2c70",
+    "chunks_list": []
+  },
+  "doc-8f4c84367056eb7ea93f9e283bfd049a": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** The input describes the interior of a refrigerator, focusing on its textured surface and design features. There are no specific objects or actions mentioned beyond the observation of the environment.\n\n2. **...",
+    "content_length": 1513,
+    "created_at": "2026-03-05T09:02:25.475886+00:00",
+    "updated_at": "2026-03-05T09:02:25.475892+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_5477ae90",
+    "chunks_list": []
+  },
+  "doc-5b0b76960b97861a35c90e0b690109b9": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content:** The input provides a description of a kitchen environment, identifying several objects (a robotic arm, a piece of butter or cheese, a strawberry, and a spatula) as well as contextual information about their placement and the s...",
+    "content_length": 3975,
+    "created_at": "2026-03-05T09:02:25.478912+00:00",
+    "updated_at": "2026-03-05T09:02:25.478918+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_373347c0",
+    "chunks_list": []
+  },
+  "doc-1f47b87b4b95fbe187651b52c3814eca": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content:** The input provides a detailed description of objects on a kitchen counter, specifically a pear and a hammer. It also describes a robotic arm. These elements contain new information that can enrich the semantic memory.\n\n2. **De...",
+    "content_length": 4262,
+    "created_at": "2026-03-05T09:02:25.482013+00:00",
+    "updated_at": "2026-03-05T09:02:25.482020+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_552a0117",
+    "chunks_list": []
+  },
+  "doc-1c3bd83c5c76549d80af5d2102523481": {
+    "status": "pending",
+    "content_summary": "Based on the provided query and image description, I will create a comprehensive semantic memory update that includes new entries for the objects identified in the kitchen environment.\n\n### Semantic Memory Update:\n\n1. **Entry for Butter**\n   - **Name...",
+    "content_length": 4615,
+    "created_at": "2026-03-05T09:02:25.485066+00:00",
+    "updated_at": "2026-03-05T09:02:25.485072+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_20afcc68",
+    "chunks_list": []
+  },
+  "doc-4ea86f0bfeefa7977bc448ade9f1a3f9": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:**\n   The input describes a room with several notable objects, including a robotic arm, a spherical object, an armchair, and a floor mat. The image captures the arrangement and spatial relationships of these o...",
+    "content_length": 3255,
+    "created_at": "2026-03-05T09:02:25.488184+00:00",
+    "updated_at": "2026-03-05T09:02:25.488189+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_8a5d2a79",
+    "chunks_list": []
+  },
+  "doc-19fb3cc3eec9e39e0a037a43b76be742": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content:** The incoming message describes a kitchen environment with several distinct objects visible, including a strawberry, a rectangular yellow item (butter or cheese), a blue robotic arm, and a black spatula. Each item has specific ...",
+    "content_length": 3110,
+    "created_at": "2026-03-05T09:02:25.491256+00:00",
+    "updated_at": "2026-03-05T09:02:25.491263+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_e09d4220",
+    "chunks_list": []
+  },
+  "doc-04283076125108b1003b3957a7716a63": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:**\n   In the provided content, there is no new concept or general knowledge identified that pertains to broader abstract understanding. The analysis includes the description of an image that depicts a textured...",
+    "content_length": 1033,
+    "created_at": "2026-03-05T09:02:25.494266+00:00",
+    "updated_at": "2026-03-05T09:02:25.494273+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_fe14901e",
+    "chunks_list": []
+  },
+  "doc-282928eba937a43b10c0f939440401f7": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input contains a detailed description of a kitchen environment with various objects on the countertop, including a block of butter, a strawberry, a spatula, and a robotic arm. Each object has specific characteristics that ...",
+    "content_length": 3329,
+    "created_at": "2026-03-05T09:02:25.497795+00:00",
+    "updated_at": "2026-03-05T09:02:25.497803+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_2681bd93",
+    "chunks_list": []
+  },
+  "doc-e6fd8274a2d1232f9f77a0ea15e523e9": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The provided input includes an observation of the environment in a kitchen setting, along with detailed descriptions of two objects: a pear and a hammer. A robotic arm is also mentioned in the context of its positioning and po...",
+    "content_length": 2562,
+    "created_at": "2026-03-05T09:02:25.500948+00:00",
+    "updated_at": "2026-03-05T09:02:25.500954+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_44b045f7",
+    "chunks_list": []
+  },
+  "doc-191e598f72ba5bb9098d142aa877c30b": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The image and query provide details about various objects present in the kitchen environment, focusing primarily on a robotic arm, butter, a strawberry, and a spatula. The objects are described in terms of their colors, shapes...",
+    "content_length": 3549,
+    "created_at": "2026-03-05T09:02:25.504182+00:00",
+    "updated_at": "2026-03-05T09:02:25.504189+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_db0a68c5",
+    "chunks_list": []
+  },
+  "doc-0d6484eecdb61dba3e7825ae30415ee7": {
+    "status": "pending",
+    "content_summary": "Analyzing the provided content, the main focus is on a textured surface, described in detail. There are no particular objects to catalog aside from the surface itself. Therefore, I will create a new semantic memory entry based on the described surfac...",
+    "content_length": 1289,
+    "created_at": "2026-03-05T09:02:25.507228+00:00",
+    "updated_at": "2026-03-05T09:02:25.507234+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_911cc1ce",
+    "chunks_list": []
+  },
+  "doc-60fb21a68457f79734302d0fad6e5d13": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analysis of Content**: The provided description contains several new elements related to kitchen objects and features that can be recorded, specifically focusing on the strawberry, the piece of butter or cheese, the sink, and...",
+    "content_length": 3421,
+    "created_at": "2026-03-05T09:02:25.510887+00:00",
+    "updated_at": "2026-03-05T09:02:25.510895+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_2bcf3bcd",
+    "chunks_list": []
+  },
+  "doc-b49dd2520a0dddbb4dcaa4dd60231f9b": {
+    "status": "pending",
+    "content_summary": "### Memory Update\n\n1. **Analyze Content**: The provided query and image detail various objects present on a kitchen counter, specifically identifying a green apple-like object, a hammer, and a robotic arm. These objects represent distinct concepts th...",
+    "content_length": 2481,
+    "created_at": "2026-03-05T09:02:25.514109+00:00",
+    "updated_at": "2026-03-05T09:02:25.514115+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_dce7993d",
+    "chunks_list": []
+  },
+  "doc-c4cf5eab71b78283df8e29f602b2b999": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Name:** Sofa\n   **Summary:** A small, brown sofa situated in a well-lit indoor room, characterized by its soft, cushioned seat and fabric or leather material.\n   **Details:**\n   - **Concept:** Sofa\n   - **Affordances:** Can b...",
+    "content_length": 2418,
+    "created_at": "2026-03-05T09:02:25.517510+00:00",
+    "updated_at": "2026-03-05T09:02:25.517517+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_d77498b5",
+    "chunks_list": []
+  },
+  "doc-35391a4e2ebd59df5086423332d5d61c": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n- **Name:** Orange\n- **Summary:** An orange is a small, round fruit that is bright orange in color. In this instance, it was located on a TV stand in a living room and successfully moved to a sink.\n- **Details:**\n  1. **Concept:**...",
+    "content_length": 3378,
+    "created_at": "2026-03-05T09:02:25.520836+00:00",
+    "updated_at": "2026-03-05T09:02:25.520842+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_8ca15e9c",
+    "chunks_list": []
+  },
+  "doc-607a9f53a0ca2b2b566875369dd490ec": {
+    "status": "pending",
+    "content_summary": "### Memory Update\n\n**Name:** Pear\n\n**Summary:** The pear is a green, medium-sized fruit with a slightly irregular shape, located on a couch in a living room setting.\n\n**Details:**\n1. **Concept:** The pear is a fruit characterized by its green color a...",
+    "content_length": 1136,
+    "created_at": "2026-03-05T09:02:25.524203+00:00",
+    "updated_at": "2026-03-05T09:02:25.524210+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_9bb975bb",
+    "chunks_list": []
+  },
+  "doc-889f0246a6bd818f7dff068464553bcb": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** \n   - The input outlines details about a robotic arm's failed attempt to pick up an orange from a kitchen sink filled with various objects. The orange's position in the sink and the challenges presented by ...",
+    "content_length": 2587,
+    "created_at": "2026-03-05T09:02:25.527644+00:00",
+    "updated_at": "2026-03-05T09:02:25.527652+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_3f9b6866",
+    "chunks_list": []
+  },
+  "doc-95e542c3e2cf3b80c2a386b4d7fe9506": {
+    "status": "pending",
+    "content_summary": "**Semantic Memory Update:**\n\n- **Name**: Toy Airplane  \n  **Summary**: A small model or toy representing an airplane, often used for play or educational purposes.  \n  **Details**:  \n    1. **Concept**: A model or toy that usually represents an aircra...",
+    "content_length": 2529,
+    "created_at": "2026-03-05T09:02:25.531258+00:00",
+    "updated_at": "2026-03-05T09:02:25.531265+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_22d1c552",
+    "chunks_list": []
+  },
+  "doc-b46182a389517b81bcff5fb38132d3ea": {
+    "status": "pending",
+    "content_summary": "Here’s the comprehensive memory update based on the provided information:\n\n1. **Name**: Living Room Environment\n\n2. **Summary**: The living room environment features a modern gray couch, a small table with various items, and an open path leading to a...",
+    "content_length": 1726,
+    "created_at": "2026-03-05T09:02:25.534901+00:00",
+    "updated_at": "2026-03-05T09:02:25.534912+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_ec7d221a",
+    "chunks_list": []
+  },
+  "doc-bccc7a95bec699180dde3a3987d59e0b": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Name:** Plate\n   - **Summary:** A plate is a flat dish typically used for serving or eating food. It can be made from various materials like ceramic, glass, or plastic.\n   - **Details:**\n     1. **Concept:** A plate is usuall...",
+    "content_length": 2548,
+    "created_at": "2026-03-05T09:02:25.538569+00:00",
+    "updated_at": "2026-03-05T09:02:25.538576+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_56d65366",
+    "chunks_list": []
+  },
+  "doc-50ed04d922981d0130e000af0033b0c9": {
+    "status": "pending",
+    "content_summary": "### Memory Update:\n\n1. **Analyzed Content**: The input describes a task involving a robotic arm interacting with a pear and a sofa, as well as details about an indoor setting with notable objects such as a brown sofa, a black spherical object, a robo...",
+    "content_length": 3076,
+    "created_at": "2026-03-05T09:02:25.542292+00:00",
+    "updated_at": "2026-03-05T09:02:25.542299+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_5337b63d",
+    "chunks_list": []
+  },
+  "doc-8e485bfc38ba09c826cac7eb26b98b87": {
+    "status": "pending",
+    "content_summary": "### Memory Update\n\n#### Name:\nOrange on TV Stand\n\n#### Summary:\nAn orange, identified as a small object with a bright hue, was located on a deep blue TV stand within a living space. The task involving its retrieval and movement to the kitchen sink wa...",
+    "content_length": 2119,
+    "created_at": "2026-03-05T09:02:25.545882+00:00",
+    "updated_at": "2026-03-05T09:02:25.545889+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b89d08df",
+    "chunks_list": []
+  },
+  "doc-e546630ed17f52ad48d0a1336f0a17eb": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input messages describe a scene involving a transfer task of a green pear, confirming it as a pear, and includes several visual details of the living room and the involved objects. \n\n2. **Decide what to save**: The informa...",
+    "content_length": 2378,
+    "created_at": "2026-03-05T09:02:25.549337+00:00",
+    "updated_at": "2026-03-05T09:02:25.549343+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_ebac2990",
+    "chunks_list": []
+  },
+  "doc-7cbbce93afed3ffcb65148b3aaee30ab": {
+    "status": "pending",
+    "content_summary": "### Memory Update\n\n**Name:** Orange Object\n\n**Summary:** An orange is a round, typically bright orange fruit that is commonly found on cupboard surfaces or tables in indoor settings.\n\n**Details:**\n1. **Concept:** A fruit characterized by its round sh...",
+    "content_length": 3062,
+    "created_at": "2026-03-05T09:02:25.553064+00:00",
+    "updated_at": "2026-03-05T09:02:25.553071+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_3c2fa5f6",
+    "chunks_list": []
+  },
+  "doc-ca4bc8bccdf736abb2732024b3d6b6b3": {
+    "status": "pending",
+    "content_summary": "**Memory Update**\n\n1. **Concept Name**: Kitchen Counter  \n   **Summary**: The kitchen counter is a dark gray countertop in a kitchen setting where various items are placed.  \n   **Details**:  \n   - **Concept**: Dark gray countertop, spans the length ...",
+    "content_length": 4264,
+    "created_at": "2026-03-05T09:02:25.556701+00:00",
+    "updated_at": "2026-03-05T09:02:25.556708+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_13f7d4e4",
+    "chunks_list": []
+  },
+  "doc-0733565437d07f56a63f574865e32dc5": {
+    "status": "pending",
+    "content_summary": "**Memory Update**\n\n1. **Analyze Content**: \n   - The task involved closing an open refrigerator door, with successful execution noted. The initial environment was a living room with specific furniture details (rug, armchairs, blue table, plant, cabin...",
+    "content_length": 2365,
+    "created_at": "2026-03-05T09:02:25.560241+00:00",
+    "updated_at": "2026-03-05T09:02:25.560248+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_d7d6bb84",
+    "chunks_list": []
+  },
+  "doc-6b9e0b05991de9937fe35bfd38dcb802": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content**: The provided input includes several observations of a room environment and specific objects within it, such as furniture and a robotic arm. No new concepts or persons are introduced, but the detailed descri...",
+    "content_length": 1746,
+    "created_at": "2026-03-05T09:02:25.563968+00:00",
+    "updated_at": "2026-03-05T09:02:25.563974+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_70f15de9",
+    "chunks_list": []
+  },
+  "doc-83791e02fffc409681757eddcca76382": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:**\n   - New objects identified in a kitchen scene: a robotic arm, a piece of butter, a strawberry, and a spatula.\n   - Details regarding their size, colors, and spatial arrangement were provided.\n\n2. **Decide ...",
+    "content_length": 3076,
+    "created_at": "2026-03-05T09:02:25.567791+00:00",
+    "updated_at": "2026-03-05T09:02:25.567798+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_1ba2eaab",
+    "chunks_list": []
+  },
+  "doc-894e51b179dc3786ecfcad07007e4b1b": {
+    "status": "pending",
+    "content_summary": "**Single Memory Update:**\n\n1. **Analyze content:** The provided description mentions various objects in a kitchen-like environment, including a wrench, kitchen sink, fruits, vegetables, and a robotic arm. This information represents new entities that...",
+    "content_length": 3744,
+    "created_at": "2026-03-05T09:02:25.571446+00:00",
+    "updated_at": "2026-03-05T09:02:25.571460+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_9136d2bd",
+    "chunks_list": []
+  },
+  "doc-4ea0fff769b2e979e46cfd9106d4e1d4": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The provided input describes two objects (a pear and a hammer) and a human-like/robotic arm in a specific spatial relationship on a countertop. There’s no new concept to record about the human-like figure beyond it being descr...",
+    "content_length": 3541,
+    "created_at": "2026-03-05T09:02:25.575299+00:00",
+    "updated_at": "2026-03-05T09:02:25.575307+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_8b58d98c",
+    "chunks_list": []
+  },
+  "doc-4a33ad67667853c31418ab82889e1e1b": {
+    "status": "pending",
+    "content_summary": "### Memory Update\n\n**Name:** Robotic Arm  \n**Summary:** A robotic arm is a mechanical device designed to manipulate objects, often characterized by its articulated sections that allow for movement.  \n**Details:**\n  - **Concept:** A robotic arm, color...",
+    "content_length": 2202,
+    "created_at": "2026-03-05T09:02:25.578986+00:00",
+    "updated_at": "2026-03-05T09:02:25.578992+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_ae6dee41",
+    "chunks_list": []
+  },
+  "doc-190d1533c028b5cfd94454048dad252c": {
+    "status": "pending",
+    "content_summary": "Based on the input provided, I will create a new entry in the semantic memory regarding the abstract image described and its components. \n\n### Semantic Memory Entry:\n\n**Name:** Abstract Vertical Structure\n\n**Summary:** An abstract image depicting a l...",
+    "content_length": 1207,
+    "created_at": "2026-03-05T09:02:25.583077+00:00",
+    "updated_at": "2026-03-05T09:02:25.583085+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_91ea7ce7",
+    "chunks_list": []
+  },
+  "doc-c10aba4bbd02e73bbafcb2fd810f9998": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:** The provided information presents details about an interior environment featuring a robotic arm and a chair-like object. Key elements include the colors, materials, and spatial relationships of these compon...",
+    "content_length": 2317,
+    "created_at": "2026-03-05T09:02:25.586749+00:00",
+    "updated_at": "2026-03-05T09:02:25.586755+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_de17c016",
+    "chunks_list": []
+  },
+  "doc-2807ce2efcc2d6149fd67737e5587c99": {
+    "status": "pending",
+    "content_summary": "**Single Memory Update:**\n\n1. **Analyze Content:**\n   The incoming message includes an image description of a kitchen countertop with several notable objects. New concepts identified for the semantic memory include:\n   - Strawberry\n   - Spatula\n   - ...",
+    "content_length": 3145,
+    "created_at": "2026-03-05T09:02:25.590423+00:00",
+    "updated_at": "2026-03-05T09:02:25.590430+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_847ef418",
+    "chunks_list": []
+  },
+  "doc-ddc5f0966c1173fb9dc699dcc5a35590": {
+    "status": "pending",
+    "content_summary": "Here is the comprehensive semantic memory update based on the provided input:\n\n1. **Analyze content:**\n   - The input provides detailed observations of a kitchen environment, including descriptions of specific objects like a wrench, sink, vegetables,...",
+    "content_length": 2891,
+    "created_at": "2026-03-05T09:02:25.594204+00:00",
+    "updated_at": "2026-03-05T09:02:25.594214+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_eb3e6050",
+    "chunks_list": []
+  },
+  "doc-61f51a50808e472c1e342033e522e690": {
+    "status": "pending",
+    "content_summary": "### Semantic Memory Update\n\n**Name**: Green Pear  \n**Summary**: A green pear is a small fruit characterized by its typical pear shape, with a wider base that tapers towards the top.  \n**Details**:  \n1. **Concept**: A green pear is a type of fruit kno...",
+    "content_length": 2385,
+    "created_at": "2026-03-05T09:02:25.598086+00:00",
+    "updated_at": "2026-03-05T09:02:25.598102+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_65c43ffc",
+    "chunks_list": []
+  },
+  "doc-cfb3c6fa3796bc522208d109471ca985": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input describes a composite scene with detailed observations of several objects. Key concepts to be recorded include \"robotic arm,\" \"green pear,\" and \"claw hammer.\" Each object has specific attributes, including appearance...",
+    "content_length": 2976,
+    "created_at": "2026-03-05T09:02:25.601953+00:00",
+    "updated_at": "2026-03-05T09:02:25.601960+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_3a6552f8",
+    "chunks_list": []
+  },
+  "doc-d4c58cfae8ce6565848740e41b83d48a": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input contains an abstract description of an environment that consists of two vertical elements with distinct textures and colors. However, there's no specific new concept that relates to the user or assistant's previous i...",
+    "content_length": 650,
+    "created_at": "2026-03-05T09:02:25.605674+00:00",
+    "updated_at": "2026-03-05T09:02:25.605681+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_8a523753",
+    "chunks_list": []
+  },
+  "doc-c651a0e3056654de410cee9100331af6": {
+    "status": "pending",
+    "content_summary": "### Semantic Memory Update\n\n**Name:** Chair  \n**Summary:** A curved, beige-colored chair with a smooth surface, suggesting a plush texture.  \n**Details:**  \n- **Concept:** This chair is curved, has a beige color, and features a smooth surface that in...",
+    "content_length": 1640,
+    "created_at": "2026-03-05T09:02:25.609354+00:00",
+    "updated_at": "2026-03-05T09:02:25.609367+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b60af962",
+    "chunks_list": []
+  },
+  "doc-c97b6ebfa7e0b37e0577457d045a55bc": {
+    "status": "pending",
+    "content_summary": "**Single Update Process:**\n\n1. **Analyze Content**: \n   - The messages provide observations of an indoor environment, specifically detailing furniture and objects present on a table, a robotic arm, and the general layout of the space. Several objects...",
+    "content_length": 3565,
+    "created_at": "2026-03-05T09:02:25.613223+00:00",
+    "updated_at": "2026-03-05T09:02:25.613229+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_3722b5f0",
+    "chunks_list": []
+  },
+  "doc-3ec6b5c4104433936260fcbae6dc959e": {
+    "status": "pending",
+    "content_summary": "### Memory Update\n\n1. **Analysis of Content**:\n   - The input describes a tabletop scene containing various objects, including a yellow toy car, a red party hat, an orange ball, a metallic tool, a blue robotic arm, a multi-colored cube, a red plate, ...",
+    "content_length": 5088,
+    "created_at": "2026-03-05T09:02:25.617419+00:00",
+    "updated_at": "2026-03-05T09:02:25.617427+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_269d5946",
+    "chunks_list": []
+  },
+  "doc-77b7befda35befcb26d2d3f894305445": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input includes a detailed image description that introduces new objects and their attributes. The key objects identified are a robotic arm, a blue flat surface, a yellow object with red patches, a red irregularly shaped ob...",
+    "content_length": 3561,
+    "created_at": "2026-03-05T09:02:25.621674+00:00",
+    "updated_at": "2026-03-05T09:02:25.621681+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_dcb1bd0a",
+    "chunks_list": []
+  },
+  "doc-e3bb1e97f2f192a5da396b1cea2f1e3b": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **New Concept:** Kitchen Sink Area\n   - **Summary:** The kitchen sink area is characterized by a centrally located sink that holds various objects, providing functionality for washing and preparing items in a kitchen environmen...",
+    "content_length": 5582,
+    "created_at": "2026-03-05T09:02:25.625872+00:00",
+    "updated_at": "2026-03-05T09:02:25.625879+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_c86253e8",
+    "chunks_list": []
+  },
+  "doc-a43c0038cb33aa953ea92fe00f539c77": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input describes a kitchen counter with various identifiable objects: a pear, a hammer, a wrench, and a robotic arm. Key attributes such as color, position, and materials are noted, which will be useful in creating detailed...",
+    "content_length": 3149,
+    "created_at": "2026-03-05T09:02:25.629707+00:00",
+    "updated_at": "2026-03-05T09:02:25.629712+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_1f621c83",
+    "chunks_list": []
+  },
+  "doc-91704b2974dfe887dc964702675320e7": {
+    "status": "pending",
+    "content_summary": "Based on the provided information, I will create semantic memory entries for the various objects mentioned in the kitchen scene.\n\n### 1. Stick of Butter\n- **Name**: Stick of Butter\n- **Summary**: A small, rectangular block of butter characterized by ...",
+    "content_length": 2991,
+    "created_at": "2026-03-05T09:02:25.634201+00:00",
+    "updated_at": "2026-03-05T09:02:25.634209+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_bdd5f3a0",
+    "chunks_list": []
+  },
+  "doc-f3c1375b13ddcfdfc4d020fb76384d5d": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content:** The input describes various objects in an indoor setting, notably a gray sofa, a robotic arm, and some additional items on or around the sofa. These elements help in defining specific concepts that can be documented in the sem...",
+    "content_length": 3999,
+    "created_at": "2026-03-05T09:02:25.638310+00:00",
+    "updated_at": "2026-03-05T09:02:25.638317+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_bb073be3",
+    "chunks_list": []
+  },
+  "doc-bc53b708e0daa9c648fec7d7814e1961": {
+    "status": "pending",
+    "content_summary": "Analyzing the provided input, I identify a new conceptual entry related to the surface material observed in the image. Here is a comprehensive memory update based on the information:\n\n**Name:** Wood-Laminate Surface\n\n**Summary:** A wood-laminate surf...",
+    "content_length": 1228,
+    "created_at": "2026-03-05T09:02:25.642249+00:00",
+    "updated_at": "2026-03-05T09:02:25.642255+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_46d5c122",
+    "chunks_list": []
+  },
+  "doc-d518b76528dec9a818e598d9519f9420": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:**\n   New information has been identified regarding the kitchen environment, including a robotic arm, cheese, a strawberry, and a utensil. Key attributes such as colors, shapes, and spatial arrangements are ex...",
+    "content_length": 2923,
+    "created_at": "2026-03-05T09:02:25.646160+00:00",
+    "updated_at": "2026-03-05T09:02:25.646166+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_d6257006",
+    "chunks_list": []
+  },
+  "doc-d801d05e69f4776674c9eeff32e1415c": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:**\n   From the provided image description and user query, we can extract two significant new concepts: a \"green pear\" and a \"hammer.\" Additionally, the environment being described as a kitchen countertop setti...",
+    "content_length": 2164,
+    "created_at": "2026-03-05T09:02:25.650135+00:00",
+    "updated_at": "2026-03-05T09:02:25.650142+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_b8d33a69",
+    "chunks_list": []
+  },
+  "doc-a72608daa69553f2bd7580d72ef3f276": {
+    "status": "pending",
+    "content_summary": "**Semantic Memory Update**\n\n1. **Analyze content**: The input includes observations and descriptions about a kitchen workspace featuring various objects such as a robotic arm, cheese/butter, a strawberry, and a spatula. Each object has distinct chara...",
+    "content_length": 3817,
+    "created_at": "2026-03-05T09:02:25.654220+00:00",
+    "updated_at": "2026-03-05T09:02:25.654226+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_a3119ad8",
+    "chunks_list": []
+  },
+  "doc-fd46b2147100e03f5fba63a01ed56378": {
+    "status": "pending",
+    "content_summary": "### Semantic Memory Update\n\n#### Entry Creation\n\n**Name:** Robotic Arm  \n**Summary:** A blue and white robotic arm, part of an indoor living space setup, positioned on a wooden counter.  \n**Details:**  \n1. **Concept:** A mechanical arm designed for m...",
+    "content_length": 3591,
+    "created_at": "2026-03-05T09:02:25.658221+00:00",
+    "updated_at": "2026-03-05T09:02:25.658226+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_0544b864",
+    "chunks_list": []
+  },
+  "doc-c154e4c7b8608db1a00c46457ff956f3": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:** The input describes a failed task involving a spatula, its interaction with a robotic arm, and a detailed environmental description of a living area. This presents new insights related to the spatula, robot...",
+    "content_length": 3411,
+    "created_at": "2026-03-05T09:02:25.662494+00:00",
+    "updated_at": "2026-03-05T09:02:25.662501+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_fe27ee97",
+    "chunks_list": []
+  },
+  "doc-ac88e7624d72a183b4aa96fb7a5fd8cf": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** The input describes an indoor environment with various objects, including a robotic arm, a spatula, a bicycle, a sofa, and a table with assorted items. The task involves moving a spatula, which is a new con...",
+    "content_length": 2014,
+    "created_at": "2026-03-05T09:02:25.666626+00:00",
+    "updated_at": "2026-03-05T09:02:25.666632+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_8a92a8e7",
+    "chunks_list": []
+  },
+  "doc-f48f3a35cb5c6244f3f99abb6e97b4ac": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The messages describe a task involving a spatula, details about an indoor setting, and the current state of various objects in that environment. The spatula is identified as a utensil that can be manipulated, indicating its fu...",
+    "content_length": 3060,
+    "created_at": "2026-03-05T09:02:25.671275+00:00",
+    "updated_at": "2026-03-05T09:02:25.671281+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_3d890810",
+    "chunks_list": []
+  },
+  "doc-ff19d1455befb4bd03990a913dbb67f9": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** The provided query and image description give insights into the environment, including various objects and their arrangements. Notably, the task involves moving a screwdriver, and several objects in the env...",
+    "content_length": 2085,
+    "created_at": "2026-03-05T09:02:25.675430+00:00",
+    "updated_at": "2026-03-05T09:02:25.675436+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_db668451",
+    "chunks_list": []
+  },
+  "doc-5577703269f1bf120829de56fbabfe5f": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input message introduces the concept of a sink as the right receptacle on the left counter. It mentions affordances related to the sink, specifically that one can put things in it.\n\n2. **Decide what to save**: The followin...",
+    "content_length": 1854,
+    "created_at": "2026-03-05T09:02:25.679782+00:00",
+    "updated_at": "2026-03-05T09:02:25.679790+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_cf4f152c",
+    "chunks_list": []
+  },
+  "doc-1c3cf963e7cbc4e1f82f8738132be93d": {
+    "status": "pending",
+    "content_summary": "No new semantic content identified; leaving semantic memory unchanged.",
+    "content_length": 70,
+    "created_at": "2026-03-05T09:02:25.684100+00:00",
+    "updated_at": "2026-03-05T09:02:25.684108+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_c5e7a2d9",
+    "chunks_list": []
+  },
+  "doc-78d90ef3be6b6a17663a5c4154ca41c5": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The statement identifies \"kitchen sink\" as a receptacle, indicating its function as a container or holder. \n\n2. **Decide what to save**: This entry can enhance the understanding of the concept of a kitchen sink as it specifies...",
+    "content_length": 1321,
+    "created_at": "2026-03-05T09:02:25.688440+00:00",
+    "updated_at": "2026-03-05T09:02:25.688446+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_a042fa2c",
+    "chunks_list": []
+  },
+  "doc-dc99d892efd052f951bf716a361f6e66": {
+    "status": "pending",
+    "content_summary": "1. **Analyze content**: The input provides a scene description with key objects in a domestic setting and a query regarding moving a spatula. There are mentions of various objects including a robotic arm, a bowl of fruit, an exercise ball, a bicycle,...",
+    "content_length": 5418,
+    "created_at": "2026-03-05T09:02:25.692881+00:00",
+    "updated_at": "2026-03-05T09:02:25.692887+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_6b7bdf41",
+    "chunks_list": []
+  },
+  "doc-4619d2271c0d81fb7a328d46c8e74e35": {
+    "status": "pending",
+    "content_summary": "**Memory Update**\n\n1. **Analyze content:** Multiple concepts and details are presented in the input regarding a spatula as a kitchen tool, a task involved with picking it up, and various objects within an indoor living space.\n\n2. **Decide what to sav...",
+    "content_length": 3600,
+    "created_at": "2026-03-05T09:02:25.697320+00:00",
+    "updated_at": "2026-03-05T09:02:25.697325+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170225_c7bb764e",
+    "chunks_list": []
+  },
+  "doc-3b14163a5d85859974294c0ee27276d3": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a spatula from the right counter to the left receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Move a spatula from the right counter to the right rec...",
+    "content_length": 1647,
+    "created_at": "2026-03-05T09:03:41.264578+00:00",
+    "updated_at": "2026-03-05T09:03:41.264582+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170341_b1dbfb04",
+    "chunks_list": []
+  },
+  "doc-bf0f345c2e1730c419616d51ac6e64a4": {
+    "status": "pending",
+    "content_summary": "**Semantic Memory Update**\n\n1. **Analyze content:** The input describes an indoor environment with specific furniture and objects, including a robotic arm, tables, fruit bowl, exercise ball, bicycle, sofa, and a plant. A task involving the movement o...",
+    "content_length": 4696,
+    "created_at": "2026-03-05T09:03:41.337473+00:00",
+    "updated_at": "2026-03-05T09:03:41.337478+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_170341_b3b130be",
+    "chunks_list": []
+  },
+  "doc-2ca02601b01345f55fe9603806f1e9fd": {
+    "status": "pending",
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task started to move a spatula from the right counter to the left receptacle.\",\n    \"details\": {\n        \"Task goal(s)\": \"Move a spatula from the right counter to the right re...",
+    "content_length": 1702,
+    "created_at": "2026-03-05T09:11:53.872894+00:00",
+    "updated_at": "2026-03-05T09:11:53.872897+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_171153_a1d5b5c7",
+    "chunks_list": []
+  },
+  "doc-206cd5f2cfbadf4a4f2b5df376bb950e": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:**\n   - The incoming information references a task regarding a spatula and describes an indoor environment with various objects. The robotic arm attached to a wooden counter is a significant element in the con...",
+    "content_length": 2611,
+    "created_at": "2026-03-05T09:11:53.945592+00:00",
+    "updated_at": "2026-03-05T09:11:53.945595+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_171153_fce80b28",
+    "chunks_list": []
+  },
+  "doc-12aa825f07fa12e3492e65c5a6deff3b": {
+    "status": "pending",
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"action_execution\",\n            \"failure_outcome\"\n        ],\n        \"summary\": \"Task to move spatula failed due to incorrect placement attempts.\",\n        \"details\": {\n ...",
+    "content_length": 1834,
+    "created_at": "2026-03-05T09:14:57.547914+00:00",
+    "updated_at": "2026-03-05T09:14:57.547919+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_171457_751ef2f8",
+    "chunks_list": []
+  },
+  "doc-258a4b75fba6931f4ff9e15f98a79ce8": {
+    "status": "pending",
+    "content_summary": "**Memory Update:**\n\n1. **Name:** Spatula Placement Task  \n   **Summary:** The task of moving a spatula from the right counter to the right receptacle of the left counter failed due to miscommunication and incorrect placement attempts.  \n   **Details:...",
+    "content_length": 5088,
+    "created_at": "2026-03-05T09:14:57.617053+00:00",
+    "updated_at": "2026-03-05T09:14:57.617057+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_171457_608eefc8",
+    "chunks_list": []
+  }
+}

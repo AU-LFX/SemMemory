@@ -27,12 +27,12 @@ from embodiedbench.envs.eb_alfred.gen import constants
 from embodiedbench.main import logger
 
 # global information
-X_DISPLAY = '1'
+X_DISPLAY = '0'
 ALFRED_SPLIT_PATH = os.path.join(os.path.dirname(__file__), 'data/splits/splits.json')
 ALFRED_REWARD_PATH = os.path.join(os.path.dirname(__file__), 'models/config/rewards.json')
 ALFRED_DATASET_PATH = os.path.join(os.path.dirname(__file__), 'data/json_2.1.0')
 ValidEvalSets = [
-    'base', 'common_sense', 'complex_instruction', 'spatial', 
+    'common_sense', 'complex_instruction', 'spatial','base',
     'visual_appearance', 'long_horizon'
     ]
 
@@ -118,7 +118,7 @@ class EBAlfEnv(gym.Env):
         self.selected_indexes = selected_indexes
         self._initial_episode_num = 0
         self._current_step = 0
-        self._max_episode_steps = 30
+        self._max_episode_steps = 25
         self._cur_invalid_actions = 0
         self._max_invalid_actions = 10
         self._episode_start_time = 0
@@ -413,7 +413,7 @@ if __name__ == "__main__":
     Example usage of the EBAlfEnv environment.
     Demonstrates environment interaction with random actions.
     """
-    env = EBAlfEnv(eval_set='base', down_sample_ratio=1.0, selected_indexes=[])
+    env = EBAlfEnv(eval_set='common_sense', down_sample_ratio=1.0, selected_indexes=[])
     env.reset()
     print([(i, name) for i, name in enumerate(env.language_skill_set)])
     for _ in range(30):

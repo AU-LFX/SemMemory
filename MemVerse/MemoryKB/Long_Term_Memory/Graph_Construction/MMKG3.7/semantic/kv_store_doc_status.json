@@ -1,0 +1,1053 @@
+{
+  "doc-5b177bd9c702eeed3f097f492ce125d4": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5b177bd9c702eeed3f097f492ce125d4"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task to move spatula initiated; environment observed.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Move a spatula from the right count...",
+    "content_length": 1990,
+    "created_at": "2026-03-06T10:11:04.770510+00:00",
+    "updated_at": "2026-03-06T10:11:35.394088+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181104_224d3384",
+    "metadata": {
+      "processing_start_time": 1772791864,
+      "processing_end_time": 1772791895
+    }
+  },
+  "doc-0346d8a26b63afee1c369808a8fc2e6b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0346d8a26b63afee1c369808a8fc2e6b"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Agent navigated to the cabinet and is observing the workspace environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"...",
+    "content_length": 2141,
+    "created_at": "2026-03-06T10:11:35.500145+00:00",
+    "updated_at": "2026-03-06T10:12:06.260491+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181135_66cd722d",
+    "metadata": {
+      "processing_start_time": 1772791895,
+      "processing_end_time": 1772791926
+    }
+  },
+  "doc-dda92007452858ad56b7b9efe42feda0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dda92007452858ad56b7b9efe42feda0"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Navigated to the kitchen cabinet and observed environmental context.\",\n    \"details\": {\n        \"Task goal\": \"Observe environment after navigating to cabinet 6.\",\n        \"Environment context...",
+    "content_length": 2051,
+    "created_at": "2026-03-06T10:12:06.393912+00:00",
+    "updated_at": "2026-03-06T10:12:33.576306+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181206_028354c0",
+    "metadata": {
+      "processing_start_time": 1772791926,
+      "processing_end_time": 1772791953
+    }
+  },
+  "doc-a560004a654689859efd2f3eb3e3dde2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a560004a654689859efd2f3eb3e3dde2"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to cabinet 5 and observed the tabletop scene.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to cabinet 5 to possibly interact with objects on ...",
+    "content_length": 2157,
+    "created_at": "2026-03-06T10:12:33.677192+00:00",
+    "updated_at": "2026-03-06T10:13:03.282904+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181233_e18aff97",
+    "metadata": {
+      "processing_start_time": 1772791953,
+      "processing_end_time": 1772791983
+    }
+  },
+  "doc-40e2325f019dbb8959a980621cfad27b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-40e2325f019dbb8959a980621cfad27b"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\"task_request\", \"perception_update\"],\n        \"summary\": \"Navigated to cabinet 4; observing objects on the table.\",\n        \"details\": {\n            \"Task goal(s) and any constraints\": \"Navigate to cabinet 4 and...",
+    "content_length": 1469,
+    "created_at": "2026-03-06T10:13:03.381850+00:00",
+    "updated_at": "2026-03-06T10:13:25.899403+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181303_4e3d5925",
+    "metadata": {
+      "processing_start_time": 1772791983,
+      "processing_end_time": 1772792005
+    }
+  },
+  "doc-097412cc0a54f794b291851c841a4749": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-097412cc0a54f794b291851c841a4749"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Agent navigated to the refrigerator push point and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the refrigerator a...",
+    "content_length": 1087,
+    "created_at": "2026-03-06T10:13:26.030390+00:00",
+    "updated_at": "2026-03-06T10:13:47.834260+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181326_4508562f",
+    "metadata": {
+      "processing_start_time": 1772792006,
+      "processing_end_time": 1772792027
+    }
+  },
+  "doc-4920e25d5550d43da37f4ad991763d53": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4920e25d5550d43da37f4ad991763d53"
+    ],
+    "content_summary": "```json\n{\n  \"event_type\": [\n    \"task_request\",\n    \"perception_update\"\n  ],\n  \"summary\": \"Navigated to the chair for environmental observation.\",\n  \"details\": {\n    \"Task goal(s) and constraints\": \"Navigate to the chair and observe the environment.\"...",
+    "content_length": 1407,
+    "created_at": "2026-03-06T10:13:47.932553+00:00",
+    "updated_at": "2026-03-06T10:14:12.429919+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181347_542b4efe",
+    "metadata": {
+      "processing_start_time": 1772792027,
+      "processing_end_time": 1772792052
+    }
+  },
+  "doc-92bc621a3df266b608ebce14885dd48a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-92bc621a3df266b608ebce14885dd48a"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Agent observed a cluttered table with various items present.\",\n    \"details\": {\n        \"Task goal\": \"N/A\",\n        \"Environment context\": \"table, workspace/testing ground\",\n   ...",
+    "content_length": 2121,
+    "created_at": "2026-03-06T10:14:12.530561+00:00",
+    "updated_at": "2026-03-06T10:14:34.661545+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181412_b7d96b0b",
+    "metadata": {
+      "processing_start_time": 1772792052,
+      "processing_end_time": 1772792074
+    }
+  },
+  "doc-7615ee39a7dcc2f78b47dcf3279ccf69": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7615ee39a7dcc2f78b47dcf3279ccf69"
+    ],
+    "content_summary": "{\n  \"event_type\": [\n    \"perception_update\",\n    \"action_execution\"\n  ],\n  \"summary\": \"Navigated to the table and observed the environment.\",\n  \"details\": {\n    \"Task goal(s)\": \"Navigate to the table and assess the surroundings.\",\n    \"Environment co...",
+    "content_length": 2217,
+    "created_at": "2026-03-06T10:14:34.758186+00:00",
+    "updated_at": "2026-03-06T10:15:00.184139+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181434_fe362ad4",
+    "metadata": {
+      "processing_start_time": 1772792074,
+      "processing_end_time": 1772792100
+    }
+  },
+  "doc-38ccd6dfd0fcddbc729055f4e72b6d83": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-38ccd6dfd0fcddbc729055f4e72b6d83"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the TV stand and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"To navigate to the TV sta...",
+    "content_length": 1839,
+    "created_at": "2026-03-06T10:15:00.321111+00:00",
+    "updated_at": "2026-03-06T10:15:27.372736+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181500_688b315d",
+    "metadata": {
+      "processing_start_time": 1772792100,
+      "processing_end_time": 1772792127
+    }
+  },
+  "doc-c0ec9dcfeb19bed9806bfb75df7690b5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c0ec9dcfeb19bed9806bfb75df7690b5"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"The agent observed the kitchen environment around the sink.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"kitchen area, c...",
+    "content_length": 2955,
+    "created_at": "2026-03-06T10:15:27.471640+00:00",
+    "updated_at": "2026-03-06T10:15:55.416553+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181527_2403016c",
+    "metadata": {
+      "processing_start_time": 1772792127,
+      "processing_end_time": 1772792155
+    }
+  },
+  "doc-46b8bec512e66c10bb444d98a778ef58": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-46b8bec512e66c10bb444d98a778ef58"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"perception_update\"\n        ],\n        \"summary\": \"Agent observed the kitchen counter environment with various objects present.\",\n        \"details\": {\n            \"Task goal(s) and any constraints\":...",
+    "content_length": 2365,
+    "created_at": "2026-03-06T10:15:55.519875+00:00",
+    "updated_at": "2026-03-06T10:16:32.024071+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181555_2b377bdd",
+    "metadata": {
+      "processing_start_time": 1772792155,
+      "processing_end_time": 1772792192
+    }
+  },
+  "doc-5596398bc39ecae6d2e1945b561210e6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5596398bc39ecae6d2e1945b561210e6"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\"perception_update\"],\n        \"summary\": \"Agent observed kitchen countertop environment.\",\n        \"details\": {\n            \"Task goal(s)\": \"Observe the environment in the kitchen.\",\n            \"Environment con...",
+    "content_length": 2161,
+    "created_at": "2026-03-06T10:16:32.152976+00:00",
+    "updated_at": "2026-03-06T10:16:58.075143+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181632_b9115e94",
+    "metadata": {
+      "processing_start_time": 1772792192,
+      "processing_end_time": 1772792218
+    }
+  },
+  "doc-310f6849688d33ba61c420abce867dd3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-310f6849688d33ba61c420abce867dd3"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Agent navigated to the sofa and is observing the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": ...",
+    "content_length": 1190,
+    "created_at": "2026-03-06T10:16:58.181020+00:00",
+    "updated_at": "2026-03-06T10:17:22.273541+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181658_67a7a5aa",
+    "metadata": {
+      "processing_start_time": 1772792218,
+      "processing_end_time": 1772792242
+    }
+  },
+  "doc-c48340266670247fd3888c69349f92bc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c48340266670247fd3888c69349f92bc"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the refrigerator; observed wood textured surface and blue object.\",\n    \"details\": {\n        \"task_goal\": \"Navigate to the refrigerator....",
+    "content_length": 1576,
+    "created_at": "2026-03-06T10:17:22.378464+00:00",
+    "updated_at": "2026-03-06T10:17:44.375059+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181722_f0dc06e2",
+    "metadata": {
+      "processing_start_time": 1772792242,
+      "processing_end_time": 1772792264
+    }
+  },
+  "doc-0520f530a25ab5a14de04f85f67cae84": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0520f530a25ab5a14de04f85f67cae84"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to the left drawer of the kitchen counter and observed the environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Navigate to the left drawer of the kitche...",
+    "content_length": 2161,
+    "created_at": "2026-03-06T10:17:44.514149+00:00",
+    "updated_at": "2026-03-06T10:18:10.526706+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181744_f5a85d18",
+    "metadata": {
+      "processing_start_time": 1772792264,
+      "processing_end_time": 1772792290
+    }
+  },
+  "doc-1db19f6aa429f7512c8421c03370d8b1": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1db19f6aa429f7512c8421c03370d8b1"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Agent navigated to the right drawer of the kitchen counter and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the ri...",
+    "content_length": 1900,
+    "created_at": "2026-03-06T10:18:10.637983+00:00",
+    "updated_at": "2026-03-06T10:18:33.373954+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181810_5be65d79",
+    "metadata": {
+      "processing_start_time": 1772792290,
+      "processing_end_time": 1772792313
+    }
+  },
+  "doc-a063c5252bcc203f152c8d4338ee8af4": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a063c5252bcc203f152c8d4338ee8af4"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Observed the countertop workspace with various tools and objects.\",\n    \"details\": {\n        \"Task goal(s)\": \"N/A given the current context of observation.\",\n        \"Environmen...",
+    "content_length": 1382,
+    "created_at": "2026-03-06T10:18:33.482268+00:00",
+    "updated_at": "2026-03-06T10:19:01.320498+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181833_4fbe78a2",
+    "metadata": {
+      "processing_start_time": 1772792313,
+      "processing_end_time": 1772792341
+    }
+  },
+  "doc-e6e58479d5212a1d63520137dcc062fb": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e6e58479d5212a1d63520137dcc062fb"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task started to move a spatula from the right counter to the right receptacle of the left counter; environment observed.\",\n    \"details\": {\n        \"Task goal\": \"Move ...",
+    "content_length": 2234,
+    "created_at": "2026-03-06T10:19:01.466117+00:00",
+    "updated_at": "2026-03-06T10:19:31.181611+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181901_3a67bf6c",
+    "metadata": {
+      "processing_start_time": 1772792341,
+      "processing_end_time": 1772792371
+    }
+  },
+  "doc-719948bd18c9bdf0dde1938e63ccd374": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-719948bd18c9bdf0dde1938e63ccd374"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"success_outcome\"\n    ],\n    \"summary\": \"Task succeeded in moving the spatula from the right counter but was placed incorrectly at the sink instead of the inten...",
+    "content_length": 2062,
+    "created_at": "2026-03-06T10:19:31.295497+00:00",
+    "updated_at": "2026-03-06T10:19:54.278715+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181931_c4bb0d3c",
+    "metadata": {
+      "processing_start_time": 1772792371,
+      "processing_end_time": 1772792394
+    }
+  },
+  "doc-df04ffa3afd5df47a6f54d8a3fc30c13": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-df04ffa3afd5df47a6f54d8a3fc30c13"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task to move a screwdriver initiated; initial environment observed.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Move a screwdriver from the sofa to the right r...",
+    "content_length": 1228,
+    "created_at": "2026-03-06T10:19:54.390952+00:00",
+    "updated_at": "2026-03-06T10:20:21.919842+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_181954_8dbd24ed",
+    "metadata": {
+      "processing_start_time": 1772792394,
+      "processing_end_time": 1772792421
+    }
+  },
+  "doc-c71c0ad9a647eb2279b55ec73b6f1c61": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c71c0ad9a647eb2279b55ec73b6f1c61"
+    ],
+    "content_summary": "1. \n   (a) event_type: \n      - task_request\n      - action_execution\n      - success_outcome\n   (b) summary: Moved a screwdriver from the sofa to the left counter's receptacle successfully.\n   (c) details: \n      - Task goal: Move a screwdriver from...",
+    "content_length": 4035,
+    "created_at": "2026-03-06T10:20:22.062401+00:00",
+    "updated_at": "2026-03-06T10:20:48.292419+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182022_22d02869",
+    "metadata": {
+      "processing_start_time": 1772792422,
+      "processing_end_time": 1772792448
+    }
+  },
+  "doc-2cd190f719d592d9b0f1509b77990754": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2cd190f719d592d9b0f1509b77990754"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a strawberry from the right counter to the left receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Move a strawberry from the right counter to the rig...",
+    "content_length": 1860,
+    "created_at": "2026-03-06T10:20:48.404629+00:00",
+    "updated_at": "2026-03-06T10:21:05.466890+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182048_ca3ad124",
+    "metadata": {
+      "processing_start_time": 1772792448,
+      "processing_end_time": 1772792465
+    }
+  },
+  "doc-6fa57c865be49ee5edbc8fad39548f9b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6fa57c865be49ee5edbc8fad39548f9b"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"failure_outcome\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Attempted to move a strawberry from the right counter to the left receptacle but failed.\",\n    \"de...",
+    "content_length": 2444,
+    "created_at": "2026-03-06T10:21:05.578526+00:00",
+    "updated_at": "2026-03-06T10:21:27.834071+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182105_07d9c659",
+    "metadata": {
+      "processing_start_time": 1772792465,
+      "processing_end_time": 1772792487
+    }
+  },
+  "doc-5f6e8d68fdac39353f5a045b8d3c104b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5f6e8d68fdac39353f5a045b8d3c104b"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Correction to previous memory about bowl's location.\",\n    \"details\": {\n        \"Task goal(s)\": \"N/A\",\n        \"Environment context\": \"kitchen, left counter\",\n        \"Key objects interacted ...",
+    "content_length": 909,
+    "created_at": "2026-03-06T10:21:27.987907+00:00",
+    "updated_at": "2026-03-06T10:21:47.094393+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182127_d6c5900f",
+    "metadata": {
+      "processing_start_time": 1772792487,
+      "processing_end_time": 1772792507
+    }
+  },
+  "doc-5fc1e464d2bfaba3aa8ba51a0cdf801e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5fc1e464d2bfaba3aa8ba51a0cdf801e"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"action_execution\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Correction of bowl placement from counter to the left drawer.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Place the bowl in the desig...",
+    "content_length": 1409,
+    "created_at": "2026-03-06T10:21:47.210453+00:00",
+    "updated_at": "2026-03-06T10:22:07.119887+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182147_74011553",
+    "metadata": {
+      "processing_start_time": 1772792507,
+      "processing_end_time": 1772792527
+    }
+  },
+  "doc-72ad2634d34d4b3169e1daee0ccd0684": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-72ad2634d34d4b3169e1daee0ccd0684"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task started to find an orange and move it to the right of the sink; initial environment observed.\",\n    \"details\": {\n        \"Task goal(s) and any const...",
+    "content_length": 1403,
+    "created_at": "2026-03-06T10:22:07.236679+00:00",
+    "updated_at": "2026-03-06T10:22:32.480559+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182207_9e976ed6",
+    "metadata": {
+      "processing_start_time": 1772792527,
+      "processing_end_time": 1772792552
+    }
+  },
+  "doc-571e96bf32a8964baf1234f30d1c1cff": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-571e96bf32a8964baf1234f30d1c1cff"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Task failed: Unable to pick up the orange from the left counter.\",\n    \"details\": {\n        \"Task goal\": \"Find an orang...",
+    "content_length": 1531,
+    "created_at": "2026-03-06T10:22:32.625505+00:00",
+    "updated_at": "2026-03-06T10:22:55.867082+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182232_5c776aca",
+    "metadata": {
+      "processing_start_time": 1772792552,
+      "processing_end_time": 1772792575
+    }
+  },
+  "doc-e4720e61af514e95750603be81277843": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e4720e61af514e95750603be81277843"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Updated item presence: Orange found on the left counter.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Correction of previous memory regarding the presence of an orange.\",\n ...",
+    "content_length": 860,
+    "created_at": "2026-03-06T10:22:55.979894+00:00",
+    "updated_at": "2026-03-06T10:23:18.175256+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182255_1982108e",
+    "metadata": {
+      "processing_start_time": 1772792575,
+      "processing_end_time": 1772792598
+    }
+  },
+  "doc-36957565c6ea6fce819a9a9c50ac0a3c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-36957565c6ea6fce819a9a9c50ac0a3c"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a plum from the sofa to the left counter; initial environment observed.\",\n    \"details\": {\n        \"Task goal(s)\": \"Move a plum from the sofa to...",
+    "content_length": 1154,
+    "created_at": "2026-03-06T10:23:18.288417+00:00",
+    "updated_at": "2026-03-06T10:23:44.192573+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182318_20f4c4fa",
+    "metadata": {
+      "processing_start_time": 1772792598,
+      "processing_end_time": 1772792624
+    }
+  },
+  "doc-0d238ffffb9ace2a6de34ecd737f5217": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0d238ffffb9ace2a6de34ecd737f5217"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"action_execution\",\n            \"failure_outcome\"\n        ],\n        \"summary\": \"Goal: Move a plum from the sofa to the right receptacle of the left counter; Outcome: Fai...",
+    "content_length": 3057,
+    "created_at": "2026-03-06T10:23:44.341913+00:00",
+    "updated_at": "2026-03-06T10:24:10.871660+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182344_cb4b6e48",
+    "metadata": {
+      "processing_start_time": 1772792624,
+      "processing_end_time": 1772792650
+    }
+  },
+  "doc-55736c8d325dc4c3842779ee9b5af528": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-55736c8d325dc4c3842779ee9b5af528"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task started to move a hammer from the brown table to the right receptacle of the left counter; initial environment observed.\",\n    \"details\": {\n        ...",
+    "content_length": 1899,
+    "created_at": "2026-03-06T10:24:10.992217+00:00",
+    "updated_at": "2026-03-06T10:24:26.515839+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182410_ea6070b9",
+    "metadata": {
+      "processing_start_time": 1772792650,
+      "processing_end_time": 1772792666
+    }
+  },
+  "doc-6f65f44c022ff5b98bea95e8705e275d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6f65f44c022ff5b98bea95e8705e275d"
+    ],
+    "content_summary": "```json\n{\n  \"event_type\": [\n    \"task_request\",\n    \"action_execution\",\n    \"failure_outcome\"\n  ],\n  \"summary\": \"Failed to move the hammer from the brown table to the right receptacle of the left counter.\",\n  \"details\": {\n    \"task_goal\": \"Move the h...",
+    "content_length": 2227,
+    "created_at": "2026-03-06T10:24:26.632708+00:00",
+    "updated_at": "2026-03-06T10:24:52.561916+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182426_b8f61f1f",
+    "metadata": {
+      "processing_start_time": 1772792666,
+      "processing_end_time": 1772792692
+    }
+  },
+  "doc-ad42ce5da119365a4ac6a1491825ad17": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ad42ce5da119365a4ac6a1491825ad17"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"User requested to bring the plate from the sink, but it was not observed.\",\n    \"details\": {\n        \"Task goal\": \"Bring the plate from the sink to the right of the si...",
+    "content_length": 1107,
+    "created_at": "2026-03-06T10:24:52.712470+00:00",
+    "updated_at": "2026-03-06T10:25:18.570525+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182452_6a166f44",
+    "metadata": {
+      "processing_start_time": 1772792692,
+      "processing_end_time": 1772792718
+    }
+  },
+  "doc-389983d9c79ba67a3f02b0ca39eec644": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-389983d9c79ba67a3f02b0ca39eec644"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"action_execution\", \"failure_outcome\"],\n    \"summary\": \"Attempt to retrieve the target plate from the sink failed due to identification errors.\",\n    \"details\": {\n        \"task_goal\": \"Bring the plate from...",
+    "content_length": 2099,
+    "created_at": "2026-03-06T10:25:18.684659+00:00",
+    "updated_at": "2026-03-06T10:25:40.367061+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182518_718b038b",
+    "metadata": {
+      "processing_start_time": 1772792718,
+      "processing_end_time": 1772792740
+    }
+  },
+  "doc-c77091ba04dfe7fcfdc66f950ba9f0d7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c77091ba04dfe7fcfdc66f950ba9f0d7"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Correction of object identification and manipulation failure regarding the red plate.\",\n    \"details\": {\n        \"Task goa...",
+    "content_length": 1418,
+    "created_at": "2026-03-06T10:25:40.500127+00:00",
+    "updated_at": "2026-03-06T10:26:03.442743+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182540_694e6eba",
+    "metadata": {
+      "processing_start_time": 1772792740,
+      "processing_end_time": 1772792763
+    }
+  },
+  "doc-78be7a978e0dab06a09851577f8d506f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-78be7a978e0dab06a09851577f8d506f"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Correction of spatial information regarding the red plate's location.\",\n    \"details\": {\n        \"Task goal(s)\": \"N/A\",\n        \"Environment context\": \"kitchen, left counter\",\n        \"Key ob...",
+    "content_length": 993,
+    "created_at": "2026-03-06T10:26:03.604796+00:00",
+    "updated_at": "2026-03-06T10:26:28.421405+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182603_89d24df7",
+    "metadata": {
+      "processing_start_time": 1772792763,
+      "processing_end_time": 1772792788
+    }
+  },
+  "doc-17bb74478baff465b6605f81ed8d63ab": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-17bb74478baff465b6605f81ed8d63ab"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task started: Place a sponge and a ball on the right of the sink.\",\n    \"details\": {\n        \"Task goals\": \"Place a sponge and a ball to the right of the...",
+    "content_length": 1280,
+    "created_at": "2026-03-06T10:26:28.537804+00:00",
+    "updated_at": "2026-03-06T10:26:49.219572+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182628_3f59cc1c",
+    "metadata": {
+      "processing_start_time": 1772792788,
+      "processing_end_time": 1772792809
+    }
+  },
+  "doc-2fc77f14a1677f08b51cf57e31a8b703": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2fc77f14a1677f08b51cf57e31a8b703"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"action_execution\",\n            \"failure_outcome\",\n            \"success_outcome\"\n        ],\n        \"summary\": \"Task to place a sponge and a ball on the right of the sink...",
+    "content_length": 4868,
+    "created_at": "2026-03-06T10:26:49.339074+00:00",
+    "updated_at": "2026-03-06T10:27:18.392958+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182649_2d4dd5df",
+    "metadata": {
+      "processing_start_time": 1772792809,
+      "processing_end_time": 1772792838
+    }
+  },
+  "doc-3c62835cef8ac01b41468b9fe340ab03": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3c62835cef8ac01b41468b9fe340ab03"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"failure_outcome\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Failed to pick up the Yellow Sponge multiple times.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Attempt to pick up the Yellow Spong...",
+    "content_length": 1103,
+    "created_at": "2026-03-06T10:27:18.556348+00:00",
+    "updated_at": "2026-03-06T10:27:42.409687+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182718_55065546",
+    "metadata": {
+      "processing_start_time": 1772792838,
+      "processing_end_time": 1772792862
+    }
+  },
+  "doc-5b2b2863f55261b942974a48ea17676b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5b2b2863f55261b942974a48ea17676b"
+    ],
+    "content_summary": "[\n    {\n        \"event_type\": [\"task_request\", \"failure_outcome\"],\n        \"summary\": \"Failed to place Yellow Sponge and Ball to the right of Kitchen Sink.\",\n        \"details\": {\n            \"Task goal(s) and constraints\": \"Place Yellow Sponge and Ba...",
+    "content_length": 1363,
+    "created_at": "2026-03-06T10:27:42.531997+00:00",
+    "updated_at": "2026-03-06T10:28:06.391589+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182742_81a94e4d",
+    "metadata": {
+      "processing_start_time": 1772792862,
+      "processing_end_time": 1772792886
+    }
+  },
+  "doc-1f93dfabfba6dc08423e7935263ea5dc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1f93dfabfba6dc08423e7935263ea5dc"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Received task to transport a padlock to the designated receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Transport the padlock and position it in the designated lef...",
+    "content_length": 1428,
+    "created_at": "2026-03-06T10:28:06.514974+00:00",
+    "updated_at": "2026-03-06T10:28:29.561760+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182806_6a890a97",
+    "metadata": {
+      "processing_start_time": 1772792886,
+      "processing_end_time": 1772792909
+    }
+  },
+  "doc-3cc59ff586b37aeb22c2de5df74900a2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3cc59ff586b37aeb22c2de5df74900a2"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"failure_outcome\", \"perception_update\", \"action_execution\"],\n    \"summary\": \"Transport the padlock failed: unable to pick up the padlock.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Transpo...",
+    "content_length": 1850,
+    "created_at": "2026-03-06T10:28:29.719569+00:00",
+    "updated_at": "2026-03-06T10:28:52.946519+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182829_4c0e7d26",
+    "metadata": {
+      "processing_start_time": 1772792909,
+      "processing_end_time": 1772792932
+    }
+  },
+  "doc-dbcf85a9b7a90233d118a40b1d62cdbb": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dbcf85a9b7a90233d118a40b1d62cdbb"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a lego from right counter to left receptacle; environment observations recorded.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Move a ...",
+    "content_length": 1226,
+    "created_at": "2026-03-06T10:28:53.068317+00:00",
+    "updated_at": "2026-03-06T10:29:18.556325+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182853_2de87d90",
+    "metadata": {
+      "processing_start_time": 1772792933,
+      "processing_end_time": 1772792958
+    }
+  },
+  "doc-982779cc9bf1e20585f6c40a42829cda": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-982779cc9bf1e20585f6c40a42829cda"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Attempted to move a lego from the right counter to the left receptacle but failed to locate the lego.\",\n    \"details\": ...",
+    "content_length": 1602,
+    "created_at": "2026-03-06T10:29:18.688968+00:00",
+    "updated_at": "2026-03-06T10:29:50.821575+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182918_ec31fe78",
+    "metadata": {
+      "processing_start_time": 1772792958,
+      "processing_end_time": 1772792990
+    }
+  },
+  "doc-01ba9d2100125a00942c9ebd15c2b683": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-01ba9d2100125a00942c9ebd15c2b683"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task started to move a clamp from the right counter to the left counter's receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Move a clamp from the right counter to the right...",
+    "content_length": 1868,
+    "created_at": "2026-03-06T10:29:50.979821+00:00",
+    "updated_at": "2026-03-06T10:30:20.286025+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_182950_290abc99",
+    "metadata": {
+      "processing_start_time": 1772792990,
+      "processing_end_time": 1772793020
+    }
+  },
+  "doc-eb89b8013fd047983900fa7088fdb212": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-eb89b8013fd047983900fa7088fdb212"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Failed to place the clamp in the right receptacle of the left counter.\",\n    \"details\": {\n        \"Task goal\": \"Move a clamp from the right counter to the ...",
+    "content_length": 1624,
+    "created_at": "2026-03-06T10:30:20.413421+00:00",
+    "updated_at": "2026-03-06T10:30:44.318822+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183020_f2a72476",
+    "metadata": {
+      "processing_start_time": 1772793020,
+      "processing_end_time": 1772793044
+    }
+  },
+  "doc-7495d736124132d0d176928c9e0ac1f5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7495d736124132d0d176928c9e0ac1f5"
+    ],
+    "content_summary": "[\n    {\n        \"event_type\": [\n            \"action_execution\",\n            \"success_outcome\"\n        ],\n        \"summary\": \"Clamp placed in the correct receptacle on the left counter.\",\n        \"details\": {\n            \"Task goal(s) and any constrai...",
+    "content_length": 1278,
+    "created_at": "2026-03-06T10:30:44.444866+00:00",
+    "updated_at": "2026-03-06T10:31:04.175741+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183044_e85e6876",
+    "metadata": {
+      "processing_start_time": 1772793044,
+      "processing_end_time": 1772793064
+    }
+  },
+  "doc-2f1533df30ec97d4c0059be040728baa": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2f1533df30ec97d4c0059be040728baa"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task initiated to move a knife from the brown table to the left counter receptacle; environment observed.\",\n    \"details\": {\n        \"Task goal(s) and an...",
+    "content_length": 1566,
+    "created_at": "2026-03-06T10:31:04.342952+00:00",
+    "updated_at": "2026-03-06T10:31:29.257714+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183104_3cf1018f",
+    "metadata": {
+      "processing_start_time": 1772793064,
+      "processing_end_time": 1772793089
+    }
+  },
+  "doc-5a77dd1469aa47b9942890afcc8f5649": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5a77dd1469aa47b9942890afcc8f5649"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a spatula from the right counter to the left receptacle.\",\n    \"details\": {\n        \"task_goal\": \"Move a spatula from the right counter to the right rec...",
+    "content_length": 1498,
+    "created_at": "2026-03-06T10:31:29.393363+00:00",
+    "updated_at": "2026-03-06T10:31:48.568134+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183129_fd26b73d",
+    "metadata": {
+      "processing_start_time": 1772793089,
+      "processing_end_time": 1772793108
+    }
+  },
+  "doc-710fa21a5bf80e920adfe65775d9bc9b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-710fa21a5bf80e920adfe65775d9bc9b"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"action_execution\",\n            \"failure_outcome\"\n        ],\n        \"summary\": \"Failed to move spatula from right counter to left receptacle.\",\n        \"details\": {\n    ...",
+    "content_length": 3658,
+    "created_at": "2026-03-06T10:31:48.701925+00:00",
+    "updated_at": "2026-03-06T10:32:15.890294+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183148_c5aa6403",
+    "metadata": {
+      "processing_start_time": 1772793108,
+      "processing_end_time": 1772793135
+    }
+  },
+  "doc-2c5b4e6c04f6766e6046e86be00b31f2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2c5b4e6c04f6766e6046e86be00b31f2"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"action_execution\",\n        \"failure_outcome\"\n    ],\n    \"summary\": \"Attempt to place the spatula at the left counter was not successful.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Place spatula in the a...",
+    "content_length": 1280,
+    "created_at": "2026-03-06T10:32:16.017608+00:00",
+    "updated_at": "2026-03-06T10:32:37.318933+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183216_b2afe832",
+    "metadata": {
+      "processing_start_time": 1772793136,
+      "processing_end_time": 1772793157
+    }
+  },
+  "doc-879c4239b69855adb50ab150ef4ea163": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-879c4239b69855adb50ab150ef4ea163"
+    ],
+    "content_summary": "[\n    {\n        \"event_type\": [\"task_request\", \"action_execution\", \"failure_outcome\"],\n        \"summary\": \"Attempt to pick up spatula failed.\",\n        \"details\": {\n            \"Task goal\": \"Pick up spatula from the counter.\",\n            \"Environmen...",
+    "content_length": 1207,
+    "created_at": "2026-03-06T10:32:37.449377+00:00",
+    "updated_at": "2026-03-06T10:32:46.782854+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183237_32f36579",
+    "metadata": {
+      "processing_start_time": 1772793157,
+      "processing_end_time": 1772793166
+    }
+  },
+  "doc-7a92eb787a5b18466e9c78f06dbb0de5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7a92eb787a5b18466e9c78f06dbb0de5"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task started to move a screwdriver from the sofa to the right receptacle of the left counter.\",\n    \"details\": {\n        \"Task goal(s) and any constraint...",
+    "content_length": 1349,
+    "created_at": "2026-03-06T10:32:46.947290+00:00",
+    "updated_at": "2026-03-06T10:33:14.716719+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183246_85a24a3b",
+    "metadata": {
+      "processing_start_time": 1772793166,
+      "processing_end_time": 1772793194
+    }
+  },
+  "doc-ce436dad6d3dd09536a67a0309aab8e4": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ce436dad6d3dd09536a67a0309aab8e4"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a spatula from the right counter to the left receptacle.\",\n    \"details\": {\n        \"Task goal\": \"Move a spatula from the right counter to the r...",
+    "content_length": 2300,
+    "created_at": "2026-03-06T10:33:14.852903+00:00",
+    "updated_at": "2026-03-06T10:33:39.104119+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183314_c33b404c",
+    "metadata": {
+      "processing_start_time": 1772793194,
+      "processing_end_time": 1772793219
+    }
+  },
+  "doc-573ef3404f5628761757f187f5bdd463": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-573ef3404f5628761757f187f5bdd463"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Task initiated to move a spatula from right counter to left receptacle; initial environment observed with no actions taken.\",\n    \"details\": {\n        \"Task goal(s) and any co...",
+    "content_length": 1492,
+    "created_at": "2026-03-06T10:33:39.250445+00:00",
+    "updated_at": "2026-03-06T10:34:10.243812+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183339_c7bc399f",
+    "metadata": {
+      "processing_start_time": 1772793219,
+      "processing_end_time": 1772793250
+    }
+  },
+  "doc-04fe89fc9069b257123f344f8fba9d98": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-04fe89fc9069b257123f344f8fba9d98"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"action_execution\",\n            \"failure_outcome\"\n        ],\n        \"summary\": \"Attempt to move spatula from right counter to left receptacle failed.\",\n        \"details\"...",
+    "content_length": 1705,
+    "created_at": "2026-03-06T10:34:10.418114+00:00",
+    "updated_at": "2026-03-06T10:34:44.546676+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183410_68708ae0",
+    "metadata": {
+      "processing_start_time": 1772793250,
+      "processing_end_time": 1772793284
+    }
+  },
+  "doc-9bbcfd7acf969b8f1ee60754fd37e9db": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9bbcfd7acf969b8f1ee60754fd37e9db"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Correction of spatula location in memory.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"kitchen\",\n        \"Key objects interacted with\"...",
+    "content_length": 864,
+    "created_at": "2026-03-06T10:34:44.688162+00:00",
+    "updated_at": "2026-03-06T10:35:03.085281+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183444_835cadbf",
+    "metadata": {
+      "processing_start_time": 1772793284,
+      "processing_end_time": 1772793303
+    }
+  },
+  "doc-7a158c97510eea39843c3ba920821bac": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7a158c97510eea39843c3ba920821bac"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Identified the right receptacle on the left counter as a sink.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"Kitchen, left counter\",\n  ...",
+    "content_length": 823,
+    "created_at": "2026-03-06T10:35:03.221830+00:00",
+    "updated_at": "2026-03-06T10:35:21.415546+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183503_b98a8d2c",
+    "metadata": {
+      "processing_start_time": 1772793303,
+      "processing_end_time": 1772793321
+    }
+  },
+  "doc-d0349c0e07400528ae6d5ef642d78645": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d0349c0e07400528ae6d5ef642d78645"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Identification of workspace objects and their arrangement.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"Workspace with dark countertop...",
+    "content_length": 1680,
+    "created_at": "2026-03-06T10:35:21.588437+00:00",
+    "updated_at": "2026-03-06T10:35:39.651784+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183521_aa9c503b",
+    "metadata": {
+      "processing_start_time": 1772793321,
+      "processing_end_time": 1772793339
+    }
+  },
+  "doc-de39f2938144157f07000d83e203588d": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-de39f2938144157f07000d83e203588d"
+    ],
+    "content_summary": "**Memory Update:**\n\n1. **Analyze Content:**\n   - The user is engaging in a task that involves a robotic arm and mentions moving a spatula from one counter to another.\n   - The description of the environment includes details about multiple objects, su...",
+    "content_length": 3628,
+    "created_at": "2026-03-06T10:35:39.792630+00:00",
+    "updated_at": "2026-03-06T10:36:00.061788+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183539_9f0bbdaa",
+    "metadata": {
+      "processing_start_time": 1772793360
+    }
+  },
+  "doc-614a3c230561eadf10b09794a56e621d": {
+    "status": "failed",
+    "error_msg": "not enough values to unpack (expected 3, got 2)",
+    "content_summary": "Analyzing the provided input, I will create entries for the distinct objects mentioned in the image description for the semantic memory.\n\n### 1. Entry for Pliers\n- **Name:** Pliers\n- **Summary:** Pliers are hand tools used for gripping and manipulati...",
+    "content_length": 3499,
+    "created_at": "2026-03-06T10:36:00.054190+00:00",
+    "updated_at": "2026-03-06T18:36:19.834258",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_183600_232f7b3a",
+    "metadata": {
+      "processing_start_time": 1772793360,
+      "processing_end_time": 1772793379
+    },
+    "chunks_list": []
+  }
+}

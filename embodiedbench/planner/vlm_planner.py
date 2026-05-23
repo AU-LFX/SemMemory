@@ -257,7 +257,3 @@ class VLMPlanner():
             info['action_id'],
             info['env_feedback']
         ])
-
-
-        
-

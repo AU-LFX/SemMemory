@@ -1,6 +1,11 @@
 {
     "base": [
         {
+            "task": "pick_clean_then_place_in_recep-TomatoSliced-None-Microwave-20/trial_T20190918_161337_246067",
+            "repeat_idx": 0,
+            "instruction": "Place a rinsed slice of tomato in the microwave"
+        },
+        {
             "task": "pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811",
             "repeat_idx": 2,
             "instruction": "Rinse off a ladle and move it to the table."
@@ -131,11 +136,6 @@
             "instruction": "Put the bowl with pencil in it on the tv stand"
         },
         {
-            "task": "pick_clean_then_place_in_recep-TomatoSliced-None-Microwave-20/trial_T20190918_161337_246067",
-            "repeat_idx": 0,
-            "instruction": "Place a rinsed slice of tomato in the microwave"
-        },
-        {
             "task": "pick_and_place_with_movable_recep-ButterKnife-Cup-DiningTable-23/trial_T20190908_233553_192059",
             "repeat_idx": 1,
             "instruction": "Place a glass cup with butter knife it on the table."
@@ -253,6 +253,11 @@
     ],
     "common_sense": [
         {
+            "task": "pick_clean_then_place_in_recep-TomatoSliced-None-Microwave-20/trial_T20190918_161337_246067",
+            "repeat_idx": 0,
+            "instruction": "Place a slice of rinsed fruit often used in sauces and salads in the microwave."
+        },
+        {
             "task": "pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811",
             "repeat_idx": 2,
             "instruction": "Rinse off something for serving soup and move it to the table."
@@ -366,11 +371,6 @@
             "task": "pick_and_place_with_movable_recep-Pencil-Bowl-Dresser-311/trial_T20190909_002301_857761",
             "repeat_idx": 1,
             "instruction": "Put the round eating vessel with a graphite-writing tool in it on the TV stand."
-        },
-        {
-            "task": "pick_clean_then_place_in_recep-TomatoSliced-None-Microwave-20/trial_T20190918_161337_246067",
-            "repeat_idx": 0,
-            "instruction": "Place a slice of rinsed fruit often used in sauces and salads in the microwave."
         },
         {
             "task": "pick_and_place_with_movable_recep-ButterKnife-Cup-DiningTable-23/trial_T20190908_233553_192059",

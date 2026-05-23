@@ -680,3 +680,45 @@ gdict["pick_clean_and_place_with_movable_recep"] = \
             ''',
         'templates': ['put a cold {mrecep} of {obj} in {recep}']
     }
+
+
+# 自定义任务：先洗、再切、再加热，然后装进可移动容器并放到最终位置
+gdict["pick_clean_slice_heat_and_place_with_movable_recep"] = \
+    {
+        'pddl':
+            '''
+                (:goal
+                    (and
+                        (exists (?r # receptacle)
+                            (and 
+                                (receptacleType ?r {recep}Type)
+                                (exists (?o # object)
+                                    (and
+                                        (objectType ?o {obj}Type)
+                                        (cleanable ?o)
+                                        (isClean ?o)            ; 状态1: 已洗过
+                                        (sliceable ?o)
+                                        (isSliced ?o)           ; 状态2: 已切片
+                                        (heatable ?o)
+                                        (isHot ?o)              ; 状态3: 已加热
+                                        (exists (?mo # object)
+                                            (and
+                                                (objectType ?mo {mrecep}Type)
+                                                (isReceptacleObject ?mo)
+                                                (inReceptacleObject ?o ?mo) ; 土豆放到盘子里
+                                                (inReceptacle ?mo ?r)       ; 盘子放到桌子上
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                        (forall (?re # receptacle)
+                            (not (opened ?re))
+                        )
+                    )
+                )
+            )
+            ''',
+        'templates': ['Prepare a warm, sliced {obj} for dinner and serve it on the {recep}']
+    }

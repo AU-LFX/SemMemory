@@ -1,0 +1,884 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d17" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d16" for="edge" attr.name="relation_type" attr.type="string" />
+  <key id="d15" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d14" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d13" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d12" for="edge" attr.name="description" attr.type="string" />
+  <key id="d11" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d10" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d9" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d8" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d7" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="node" attr.name="spatial" attr.type="string" />
+  <key id="d5" for="node" attr.name="temporal" attr.type="string" />
+  <key id="d4" for="node" attr.name="constraints" attr.type="string" />
+  <key id="d3" for="node" attr.name="affordances" attr.type="string" />
+  <key id="d2" for="node" attr.name="concept" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Tomato">
+      <data key="d0">Tomato</data>
+      <data key="d1">food</data>
+      <data key="d2">"A round to oval fruit that is typically red when ripe, used in various culinary applications."&lt;SEP&gt;"A round, red, pulpy fruit with a green stem, typically smooth and shiny."&lt;SEP&gt;"Spherical fruit, vibrant red color."</data>
+      <data key="d3">"Can be sliced;"May be eaten raw or cooked;"used in cooking;can be diced;can be puréed;can be rinsed";can be sliced;cooked;eaten raw;used in salads or sauces.";used in sauces"</data>
+      <data key="d4">"N/A";"rinsed_before_use"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Center of the kitchen scene; lies on a countertop, positioned near a knife."&lt;SEP&gt;"Positioned on the right side of the dining table, near other items."&lt;SEP&gt;"Commonly found in kitchens or grocery stores; often on countertops during food preparation; found on cutting boards during slicing; placed in microwaves for heating."</data>
+      <data key="d7">A ripe, red tomato is a spherical fruit known for its juiciness and vibrant color.&lt;SEP&gt;Tomato is a commonly used edible fruit in cooking, known for its versatile uses in salads, sauces, and various dishes.&lt;SEP&gt;A tomato is a fleshy fruit known for its juicy texture and rich flavor. It is commonly used in culinary dishes such as sauces and salads. The fruit can be sliced, diced, or puréed, and must be rinsed before preparation, particularly if consumed raw.</data>
+      <data key="d8">chunk-30c39953c0d25d1f3c5e130739908d03&lt;SEP&gt;chunk-9bcc15050b8adf34f86fc45460423efc&lt;SEP&gt;chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966752</data>
+    </node>
+    <node id="Loaf of Bread">
+      <data key="d0">Loaf of Bread</data>
+      <data key="d1">food</data>
+      <data key="d2">"Oval-shaped, crusty bread."</data>
+      <data key="d3">"Can be sliced for sandwiches;eaten as is;used in cooking."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Centrally placed on the dining table."</data>
+      <data key="d7">An oval-shaped loaf of bread with a rustic appearance and slightly crusty texture, indicating freshness.</data>
+      <data key="d8">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889219</data>
+    </node>
+    <node id="Spoon">
+      <data key="d0">Spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"Metal or plastic spoon with a handle."&lt;SEP&gt;"Metal spoon with a bowl made of stainless steel and a light blue handle."</data>
+      <data key="d3">"Can be used to scoop food or liquids.";"mix;eat";serve</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Positioned near the loaf of bread, handle pointing towards the viewer."</data>
+      <data key="d7">A utensil used for serving, stirring, or eating food.&lt;SEP&gt;Located in the center-left portion of the countertop, lying flat, it is used for serving or eating food.</data>
+      <data key="d8">chunk-9bcc15050b8adf34f86fc45460423efc&lt;SEP&gt;chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889463</data>
+    </node>
+    <node id="Egg">
+      <data key="d0">Egg</data>
+      <data key="d1">food</data>
+      <data key="d2">"Oval-shaped with a smooth shell."&lt;SEP&gt;"Oval-shaped, white exterior typically from chickens."</data>
+      <data key="d3">"Can be boiled, scrambled, or used in recipes.";"can be boiled;can be baked";can be fried</data>
+      <data key="d4">"N/A";"fragile;avoid dropping or cracking"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Positioned towards the right of the red apple in the sink."&lt;SEP&gt;"Standing upright near the loaf of bread on the dining table."</data>
+      <data key="d7">An oval-shaped egg with a smooth shell, commonly used for cooking.&lt;SEP&gt;The Egg is an oval-shaped food item that is typically white in color and can be used in a variety of recipes, however, it is fragile and needs to be handled with care.</data>
+      <data key="d8">chunk-a54ed1a2fe17f8e84e3e1d2fe1cb75f1&lt;SEP&gt;chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889463</data>
+    </node>
+    <node id="Bowl">
+      <data key="d0">Bowl</data>
+      <data key="d1">container</data>
+      <data key="d2">"Round, bowl-shaped container."</data>
+      <data key="d3">"Can hold liquids or food items."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Located at the far end of the table, partially hidden from view."</data>
+      <data key="d7">A ceramic or metal bowl with a reflective surface used for serving or containing food.</data>
+      <data key="d8">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889219</data>
+    </node>
+    <node id="Soap Dispenser">
+      <data key="d0">Soap Dispenser</data>
+      <data key="d1">container</data>
+      <data key="d2">"Square-shaped, light purple with a dark pump."</data>
+      <data key="d3">"Can dispense liquid soap."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Positioned at the left edge of the dining table."</data>
+      <data key="d7">A square soap dispenser used for dispensing soap, typically found in kitchens or bathrooms.</data>
+      <data key="d8">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889219</data>
+    </node>
+    <node id="Salt Shaker">
+      <data key="d0">Salt Shaker</data>
+      <data key="d1">container</data>
+      <data key="d2">"A small container used for dispensing salt onto food."&lt;SEP&gt;"Small cylindrical container, salt dispenser"&lt;SEP&gt;"Small cylindrical container, salt dispenser."</data>
+      <data key="d3">"Can be used to sprinkle salt on food";"N/A";"shake"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"&lt;SEP&gt;"left side of the microwave;on the counter;near the wall"</data>
+      <data key="d7">A container used for dispensing salt, typically made with a metallic top.&lt;SEP&gt;Located near a small spoon on the dining table.&lt;SEP&gt;The Salt Shaker has a white cap and a clear body, indicating the presence of white salt inside.</data>
+      <data key="d8">chunk-12b74d52b5dd9f7030a90d4441cd8466&lt;SEP&gt;chunk-9bcc15050b8adf34f86fc45460423efc&lt;SEP&gt;chunk-24184517eeb51a7190bfab3ab39b7dec</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889519</data>
+    </node>
+    <node id="Spice Container">
+      <data key="d0">Spice Container</data>
+      <data key="d1">container</data>
+      <data key="d2">"N/A"&lt;SEP&gt;"Thin cylinder, typically for spice storage"</data>
+      <data key="d3">"Can hold and dispense spices for cooking";"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">Located near the salt shaker on the dining table.&lt;SEP&gt;N/A</data>
+      <data key="d8">chunk-9bcc15050b8adf34f86fc45460423efc&lt;SEP&gt;chunk-24184517eeb51a7190bfab3ab39b7dec</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889219</data>
+    </node>
+    <node id="Light-Purple Soap Dispenser">
+      <data key="d0">Light-Purple Soap Dispenser</data>
+      <data key="d1">object</data>
+      <data key="d2">"A square-shaped soap dispenser with a light purple color"</data>
+      <data key="d3">"Can dispense soap"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The light-purple soap dispenser is used for dispensing soap and is located on the table.</data>
+      <data key="d8">chunk-24184517eeb51a7190bfab3ab39b7dec</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889220</data>
+    </node>
+    <node id="Red Apple">
+      <data key="d0">Red Apple</data>
+      <data key="d1">food</data>
+      <data key="d2">"A fruit with a red skin, typically round in shape."&lt;SEP&gt;"A round fruit with red skin, firm texture."&lt;SEP&gt;"Fruit, round shape, red color, medium size."</data>
+      <data key="d3">"Can be eaten;"can be eaten;"eat;can be used in recipes";sliced;use in baking";use in cooking;used in cooking."</data>
+      <data key="d4">"N/A";"should_be_stored_properly_to_avoid_spoilage;wash_before_consumption"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"In the sink; towards the back of the sink, next to a silver fork."&lt;SEP&gt;"Positioned to the left of the Egg in the sink."</data>
+      <data key="d7">A whole, unblemished apple, typically consumed as a fruit, located towards the top-left of the sink's basin.&lt;SEP&gt;The Red Apple is a medium-sized fruit that is red in color and is often used in cooking or consumed directly.&lt;SEP&gt;The Red Apple is a round fruit characterized by its red skin and can be consumed raw or used in various culinary applications.</data>
+      <data key="d8">chunk-a54ed1a2fe17f8e84e3e1d2fe1cb75f1&lt;SEP&gt;chunk-cda57d5c0b34838d6f34cb9c65d686f1&lt;SEP&gt;chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889463</data>
+    </node>
+    <node id="Green Apple">
+      <data key="d0">Green Apple</data>
+      <data key="d1">food</data>
+      <data key="d2">"Fruit, round shape, green color, medium size."</data>
+      <data key="d3">"Can be eaten;sliced;used in cooking."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"In the sink; positioned beside a red apple towards the back of the sink."</data>
+      <data key="d7">The Green Apple is a medium-sized fruit that is green in color and is often used in cooking or consumed directly.</data>
+      <data key="d8">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889306</data>
+    </node>
+    <node id="Silver Fork">
+      <data key="d0">Silver Fork</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"Utensil, silver material, four tines."</data>
+      <data key="d3">"Can be used to stab and lift food."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"In the sink; located in the center of the sink near the apples."</data>
+      <data key="d7">The Silver Fork is a kitchen utensil made of silver with four tines, primarily used for eating or serving food.</data>
+      <data key="d8">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889306</data>
+    </node>
+    <node id="Yellow-Handled Knife">
+      <data key="d0">Yellow-Handled Knife</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"Utensil, knife, yellow handle."</data>
+      <data key="d3">"Can be used for cutting;slicing food."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"In the sink; next to the silver fork."</data>
+      <data key="d7">The Yellow-Handled Knife is a kitchen knife used for cutting food, identifiable by its yellow handle.</data>
+      <data key="d8">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889306</data>
+    </node>
+    <node id="Silver Spoon">
+      <data key="d0">Silver Spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"Utensil, silver material."</data>
+      <data key="d3">"Can be used for stirring liquids;eating."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"In the sink; to the left of the red apple overlapping with the silver fork."</data>
+      <data key="d7">The Silver Spoon is a kitchen utensil made of silver, commonly used for stirring liquids or for eating.</data>
+      <data key="d8">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889306</data>
+    </node>
+    <node id="Golden Spoon">
+      <data key="d0">Golden Spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"Utensil, golden color."</data>
+      <data key="d3">"Can be used for stirring liquids;eating."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"On the countertop; situated horizontally on the left side of the countertop."</data>
+      <data key="d7">The Golden Spoon is a kitchen utensil that is golden in color and is typically used for stirring or eating.</data>
+      <data key="d8">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889306</data>
+    </node>
+    <node id="Sink">
+      <data key="d0">Sink</data>
+      <data key="d1">object</data>
+      <data key="d2">"Kitchen fixture with a basin shape"&lt;SEP&gt;"Kitchen fixture, basin shape."</data>
+      <data key="d3">"Can hold water;"hold water;hold objects for cleaning";hold objects for cleaning."</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">Centrally located in the kitchen setting, featuring a silver faucet on its back edge.&lt;SEP&gt;The Sink is a kitchen fixture designed for washing dishes or food, which includes a silver faucet for water.</data>
+      <data key="d8">chunk-cda57d5c0b34838d6f34cb9c65d686f1&lt;SEP&gt;chunk-1ba51ef045c090ad538ad11ded28523b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889306</data>
+    </node>
+    <node id="Beige Countertop">
+      <data key="d0">Beige Countertop</data>
+      <data key="d1">surface</data>
+      <data key="d2">"Countertop, beige color."</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"In the kitchen; on the left side of the sink."</data>
+      <data key="d7">The Beige Countertop is a flat surface in the kitchen, characterized by its beige color, providing a space for food preparation and utensil placement.</data>
+      <data key="d8">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889306</data>
+    </node>
+    <node id="Kitchen Countertop">
+      <data key="d0">Kitchen Countertop</data>
+      <data key="d1">object</data>
+      <data key="d2">"A smooth, light-colored surface made of stainless steel or engineered material."&lt;SEP&gt;"Flat surface finished in beige color"</data>
+      <data key="d3">"cut;"support objects;assemble;prepare food";use for food preparation"</data>
+      <data key="d4">"N/A";"keep_clean;avoid_damage_from_heavy_objects";avoid_sharp_objects_directly</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">A flat surface in the kitchen where items can be placed, positioned beneath the sink and adjacent to walls and cabinets.&lt;SEP&gt;Positioned in kitchens; serves as a central workspace for food preparation with various objects placed on it.</data>
+      <data key="d8">chunk-2ebda067ff889ba496dd85808b48733b&lt;SEP&gt;chunk-1ba51ef045c090ad538ad11ded28523b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889463</data>
+    </node>
+    <node id="Silver Faucet">
+      <data key="d0">Silver Faucet</data>
+      <data key="d1">object</data>
+      <data key="d2">"Faucet made of silver material"</data>
+      <data key="d3">"provide water;control water flow"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The silver faucet is a component of the sink, used for controlling water flow.</data>
+      <data key="d8">chunk-1ba51ef045c090ad538ad11ded28523b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889307</data>
+    </node>
+    <node id="Coffee Maker">
+      <data key="d0">Coffee Maker</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"A kitchen appliance used for brewing coffee."&lt;SEP&gt;"Kitchen appliance used for brewing coffee with a rectangular base and rounded top."</data>
+      <data key="d3">"Brew coffee;"brew";hold water"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Global position: center of countertop; Local relations: against beige wall; drip tray attached at the front."&lt;SEP&gt;"Global position: next to the knife on the countertop; Local relations: positioned on the countertop within the kitchen scene."</data>
+      <data key="d7">The Coffee Maker is a modern kitchen appliance designed to brew coffee efficiently, characterized by its unique shape and specific functionalities.&lt;SEP&gt;The coffee maker is an appliance used to brew coffee and is located on the countertop next to the knife.</data>
+      <data key="d8">chunk-1182cc5890ab6a14f097e918d60efe2a&lt;SEP&gt;chunk-b3c55d614f6a325da3ec95df73e827c5</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772890950</data>
+    </node>
+    <node id="Kitchen Knife">
+      <data key="d0">Kitchen Knife</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A utensil with a long metallic blade used for cutting food."&lt;SEP&gt;"Large kitchen knife used for various food preparation tasks featuring a metallic blade and yellow handle."</data>
+      <data key="d3">"Cut;"can cut;can chop;can prepare food";can slice;slice"</data>
+      <data key="d4">"keep_away_from_children;"sharp edges;handle with care;keep away from children";sharp_blade"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Global position: right of coffee maker; Local relations: resting horizontally on the countertop, blade pointing right, handle overlapping with drip tray."&lt;SEP&gt;"Laid flat on the bottom of the sink, near the apple and the egg."</data>
+      <data key="d7">The Kitchen Knife is a utensil characterized by its long, sharp metallic blade and dark handle, specifically designed for kitchen use to prepare food.&lt;SEP&gt;The Kitchen Knife is a versatile cutting tool essential in the kitchen, typically used for preparing food and characterized by its large metallic blade and prominent yellow handle.</data>
+      <data key="d8">chunk-a54ed1a2fe17f8e84e3e1d2fe1cb75f1&lt;SEP&gt;chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889464</data>
+    </node>
+    <node id="Toaster">
+      <data key="d0">Toaster</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"An appliance typically with slots for bread; metallic gray color, slightly curved top."&lt;SEP&gt;"Compact kitchen appliance that toasts bread, featuring a shiny metallic surface and two slots on top."</data>
+      <data key="d3">"Toast bread;"toast";heat food"</data>
+      <data key="d4">"N/A";"should_be_used_according_to_safety_guidelines;avoid_non_food_items_in_slots"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Global position: right of coffee maker; Local relations: just a few inches away from the coffee maker, parallel to the edge of the counter."</data>
+      <data key="d7">A medium-sized, metallic gray appliance used for toasting bread, positioned at the far left of the countertop, near the edge.&lt;SEP&gt;The Toaster is a kitchen appliance designed to toast bread, recognized for its shiny metallic finish and ability to heat food quickly, making it a staple in breakfast preparations.</data>
+      <data key="d8">chunk-1182cc5890ab6a14f097e918d60efe2a&lt;SEP&gt;chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889463</data>
+    </node>
+    <node id="Sponge">
+      <data key="d0">Sponge</data>
+      <data key="d1">tool</data>
+      <data key="d2">"Flat, small cleaning tool characterized by its distinctive green color with a yellow border."</data>
+      <data key="d3">"Clean surfaces;soak up liquids"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Global position: upper-left corner; Local relations: resting directly on the countertop."</data>
+      <data key="d7">The Sponge is a common cleaning tool designed for household chores, recognized for its absorbent qualities and distinctive coloring, making it ideal for surface cleaning and liquid absorption.</data>
+      <data key="d8">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889387</data>
+    </node>
+    <node id="Kitchen">
+      <data key="d0">Kitchen</data>
+      <data key="d1">room</data>
+      <data key="d2">"A space equipped for cooking and food preparation."</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Kitchen is a designated space in a home or establishment where meals are prepared, featuring various appliances and tools for cooking and cleaning.</data>
+      <data key="d8">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889387</data>
+    </node>
+    <node id="Countertop">
+      <data key="d0">Countertop</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A flat surface in a kitchen where appliances and items can be placed."&lt;SEP&gt;"A horizontal surface in kitchens used for food preparation and placement of appliances."</data>
+      <data key="d3">"Support items;"support;prepare food";provide workspace"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"&lt;SEP&gt;"right side of the kitchen;location for multiple items"</data>
+      <data key="d7">The Countertop is an essential surface in kitchens used for various tasks such as food preparation, appliance placement, and other culinary activities.&lt;SEP&gt;The Countertop is the surface where the Microwave is placed, providing a workspace for food preparation and appliance usage.</data>
+      <data key="d8">chunk-12b74d52b5dd9f7030a90d4441cd8466&lt;SEP&gt;chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889519</data>
+    </node>
+    <node id="Kitchen Sink">
+      <data key="d0">Kitchen Sink</data>
+      <data key="d1">receptacle</data>
+      <data key="d2">"Metallic sink with a basin and a faucet at the back."</data>
+      <data key="d3">"hold water;wash food;wash utensils"</data>
+      <data key="d4">"should_not_hold_sharp_objects_without_care;needs_cleaning_regularly"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">A large rectangular sink used for washing dishes and food items, occupying a significant portion of the countertop, positioned centrally.</data>
+      <data key="d8">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889463</data>
+    </node>
+    <node id="White Egg">
+      <data key="d0">White Egg</data>
+      <data key="d1">food</data>
+      <data key="d2">"Oval-shaped, white exterior, typically from chickens."</data>
+      <data key="d3">"use in recipes;bake";boil;fry</data>
+      <data key="d4">"fragile;avoid_dropping_or_cracking"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">An uncracked egg, often used in cooking and baking, positioned towards the right of the red apple in the sink.</data>
+      <data key="d8">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889463</data>
+    </node>
+    <node id="Knife">
+      <data key="d0">Knife</data>
+      <data key="d1">object</data>
+      <data key="d2">"A kitchen utensil characterized by a sharp metal blade and a yellow handle."&lt;SEP&gt;"A metal utensil with a sharp edge and a handle, used for cutting."&lt;SEP&gt;"A sharp-edged tool primarily used for cutting."</data>
+      <data key="d3">"Can be used to cut;"cut;"cut";chop";slice;slice"</data>
+      <data key="d4">"Handle with care due to sharpness;"N/A";"keep_away_from_children;needs to be washed after use.";sharp_edges"</data>
+      <data key="d5">"N/A"&lt;SEP&gt;"N/A"&lt;SEP&gt;"Used during the preparation phase of cooking."</data>
+      <data key="d6">"Global position: on the countertop; Local relations: lying horizontally with the blade pointing towards the right, next to the coffee maker."&lt;SEP&gt;"Near the mid-left area of the countertop; positioned horizontally near two ripe tomatoes."</data>
+      <data key="d7">A cutting instrument used in food preparation, likely positioned on the countertop among other kitchen objects.&lt;SEP&gt;Knife is an essential kitchen utensil primarily utilized for cutting and slicing food items, crucial for food preparation.&lt;SEP&gt;The knife is a tool in a kitchen used for cutting or slicing food items, noted for its sharp blade and yellow handle. It is typically placed in the sink after usage for cleaning.</data>
+      <data key="d8">chunk-b3c55d614f6a325da3ec95df73e827c5&lt;SEP&gt;chunk-2ebda067ff889ba496dd85808b48733b&lt;SEP&gt;chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772890950</data>
+    </node>
+    <node id="Microwave">
+      <data key="d0">Microwave</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"A kitchen appliance used for heating and cooking food by emitting microwave radiation."</data>
+      <data key="d3">"heat;cook;defrost"</data>
+      <data key="d4">"keep_away_from_water;do_not_operate_with_door_open"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"right side of the countertop;on the counter"</data>
+      <data key="d7">The Microwave is predominantly black with a transparent front door that allows visibility into its interior. It has a control panel on the right side with numerous buttons and a small digital display.</data>
+      <data key="d8">chunk-12b74d52b5dd9f7030a90d4441cd8466</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889519</data>
+    </node>
+    <node id="Wall">
+      <data key="d0">Wall</data>
+      <data key="d1">structure</data>
+      <data key="d2">"A vertical structure that forms a boundary in a room."</data>
+      <data key="d3">"support;partition"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"left side of the countertop;adjacent to the salt shaker"</data>
+      <data key="d7">The Wall is adjacent to the Salt Shaker on the countertop, defining the space in the kitchen.</data>
+      <data key="d8">chunk-12b74d52b5dd9f7030a90d4441cd8466</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889519</data>
+    </node>
+    <node id="Bread">
+      <data key="d0">Bread</data>
+      <data key="d1">food</data>
+      <data key="d2">"A loaf of bread, oval-shaped with a dark brown crust and flour dusting."</data>
+      <data key="d3">"Can be sliced;toasted;used as a base for sandwiches"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"Commonly used in various meals, prepared fresh or bought pre-made."</data>
+      <data key="d6">"Top right area of the countertop; positioned towards the back edge of the countertop near a saucepan."</data>
+      <data key="d7">Bread is a staple food item made from flour and water, often baked, and serves various roles in meals, most notably as a base for sandwiches.</data>
+      <data key="d8">chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889683</data>
+    </node>
+    <node id="Saucepan">
+      <data key="d0">Saucepan</data>
+      <data key="d1">container</data>
+      <data key="d2">"A cooking pot with a handle, typically used for cooking or heating food."</data>
+      <data key="d3">"Can be used to boil;cook";heat</data>
+      <data key="d4">"Handle with care when hot;requires cleaning after use."</data>
+      <data key="d5">"Used when preparing various meals."</data>
+      <data key="d6">"Near the back edge of the countertop; described as being used in conjunction with bread."</data>
+      <data key="d7">Saucepan is a common kitchen container utilized for cooking, particularly when preparing meals that involve heating ingredients such as bread.</data>
+      <data key="d8">chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889683</data>
+    </node>
+    <node id="Culinary Applications">
+      <data key="d0">Culinary Applications</data>
+      <data key="d1">concept</data>
+      <data key="d2">"Refers to the various ways in which food items, such as the tomato, are used in cooking."</data>
+      <data key="d3">"used in cooking;paired with other ingredients"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">Culinary Applications encompass the methods and practices by which ingredients are prepared, cooked, and served.</data>
+      <data key="d8">chunk-30c39953c0d25d1f3c5e130739908d03</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966752</data>
+    </node>
+    <edge source="Tomato" target="Loaf of Bread">
+      <data key="d11">6.0</data>
+      <data key="d12">Tomato and loaf of bread are positioned close to each other on the dining table.</data>
+      <data key="d13">dining context,food arrangement</data>
+      <data key="d14">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889221</data>
+    </edge>
+    <edge source="Tomato" target="Knife">
+      <data key="d11">8.0</data>
+      <data key="d12">The knife is positioned near the tomato and is likely being used to prepare it.</data>
+      <data key="d13">food preparation,utensil usage</data>
+      <data key="d14">chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889684</data>
+    </edge>
+    <edge source="Tomato" target="Bread">
+      <data key="d11">9.0</data>
+      <data key="d12">Tomato can be used in conjunction with bread in meals or recipes, such as sandwiches.</data>
+      <data key="d13">complementary ingredients,food combination</data>
+      <data key="d14">chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889685</data>
+    </edge>
+    <edge source="Tomato" target="Culinary Applications">
+      <data key="d11">8.0</data>
+      <data key="d12">Tomatoes are frequently used in cooking for sauces and salads, highlighting their significance in culinary contexts.</data>
+      <data key="d13">cooking,food preparation</data>
+      <data key="d14">chunk-30c39953c0d25d1f3c5e130739908d03</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772966753</data>
+    </edge>
+    <edge source="Loaf of Bread" target="Spoon">
+      <data key="d11">7.0</data>
+      <data key="d12">Spoon is positioned near the loaf of bread, indicating its use for serving the bread.</data>
+      <data key="d13">dining context,utensil use</data>
+      <data key="d14">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889224</data>
+    </edge>
+    <edge source="Loaf of Bread" target="Egg">
+      <data key="d11">6.0</data>
+      <data key="d12">Egg is standing near the loaf of bread on the dining table, suggesting they may be part of a meal together.</data>
+      <data key="d13">dining context,meal components</data>
+      <data key="d14">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889225</data>
+    </edge>
+    <edge source="Loaf of Bread" target="Salt Shaker">
+      <data key="d11">8.0</data>
+      <data key="d12">Salt shaker is commonly used with bread, enhancing the dining experience.</data>
+      <data key="d13">dining enhancement,food seasoning</data>
+      <data key="d14">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889227</data>
+    </edge>
+    <edge source="Spoon" target="Kitchen Countertop">
+      <data key="d11">7.0</data>
+      <data key="d12">The Spoon lies on the Kitchen Countertop, utilized for serving and eating food prepared on it.</data>
+      <data key="d13">workspace;utensil placement</data>
+      <data key="d14">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889468</data>
+    </edge>
+    <edge source="Egg" target="Kitchen Knife">
+      <data key="d11">8.0</data>
+      <data key="d12">The Kitchen Knife is used to cut or prepare the Egg in various recipes.</data>
+      <data key="d13">food preparation,utensil usage</data>
+      <data key="d14">chunk-a54ed1a2fe17f8e84e3e1d2fe1cb75f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889465</data>
+    </edge>
+    <edge source="Egg" target="Red Apple">
+      <data key="d11">6.0</data>
+      <data key="d12">The Red Apple and Egg are positioned next to each other in the sink, indicating they may be part of a meal preparation context.</data>
+      <data key="d13">food pairing,meal preparation</data>
+      <data key="d14">chunk-a54ed1a2fe17f8e84e3e1d2fe1cb75f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889466</data>
+    </edge>
+    <edge source="Bowl" target="Soap Dispenser">
+      <data key="d11">5.0</data>
+      <data key="d12">Bowl and soap dispenser are both items associated with food service and cleanliness, respectively.</data>
+      <data key="d13">dining context,food and cleanliness association</data>
+      <data key="d14">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889221</data>
+    </edge>
+    <edge source="Bowl" target="Spice Container">
+      <data key="d11">5.0</data>
+      <data key="d12">Bowl and spice container both serve the purpose of holding food items, indicating a relationship in the context of serving food.</data>
+      <data key="d13">dining context,food serving</data>
+      <data key="d14">chunk-9bcc15050b8adf34f86fc45460423efc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889222</data>
+    </edge>
+    <edge source="Salt Shaker" target="Spice Container">
+      <data key="d11">15.0</data>
+      <data key="d12">Both the salt shaker and spice container are used to enhance food flavors, indicating their relationship in food seasoning.&lt;SEP&gt;The salt shaker and spice container are both located on the dining table and serve similar functions in food preparation.</data>
+      <data key="d13">food enhancement,food preparation,kitchen items,seasoning</data>
+      <data key="d14">chunk-9bcc15050b8adf34f86fc45460423efc&lt;SEP&gt;chunk-24184517eeb51a7190bfab3ab39b7dec</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889221</data>
+    </edge>
+    <edge source="Salt Shaker" target="Light-Purple Soap Dispenser">
+      <data key="d11">7.0</data>
+      <data key="d12">The salt shaker is located on the same table as the light-purple soap dispenser, indicating they are both kitchen items used during meals.</data>
+      <data key="d13">kitchen items,table items</data>
+      <data key="d14">chunk-24184517eeb51a7190bfab3ab39b7dec</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889222</data>
+    </edge>
+    <edge source="Salt Shaker" target="Microwave">
+      <data key="d11">8.0</data>
+      <data key="d12">The Salt Shaker is positioned to the left side of the Microwave on the countertop, indicating a spatial relationship in the kitchen scene.</data>
+      <data key="d13">kitchen arrangement,spatial proximity</data>
+      <data key="d14">chunk-12b74d52b5dd9f7030a90d4441cd8466</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889520</data>
+    </edge>
+    <edge source="Salt Shaker" target="Wall">
+      <data key="d11">7.0</data>
+      <data key="d12">The Salt Shaker is nearby the Wall, showing its position relative to the kitchen's structural boundary.</data>
+      <data key="d13">kitchen arrangement,spatial placement</data>
+      <data key="d14">chunk-12b74d52b5dd9f7030a90d4441cd8466</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889520</data>
+    </edge>
+    <edge source="Salt Shaker" target="Countertop">
+      <data key="d11">9.0</data>
+      <data key="d12">The Salt Shaker is located on the Countertop alongside the Microwave, indicating common usage in the kitchen.</data>
+      <data key="d13">kitchen items,placement</data>
+      <data key="d14">chunk-12b74d52b5dd9f7030a90d4441cd8466</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889521</data>
+    </edge>
+    <edge source="Spice Container" target="Light-Purple Soap Dispenser">
+      <data key="d11">7.0</data>
+      <data key="d12">The spice container, like the light-purple soap dispenser, is also located on the table, associating them as part of the kitchen setup.</data>
+      <data key="d13">kitchen items,table items</data>
+      <data key="d14">chunk-24184517eeb51a7190bfab3ab39b7dec</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889224</data>
+    </edge>
+    <edge source="Red Apple" target="Sink">
+      <data key="d11">8.0</data>
+      <data key="d12">The Red Apple is located in the sink, among other utensils and food items.</data>
+      <data key="d13">kitchen items,location</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889308</data>
+    </edge>
+    <edge source="Red Apple" target="Kitchen Sink">
+      <data key="d11">8.0</data>
+      <data key="d12">The Red Apple is located in the sink area where food items are often washed before preparation.</data>
+      <data key="d13">food preparation;washing</data>
+      <data key="d14">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889465</data>
+    </edge>
+    <edge source="Red Apple" target="White Egg">
+      <data key="d11">7.0</data>
+      <data key="d12">The White Egg is positioned adjacent to the Red Apple in the sink, indicating they are part of the same food preparation context.</data>
+      <data key="d13">food items;preparation</data>
+      <data key="d14">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889465</data>
+    </edge>
+    <edge source="Red Apple" target="Kitchen Knife">
+      <data key="d11">7.0</data>
+      <data key="d12">The Kitchen Knife can be used to cut or prepare the Red Apple as part of food preparation.</data>
+      <data key="d13">food preparation,utensil usage</data>
+      <data key="d14">chunk-a54ed1a2fe17f8e84e3e1d2fe1cb75f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889466</data>
+    </edge>
+    <edge source="Green Apple" target="Sink">
+      <data key="d11">8.0</data>
+      <data key="d12">The Green Apple is found in the sink, adjacent to the Red Apple.</data>
+      <data key="d13">kitchen items,location</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889308</data>
+    </edge>
+    <edge source="Silver Fork" target="Sink">
+      <data key="d11">8.0</data>
+      <data key="d12">The Silver Fork is located in the sink, near the apples.</data>
+      <data key="d13">kitchen utensils,location</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889309</data>
+    </edge>
+    <edge source="Yellow-Handled Knife" target="Sink">
+      <data key="d11">8.0</data>
+      <data key="d12">The Yellow-Handled Knife is found in the sink, positioned next to the silver fork.</data>
+      <data key="d13">kitchen utensils,location</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889309</data>
+    </edge>
+    <edge source="Silver Spoon" target="Sink">
+      <data key="d11">8.0</data>
+      <data key="d12">The Silver Spoon is placed in the sink, overlapping with the silver fork and near the Red Apple.</data>
+      <data key="d13">kitchen items,location</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889310</data>
+    </edge>
+    <edge source="Silver Spoon" target="Beige Countertop">
+      <data key="d11">5.0</data>
+      <data key="d12">Although the Silver Spoon is placed in the sink, its proximity to the beige countertop is relevant for the kitchen context.</data>
+      <data key="d13">kitchen items,location context</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889313</data>
+    </edge>
+    <edge source="Golden Spoon" target="Sink">
+      <data key="d11">6.0</data>
+      <data key="d12">The Golden Spoon is situated on the countertop, separate from the sink where other items are located.</data>
+      <data key="d13">kitchen items,location</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889312</data>
+    </edge>
+    <edge source="Golden Spoon" target="Beige Countertop">
+      <data key="d11">6.0</data>
+      <data key="d12">The Golden Spoon is situated on the beige countertop, indicating its placement in the kitchen setting.</data>
+      <data key="d13">kitchen items,location</data>
+      <data key="d14">chunk-cda57d5c0b34838d6f34cb9c65d686f1</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889312</data>
+    </edge>
+    <edge source="Sink" target="Kitchen Countertop">
+      <data key="d11">8.0</data>
+      <data key="d12">The sink is positioned above the kitchen countertop, allowing for functionality during food preparation and cleaning.</data>
+      <data key="d13">kitchen functionality,spatial arrangement</data>
+      <data key="d14">chunk-1ba51ef045c090ad538ad11ded28523b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889312</data>
+    </edge>
+    <edge source="Sink" target="Silver Faucet">
+      <data key="d11">9.0</data>
+      <data key="d12">The silver faucet is an integral part of the sink, allowing it to function as a washing fixture.</data>
+      <data key="d13">component,functionality</data>
+      <data key="d14">chunk-1ba51ef045c090ad538ad11ded28523b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889313</data>
+    </edge>
+    <edge source="Sink" target="Knife">
+      <data key="d11">8.0</data>
+      <data key="d12">The knife should be placed in the sink after use for cleaning purposes.</data>
+      <data key="d13">cleaning,usage procedure</data>
+      <data key="d14">chunk-b3c55d614f6a325da3ec95df73e827c5</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772890952</data>
+    </edge>
+    <edge source="Kitchen Countertop" target="Toaster">
+      <data key="d11">8.0</data>
+      <data key="d12">The Toaster is positioned on the Kitchen Countertop, which serves as a workspace for food preparation.</data>
+      <data key="d13">workspace;appliance placement</data>
+      <data key="d14">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889465</data>
+    </edge>
+    <edge source="Kitchen Countertop" target="Kitchen Sink">
+      <data key="d11">9.0</data>
+      <data key="d12">The Kitchen Sink is integrated into the Kitchen Countertop, serving as part of the food preparation area.</data>
+      <data key="d13">integration;workspace</data>
+      <data key="d14">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889468</data>
+    </edge>
+    <edge source="Kitchen Countertop" target="Knife">
+      <data key="d11">8.0</data>
+      <data key="d12">The Knife is used for cutting food items on the Kitchen Countertop, which serves as a workspace for food preparation.</data>
+      <data key="d13">food preparation;cutting</data>
+      <data key="d14">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889469</data>
+    </edge>
+    <edge source="Coffee Maker" target="Kitchen Knife">
+      <data key="d11">14.0</data>
+      <data key="d12">The Kitchen Knife is positioned to the right of the Coffee Maker, suggesting proximity and potential interaction during food preparation.&lt;SEP&gt;The Kitchen Knife is used in conjunction with the Coffee Maker when preparing food items, suggesting functional interdependence in the kitchen.</data>
+      <data key="d13">food preparation,kitchen setup,kitchen tasks,spatial relationship</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889391</data>
+    </edge>
+    <edge source="Coffee Maker" target="Toaster">
+      <data key="d11">7.0</data>
+      <data key="d12">The Toaster is located just a few inches away from the Coffee Maker, indicating they are both part of the kitchen appliance setup.</data>
+      <data key="d13">kitchen appliances,proximity</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889393</data>
+    </edge>
+    <edge source="Coffee Maker" target="Countertop">
+      <data key="d11">8.0</data>
+      <data key="d12">The Coffee Maker is positioned centrally on the Countertop, indicating its primary function in the kitchen setup.</data>
+      <data key="d13">appliance placement,kitchen setup</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889395</data>
+    </edge>
+    <edge source="Coffee Maker" target="Knife">
+      <data key="d11">6.0</data>
+      <data key="d12">The knife is located next to the coffee maker on the countertop, indicating a spatial relationship in the kitchen scene.</data>
+      <data key="d13">kitchen setup,spatial relationship</data>
+      <data key="d14">chunk-b3c55d614f6a325da3ec95df73e827c5</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772890953</data>
+    </edge>
+    <edge source="Kitchen Knife" target="Toaster">
+      <data key="d11">7.0</data>
+      <data key="d12">The Toaster and Kitchen Knife are both essential tools in the kitchen, used for food preparation, indicating a thematic link in cooking activities.</data>
+      <data key="d13">cooking tools,kitchen essentials</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889392</data>
+    </edge>
+    <edge source="Kitchen Knife" target="Sponge">
+      <data key="d11">5.0</data>
+      <data key="d12">The Sponge may be used to clean surfaces where the Kitchen Knife has been used, suggesting a relationship in kitchen cleanliness and maintenance.</data>
+      <data key="d13">cleaning tools,maintenance</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889393</data>
+    </edge>
+    <edge source="Kitchen Knife" target="Countertop">
+      <data key="d11">7.0</data>
+      <data key="d12">The Kitchen Knife is resting on the Countertop, indicating its immediate use in food preparation tasks.</data>
+      <data key="d13">food preparation,kitchen setup</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889394</data>
+    </edge>
+    <edge source="Toaster" target="Countertop">
+      <data key="d11">8.0</data>
+      <data key="d12">The Toaster is located on the Countertop, suggesting it is easily accessible for toasting bread in the kitchen.</data>
+      <data key="d13">appliance layout,kitchen accessibility</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889394</data>
+    </edge>
+    <edge source="Sponge" target="Countertop">
+      <data key="d11">7.0</data>
+      <data key="d12">The Sponge is resting directly on the Countertop, signifying its use for cleaning the same surface.</data>
+      <data key="d13">cleaning activity,surface maintenance</data>
+      <data key="d14">chunk-1182cc5890ab6a14f097e918d60efe2a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889395</data>
+    </edge>
+    <edge source="Countertop" target="Microwave">
+      <data key="d11">9.0</data>
+      <data key="d12">The Microwave is situated on the Countertop, utilizing it as its base.</data>
+      <data key="d13">kitchen setup,placement</data>
+      <data key="d14">chunk-12b74d52b5dd9f7030a90d4441cd8466</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889520</data>
+    </edge>
+    <edge source="Kitchen Sink" target="Knife">
+      <data key="d11">7.0</data>
+      <data key="d12">The Knife is often washed in the Kitchen Sink after use in food preparation, indicating a relationship between the two entities.</data>
+      <data key="d13">cleaning;kitchen process</data>
+      <data key="d14">chunk-2ebda067ff889ba496dd85808b48733b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772889465</data>
+    </edge>
+    <edge source="Knife" target="Bread">
+      <data key="d11">7.0</data>
+      <data key="d12">The knife can be used to slice the bread when preparing meals.</data>
+      <data key="d13">food preparation,utensil usage</data>
+      <data key="d14">chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889684</data>
+    </edge>
+    <edge source="Bread" target="Saucepan">
+      <data key="d11">8.0</data>
+      <data key="d12">The saucepan is positioned near the bread, indicating its likely role in cooking or serving the meal that includes the bread.</data>
+      <data key="d13">cooking context,food preparation</data>
+      <data key="d14">chunk-47e863c85da107c94adb93b1c1763edc</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889686</data>
+    </edge>
+  </graph>
+</graphml>

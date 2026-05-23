@@ -11,6 +11,11 @@ if not logger.hasHandlers():
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
 
+    # 新增：保存日志到文件
+    file_handler = logging.FileHandler("eb_log.txt", encoding="utf-8")
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+
 link_path = os.path.join(os.path.dirname(__file__), 'envs/eb_habitat/data')
 try:
     os.symlink(link_path, 'data')

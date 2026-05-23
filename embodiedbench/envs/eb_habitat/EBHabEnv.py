@@ -39,8 +39,8 @@ HABITAT_CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config/task/langu
 
 
 ValidEvalSets = [
-        'base', 'common_sense', 'complex_instruction', 
-        'spatial_relationship', 'visual_appearance', 'long_horizon'
+        'spatial_relationship','visual_appearance','long_horizon',
+        'complex_instruction','common_sense','base'
     ] 
 
 def add_receptacle(string, skill):
@@ -117,6 +117,19 @@ class EBHabEnv(gym.Env):
         hydra.core.global_hydra.GlobalHydra.instance().clear()
         self.config = habitat.get_config(HABITAT_CONFIG_PATH)
         _add_sim_sensor_to_config(self.config, ThirdRGBSensorConfig())
+        # Force CPU fallback in environments where EGL/CUDA is unavailable (e.g., WSL)
+        try:
+            # Habitat-sim uses gpu_device_id; -1 selects CPU/No GPU
+            OmegaConf.set_readonly(self.config, False)
+            if "habitat" in self.config and "simulator" in self.config.habitat:
+                if "gpu_device_id" in self.config.habitat.simulator:
+                    self.config.habitat.simulator.gpu_device_id = -1
+                # Some configs nest habitat_sim settings under habitat.simulator.habitat_sim_v0
+                if ("habitat_sim_v0" in self.config.habitat.simulator and
+                    "gpu_device_id" in self.config.habitat.simulator.habitat_sim_v0):
+                    self.config.habitat.simulator.habitat_sim_v0.gpu_device_id = -1
+        except Exception as e:
+            logger.warning(f"Failed to set CPU fallback for habitat-sim: {e}")   
         # set the dataset
         assert eval_set in ValidEvalSets
         OmegaConf.set_readonly(self.config, False)
@@ -144,7 +157,7 @@ class EBHabEnv(gym.Env):
             self._current_episode_num += 1
 
         self._current_step = 0
-        self._max_episode_steps = 30
+        self._max_episode_steps = 20
         self._cur_invalid_actions = 0
         self._max_invalid_actions = 10
         self._episode_start_time = 0
@@ -266,6 +279,7 @@ class EBHabEnv(gym.Env):
             done = True
         # env feedback
         env_feedback = self.get_env_feedback(info)
+        img_path = self.save_image(obs)
         info['env_feedback'] = env_feedback
         info['env_step'] = self._current_step
         info['episode_elapsed_seconds'] = time.time() - self._episode_start_time,
@@ -275,6 +289,7 @@ class EBHabEnv(gym.Env):
         info['instruction'] = self.episode_language_instruction
         info['last_action_success'] = 1 - float(info['was_prev_action_invalid'])
         info['task_success'] = info['predicate_task_success']
+        info['image_path'] = img_path
         if info['task_success']:
             info['task_progress'] = 1.0
         self.episode_log.append(info)

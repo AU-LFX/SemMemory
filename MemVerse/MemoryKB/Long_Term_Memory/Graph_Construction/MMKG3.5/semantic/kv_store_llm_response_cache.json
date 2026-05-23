@@ -1,0 +1,44 @@
+{
+  "hybrid:keywords:1d45011c54898a67cae30d691acabdbf": {
+    "return": "{\"high_level_keywords\": [\"Task Execution\", \"Kitchen Activity\", \"Utensil Movement\"], \"low_level_keywords\": [\"Spatula\", \"Right counter\", \"Receptacle\", \"Left counter\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Move a spatula from the right counter to the right receptacle of the left counter.\nContext Query: Where is the spatula located on the right counter and what does the receptacle on the left counter look like? For EVERY sub-question, you must provide a specific answer based on the retrieved memory. If the user asks about an abstract or categorical concept, you MUST actively infer and return the specific concrete entity found in the memory that logically matches this concept in the current scene context.",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": [],
+      "ll_keywords": [],
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "update_time": 1772702979,
+    "_id": "hybrid:keywords:1d45011c54898a67cae30d691acabdbf"
+  },
+  "hybrid:query:b98bd5664e7e2d6c320fd8abb6e3552a": {
+    "return": "### Current Location of the Spatula\n\nThe **spatula** is currently positioned on the **kitchen countertop**, which is noted to initially be on the right counter. It lies flat on the surface, with parts of it extending towards other objects like a strawberry. Its specific placement suggests that it is easily accessible for kitchen tasks.\n\n### Description of the Right Receptacle on the Left Counter\n\nThe **right receptacle** on the **left counter** refers to a specific location designated for storing or holding items, particularly intended for organizing kitchen utensils such as the spatula. While there isn't a detailed description of the physical appearance of this receptacle in the provided context, it functions as a storage spot on the left counter where items can be placed for easy access.\n\nIn summary, the spatula is on the kitchen countertop (previously located on the right counter), and the right receptacle is a designated storage area on the left counter.\n\n---\n\n### References\n- [KG] Spatula\n- [KG] Right Receptacle - Left Counter",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "Task: Move a spatula from the right counter to the right receptacle of the left counter.\nContext Query: Where is the spatula located on the right counter and what does the receptacle on the left counter look like? For EVERY sub-question, you must provide a specific answer based on the retrieved memory. If the user asks about an abstract or categorical concept, you MUST actively infer and return the specific concrete entity found in the memory that logically matches this concept in the current scene context.",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": [],
+      "ll_keywords": [],
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "update_time": 1772702989,
+    "_id": "hybrid:query:b98bd5664e7e2d6c320fd8abb6e3552a"
+  }
+}

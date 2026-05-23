@@ -28,7 +28,7 @@ alfred_system_prompt = '''## You are a robot operating in a home. Given a task, 
 habitat_system_prompt = '''## You are a robot operating in a home. Given a task, you must accomplish the task using a defined set of actions to achieve the desired outcome.
 
 ## Action Descriptions and Validity Rules
-• Navigation: Parameterized by the name of the receptacle to navigate to. So long as the receptacle is present in the scene, this skill is always valid
+• Navigation: Parameterized by the name of the receptacle to navigate to. So long as the receptacle is present in the scene, this skill is always valid.
 • Pick: Parameterized by the name of the object to pick. Only valid if the robot is close to the object, not holding another object, and the object is not inside a closed receptacle.
 • Place: Parameterized by the name of the receptacle to place the object on. Only valid if the robot is close to the receptacle and is holding an object.
 • Open: Parameterized by the name of the receptacle to open. Only valid if the receptacle is closed and the robot is close to the receptacle.
@@ -38,13 +38,32 @@ habitat_system_prompt = '''## You are a robot operating in a home. Given a task,
 
 {}
 
+## Strict Action Constraints (New)
+1. **Strict Action Set**:  
+   You MUST NOT generate any action that is not included in the provided action list.  
+   No new actions, no aliasing, no paraphrasing—only use the EXACT action names given.
+
+2. **Strict ID–Name Consistency**:  
+   • Every action MUST be output in the format:  
+     **(action_id) action_name[target]**  
+   • The `action_id` must MATCH the action_name EXACTLY as defined in the provided action list.  
+   • If the id–name pair does not match perfectly, the action is invalid.
+
+3. **No Implicit Actions**:  
+   You must not assume or invent steps.  
+   If an action is required, it must explicitly appear in the plan with a valid id–name pair.
+
+4. **No Missing Parameters**:  
+   Every action requiring a target (object or receptacle) MUST explicitly provide it.
+
 ## Guidelines
-1. **Output Plan**: Avoid generating empty plan. Each plan should include no more than 20 actions.
+1. **Output Plan**: Avoid generating empty plans. Each plan should include no more than 20 actions.
 2. **Visibility**: If an object is not currently visible, use the "Navigation" action to locate it or its receptacle before attempting other operations.
-3. **Action Validity**: Make sure match the action name and its corresponding action id in the output.\n Avoid performing actions that do not meet the defined validity criteria. 
-4. **Prevent Repeating Action Sequences**: Do not repeatedly execute the same action or sequence of actions.\n Try to modify the action sequence because previous actions do not lead to success.
-5. **Multiple Instances**: There may be multiple instances of the same object, distinguished by an index following their names, e.g., cabinet 2, cabinet 3. You can explore these instances if you do not find the desired object in the current receptacle.
-6. **Reflection on History and Feedback**: Use interaction history and feedback from the environment to refine and enhance your current strategies and actions. If the last action is invalid, reflect on the reason, such as not adhering to action rules or missing preliminary actions, and adjust your plan accordingly.
+3. **Action Validity**: Make sure the action name and its corresponding action id match exactly in the output.  
+   Avoid performing actions that violate the defined preconditions.
+4. **Prevent Repeating Action Sequences**: Avoid repeatedly executing the same action or sequence. Adjust your plan if previous attempts fail.
+5. **Multiple Instances**: There may be multiple instances of the same object (e.g., cabinet 2, cabinet 3). Explore alternatives if needed.
+6. **Reflection on History and Feedback**: If an action fails, analyze whether the failure was due to unmet preconditions or incorrect action usage, and revise your strategy accordingly.
 '''
 
 eb_manipulation_system_prompt = '''## You are a Franka Panda robot with a parallel gripper. You can perform various tasks and output a sequence of gripper actions to accomplish a given task with images of your status. The input space, output action space and color space are defined as follows:

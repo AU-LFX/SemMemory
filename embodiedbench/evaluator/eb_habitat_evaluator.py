@@ -9,6 +9,8 @@ from embodiedbench.evaluator.summarize_result import average_json_values
 from embodiedbench.evaluator.evaluator_utils import load_saved_data, update_config_with_args
 from embodiedbench.evaluator.config.system_prompts import habitat_system_prompt
 from embodiedbench.main import logger
+from embodiedbench.evaluator.meta_flat_habitat_agent import HabitatMetaFlatAgent
+from embodiedbench.evaluator.memverse_habitat_agent import MemVerseHabitatAgent
 
 link_path = os.path.join(os.path.dirname(__file__), '../envs/eb_habitat/data')
 try:
@@ -65,11 +67,14 @@ class EB_HabitatEvaluator():
                                              start_epi_index=self.config.get('start_epi_index', 0), resolution=self.config.get('resolution', 500))
 
             model_type = self.config.get('model_type', 'remote')
+            # model_type = "local"
             self.planner = VLMPlanner(self.model_name, model_type, self.env.language_skill_set, self.system_prompt, examples, n_shot=self.config['n_shots'], obs_key='head_rgb',
                                                  chat_history=self.config['chat_history'], language_only=self.config['language_only'], 
                                                  use_feedback=self.config.get('env_feedback', True), multistep=self.config.get('multistep', 0), tp=self.config.get('tp', 1))
 
-            self.evaluate()
+            # self.evaluate()
+            # self.evaluate_meta_flat()
+            self.evaluate_memverse()
             average_json_values(os.path.join(self.env.log_path, 'results'), output_file='summary.json')
             with open(os.path.join(self.env.log_path, 'config.txt'), 'w') as f:
                 f.write(str(self.config))
@@ -175,6 +180,30 @@ class EB_HabitatEvaluator():
             self.save_episode_metric(episode_info)
             progress_bar.update()
 
+    def evaluate_meta_flat(self):
+        progress_bar = tqdm(total=self.env.number_of_episodes, desc="Episodes(MetaFlat)")
+        agent = HabitatMetaFlatAgent(env=self.env, planner=self.planner)
+
+        while self.env._current_episode_num < self.env.number_of_episodes:
+            logger.info(f"[MetaFlat] Evaluating episode {self.env._current_episode_num} ...")
+            summary, episode_info = agent.run_single_episode()
+
+            # 保存 episode_info（格式和原来的 evaluate() 一致）
+            self.save_episode_metric(episode_info)
+            self.env.save_episode_log()
+            progress_bar.update()
+
+    def evaluate_memverse(self):
+        progress_bar = tqdm(total=self.env.number_of_episodes, desc="Episodes(MemVerse)")
+        agent = MemVerseHabitatAgent(env=self.env, planner=self.planner)
+
+        while self.env._current_episode_num < self.env.number_of_episodes:
+            logger.info(f"[MemVerse] Evaluating episode {self.env._current_episode_num} ...")
+            summary, episode_info = agent.run_single_episode()
+
+            self.save_episode_metric(episode_info)
+            self.env.save_episode_log()
+            progress_bar.update()
 
 if __name__ == '__main__':
     import argparse

@@ -182,6 +182,22 @@ class ThorEnv(Controller):
                 fridge = get_objects_of_type('Fridge', event.metadata)[0]
                 cooled_object_ids = fridge['receptacleObjectIds']
                 self.cooled_objects = self.cooled_objects | set(cooled_object_ids) if cooled_object_ids is not None else set()
+                
+            # inheritance of object states (tags) when sliced
+            if action['action'] == 'SliceObject':
+                parent_obj_id = action['objectId']
+                parent_type = parent_obj_id.split('|')[0]
+                sliced_type = parent_type + "Sliced"
+                
+                # find newly instantiated sliced objects in the current metadata
+                sliced_obj_ids = [obj['objectId'] for obj in event.metadata['objects'] if obj['objectType'] == sliced_type]
+                
+                if parent_obj_id in self.cleaned_objects:
+                    self.cleaned_objects.update(sliced_obj_ids)
+                if parent_obj_id in self.heated_objects:
+                    self.heated_objects.update(sliced_obj_ids)
+                if parent_obj_id in self.cooled_objects:
+                    self.cooled_objects.update(sliced_obj_ids)
 
         return event
 

@@ -1,0 +1,586 @@
+{
+  "doc-78fbc73910e0e30b7238f2cfbe705c30": {
+    "relation_pairs": [
+      [
+        "Dining Table",
+        "Soap Dispenser"
+      ],
+      [
+        "Dining Table",
+        "Egg"
+      ],
+      [
+        "Dining Area",
+        "Dining Table"
+      ],
+      [
+        "Bowl",
+        "Dining Table"
+      ],
+      [
+        "Bowl",
+        "Tomatoes"
+      ],
+      [
+        "Dining Table",
+        "Tomatoes"
+      ],
+      [
+        "Bowl",
+        "Salt Shaker"
+      ],
+      [
+        "Dining Table",
+        "Salt Shaker"
+      ],
+      [
+        "Bread",
+        "Dining Table"
+      ],
+      [
+        "Bread",
+        "Spoon"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772889206,
+    "update_time": 1772889206,
+    "_id": "doc-78fbc73910e0e30b7238f2cfbe705c30"
+  },
+  "doc-03c92fccc4ff4d2ef7327c538e8e85bf": {
+    "relation_pairs": [
+      [
+        "Bowl",
+        "Spice Container"
+      ],
+      [
+        "Loaf of Bread",
+        "Spoon"
+      ],
+      [
+        "Loaf of Bread",
+        "Tomato"
+      ],
+      [
+        "Loaf of Bread",
+        "Salt Shaker"
+      ],
+      [
+        "Light-Purple Soap Dispenser",
+        "Salt Shaker"
+      ],
+      [
+        "Salt Shaker",
+        "Spice Container"
+      ],
+      [
+        "Light-Purple Soap Dispenser",
+        "Spice Container"
+      ],
+      [
+        "Egg",
+        "Loaf of Bread"
+      ],
+      [
+        "Bowl",
+        "Soap Dispenser"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772889227,
+    "update_time": 1772889227,
+    "_id": "doc-03c92fccc4ff4d2ef7327c538e8e85bf"
+  },
+  "doc-7d937e47755fdb5aad30964c7447e76f": {
+    "relation_pairs": [
+      [
+        "Beige Countertop",
+        "Kitchen Sink"
+      ],
+      [
+        "Fork",
+        "Silver Spoon"
+      ],
+      [
+        "Cream-Colored Wall",
+        "Orange Cabinets"
+      ],
+      [
+        "Fork",
+        "Red Apple"
+      ],
+      [
+        "Countertop",
+        "Kitchen Sink"
+      ],
+      [
+        "Red Apple",
+        "Silver Spoon"
+      ],
+      [
+        "Beige Countertop",
+        "Cream-Colored Wall"
+      ],
+      [
+        "Green Apple",
+        "Knife"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772889290,
+    "update_time": 1772889290,
+    "_id": "doc-7d937e47755fdb5aad30964c7447e76f"
+  },
+  "doc-4c96285de09aa1526083af2c9e4bfbcd": {
+    "relation_pairs": [
+      [
+        "Silver Faucet",
+        "Sink"
+      ],
+      [
+        "Sink",
+        "Yellow-Handled Knife"
+      ],
+      [
+        "Beige Countertop",
+        "Golden Spoon"
+      ],
+      [
+        "Red Apple",
+        "Sink"
+      ],
+      [
+        "Kitchen Countertop",
+        "Sink"
+      ],
+      [
+        "Golden Spoon",
+        "Sink"
+      ],
+      [
+        "Silver Fork",
+        "Sink"
+      ],
+      [
+        "Green Apple",
+        "Sink"
+      ],
+      [
+        "Beige Countertop",
+        "Silver Spoon"
+      ],
+      [
+        "Silver Spoon",
+        "Sink"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772889314,
+    "update_time": 1772889314,
+    "_id": "doc-4c96285de09aa1526083af2c9e4bfbcd"
+  },
+  "doc-d46d08be58d7922a29d84fed200baba6": {
+    "relation_pairs": [
+      [
+        "Beige Wall",
+        "Knife"
+      ],
+      [
+        "Beige Wall",
+        "Coffee Maker"
+      ],
+      [
+        "Beige Wall",
+        "Toaster"
+      ],
+      [
+        "Kitchen Countertop",
+        "Sponge"
+      ],
+      [
+        "Coffee Maker",
+        "Knife"
+      ],
+      [
+        "Knife",
+        "Toaster"
+      ],
+      [
+        "Coffee Maker",
+        "Kitchen Countertop"
+      ],
+      [
+        "Kitchen Countertop",
+        "Toaster"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772889373,
+    "update_time": 1772889373,
+    "_id": "doc-d46d08be58d7922a29d84fed200baba6"
+  },
+  "doc-1182cc5890ab6a14f097e918d60efe2a": {
+    "relation_pairs": [
+      [
+        "Kitchen Knife",
+        "Toaster"
+      ],
+      [
+        "Coffee Maker",
+        "Toaster"
+      ],
+      [
+        "Kitchen Knife",
+        "Sponge"
+      ],
+      [
+        "Countertop",
+        "Toaster"
+      ],
+      [
+        "Coffee Maker",
+        "Kitchen Knife"
+      ],
+      [
+        "Countertop",
+        "Kitchen Knife"
+      ],
+      [
+        "Countertop",
+        "Sponge"
+      ],
+      [
+        "Coffee Maker",
+        "Countertop"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772889396,
+    "update_time": 1772889396,
+    "_id": "doc-1182cc5890ab6a14f097e918d60efe2a"
+  },
+  "doc-2963f8e9035b3b200ca774f3169508e9": {
+    "relation_pairs": [
+      [
+        "knife",
+        "sink"
+      ],
+      [
+        "sink",
+        "white egg"
+      ],
+      [
+        "cabinet doors",
+        "countertop"
+      ],
+      [
+        "red apple",
+        "sink"
+      ],
+      [
+        "countertop",
+        "kitchen"
+      ],
+      [
+        "spoon",
+        "toaster"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772889447,
+    "update_time": 1772889447,
+    "_id": "doc-2963f8e9035b3b200ca774f3169508e9"
+  },
+  "doc-3b966f23a6dd49feb49e5a635468b01d": {
+    "relation_pairs": [
+      [
+        "Red Apple",
+        "White Egg"
+      ],
+      [
+        "Kitchen Sink",
+        "Knife"
+      ],
+      [
+        "Egg",
+        "Red Apple"
+      ],
+      [
+        "Kitchen Countertop",
+        "Spoon"
+      ],
+      [
+        "Kitchen Knife",
+        "Red Apple"
+      ],
+      [
+        "Kitchen Sink",
+        "Red Apple"
+      ],
+      [
+        "Kitchen Countertop",
+        "Knife"
+      ],
+      [
+        "Kitchen Countertop",
+        "Toaster"
+      ],
+      [
+        "Kitchen Countertop",
+        "Kitchen Sink"
+      ],
+      [
+        "Egg",
+        "Kitchen Knife"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772889470,
+    "update_time": 1772889470,
+    "_id": "doc-3b966f23a6dd49feb49e5a635468b01d"
+  },
+  "doc-7ff75a470f251d1719d00d7848c0683b": {
+    "relation_pairs": [
+      [
+        "kitchen countertop",
+        "salt shaker"
+      ],
+      [
+        "microwave",
+        "salt shaker"
+      ],
+      [
+        "embodied_agent",
+        "salt shaker"
+      ],
+      [
+        "kitchen countertop",
+        "microwave"
+      ],
+      [
+        "embodied_agent",
+        "kitchen countertop"
+      ],
+      [
+        "embodied_agent",
+        "microwave"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772889511,
+    "update_time": 1772889511,
+    "_id": "doc-7ff75a470f251d1719d00d7848c0683b"
+  },
+  "doc-12b74d52b5dd9f7030a90d4441cd8466": {
+    "relation_pairs": [
+      [
+        "Countertop",
+        "Salt Shaker"
+      ],
+      [
+        "Salt Shaker",
+        "Wall"
+      ],
+      [
+        "Countertop",
+        "Microwave"
+      ],
+      [
+        "Microwave",
+        "Salt Shaker"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1772889521,
+    "update_time": 1772889521,
+    "_id": "doc-12b74d52b5dd9f7030a90d4441cd8466"
+  },
+  "doc-d8ae87c199754cc49118e965ce5b8d6a": {
+    "relation_pairs": [
+      [
+        "Bread",
+        "Tomatoes"
+      ],
+      [
+        "Saucepan",
+        "User"
+      ],
+      [
+        "Knife",
+        "Two Ripe Tomatoes"
+      ],
+      [
+        "Knife",
+        "User"
+      ],
+      [
+        "Kitchen Countertop",
+        "Tomatoes"
+      ],
+      [
+        "Tomatoes",
+        "User"
+      ],
+      [
+        "Bread",
+        "Kitchen Countertop"
+      ],
+      [
+        "Egg",
+        "User"
+      ],
+      [
+        "Saucepan",
+        "Two Ripe Tomatoes"
+      ],
+      [
+        "Egg",
+        "Kitchen Countertop"
+      ],
+      [
+        "Knife",
+        "Tomatoes"
+      ],
+      [
+        "Kitchen Countertop",
+        "Saucepan"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772889674,
+    "update_time": 1772889674,
+    "_id": "doc-d8ae87c199754cc49118e965ce5b8d6a"
+  },
+  "doc-47e863c85da107c94adb93b1c1763edc": {
+    "relation_pairs": [
+      [
+        "Bread",
+        "Tomato"
+      ],
+      [
+        "Bread",
+        "Saucepan"
+      ],
+      [
+        "Knife",
+        "Tomato"
+      ],
+      [
+        "Bread",
+        "Knife"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1772889686,
+    "update_time": 1772889686,
+    "_id": "doc-47e863c85da107c94adb93b1c1763edc"
+  },
+  "doc-d4465ddc7acc9a70b4c2a6b738e7bac6": {
+    "relation_pairs": [
+      [
+        "Kitchen",
+        "Kitchen Countertop"
+      ],
+      [
+        "Knife",
+        "Sink"
+      ],
+      [
+        "Action Execution",
+        "Embodied Agent"
+      ],
+      [
+        "Embodied Agent",
+        "Task Request"
+      ],
+      [
+        "Success Outcome",
+        "Task Request"
+      ],
+      [
+        "Kitchen Countertop",
+        "Sink"
+      ],
+      [
+        "Kitchen Countertop",
+        "Knife"
+      ],
+      [
+        "Action Execution",
+        "Success Outcome"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772890944,
+    "update_time": 1772890944,
+    "_id": "doc-d4465ddc7acc9a70b4c2a6b738e7bac6"
+  },
+  "doc-b3c55d614f6a325da3ec95df73e827c5": {
+    "relation_pairs": [
+      [
+        "Coffee Maker",
+        "Knife"
+      ],
+      [
+        "Knife",
+        "Sink"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1772890953,
+    "update_time": 1772890953,
+    "_id": "doc-b3c55d614f6a325da3ec95df73e827c5"
+  },
+  "doc-c692da48e56bb098faf0ccf30a8f3588": {
+    "relation_pairs": [
+      [
+        "Action Execution",
+        "Task Request"
+      ],
+      [
+        "Microwave",
+        "Sink"
+      ],
+      [
+        "Kitchen Area",
+        "Microwave"
+      ],
+      [
+        "Embodied Agent",
+        "Task Request"
+      ],
+      [
+        "Sink",
+        "Tomato"
+      ],
+      [
+        "Kitchen Area",
+        "Sink"
+      ],
+      [
+        "Action Execution",
+        "Success Outcome"
+      ],
+      [
+        "Microwave",
+        "Tomato"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772966747,
+    "update_time": 1772966747,
+    "_id": "doc-c692da48e56bb098faf0ccf30a8f3588"
+  },
+  "doc-30c39953c0d25d1f3c5e130739908d03": {
+    "relation_pairs": [
+      [
+        "Culinary Applications",
+        "Tomato"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1772966753,
+    "update_time": 1772966753,
+    "_id": "doc-30c39953c0d25d1f3c5e130739908d03"
+  }
+}

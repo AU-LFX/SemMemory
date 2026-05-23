@@ -5,6 +5,7 @@ import time
 import json
 from embodiedbench.envs.eb_alfred.EBAlfEnv import EBAlfEnv, ValidEvalSets
 from embodiedbench.planner.vlm_planner import VLMPlanner
+from embodiedbench.evaluator.memverse_alfred_agent import MemVerseAlfredAgent
 from embodiedbench.evaluator.summarize_result import average_json_values
 from embodiedbench.evaluator.evaluator_utils import load_saved_data, update_config_with_args
 from embodiedbench.evaluator.config.system_prompts import alfred_system_prompt
@@ -63,6 +64,7 @@ class EB_AlfredEvaluator():
                                             obs_key='head_rgb', chat_history=self.config['chat_history'], language_only=self.config['language_only'],
                                             use_feedback=self.config.get('env_feedback', True), multistep=self.config.get('multistep', 0), tp=self.config.get('tp', 1))
 
+            self.agent = MemVerseAlfredAgent(self.env, self.planner)
             self.evaluate()
             average_json_values(os.path.join(self.env.log_path, 'results'), output_file='summary.json')
             with open(os.path.join(self.env.log_path, 'config.txt'), 'w') as f:
@@ -72,96 +74,30 @@ class EB_AlfredEvaluator():
         progress_bar = tqdm(total=self.env.number_of_episodes, desc="Episodes")
         while self.env._current_episode_num < self.env.number_of_episodes:
             logger.info(f"Evaluating episode {self.env._current_episode_num} ...")
-            episode_info = {'reward': [], 'num_invalid_actions': 0, 'empty_plan': 0}
+            
             obs = self.env.reset()
             img_path = self.env.save_image(obs)
             user_instruction = self.env.episode_language_instruction
             print(f"Instruction: {user_instruction}")
 
-            self.planner.reset()
-            # update the action space for alfred due to dynamic objects
-            self.planner.set_actions(self.env.language_skill_set)
-            done = False
-            while not done:
-                try: 
-                    action, reasoning = self.planner.act(img_path, user_instruction)
-                    print(f"Planner Output Action: {action}")
-                    if action == -2: # empty plan stop here
-                        episode_info['empty_plan'] = 1
-                        self.env.episode_log.append({
-                            'last_action_success': 0.0,
-                            'action_id': -2,
-                            'action_description': 'empty plan',
-                            'reasoning': reasoning,
-                        })
-                        info = {
-                            'task_success': episode_info.get('task_success', 0),
-                            'task_progress': episode_info.get("task_progress", 0),
-                            'env_step': self.env._current_step,
-                        }
-                        break 
-                    if action == -1:
-                        self.env._cur_invalid_actions += 1
-                        episode_info['reward'].append(-1)
-                        episode_info['num_invalid_actions'] += 1
-                        self.env.episode_log.append({
-                            'last_action_success': 0.0,
-                            'action_id': -1,
-                            'action_description': 'invalid action',
-                            'reasoning': reasoning,
-                        })
-                        info = {
-                            'task_success': episode_info.get('task_success', 0),
-                            'task_progress': episode_info.get("task_progress", 0),
-                            'env_step': self.env._current_step,
-                        }
-                        if self.env._cur_invalid_actions >= self.env._max_invalid_actions:
-                            break
-                        continue
-                    
-                    # mutiple actions
-                    if type(action) == list:
-                        for action_single in action[:min(self.env._max_episode_steps - self.env._current_step, len(action))]:
-                            obs, reward, done, info = self.env.step(action_single, reasoning=reasoning)
-                            action_str = action_single if type(action_single) == str else self.env.language_skill_set[action_single]
-                            print(f"Executed action: {action_str}, Task success: {info['task_success']}")
-                            logger.debug(f"reward: {reward}")
-                            logger.debug(f"terminate: {done}\n")
-                            self.planner.update_info(info)
-                            img_path = self.env.save_image(obs)
-                            episode_info['reward'].append(reward)
-                            episode_info['num_invalid_actions'] += (info['last_action_success'] == 0)
-                            if done or not info['last_action_success']:
-                                # stop or replanning
-                                print("Invalid action or task complete. If invalid then Replanning.")
-                                break
-                    else: # single action
-                        obs, reward, done, info = self.env.step(action, reasoning=reasoning)
-                        action_str = action if type(action) == str else self.env.language_skill_set[action]
-                        print(f"Executed action: {action_str}, Task success: {info['task_success']}")
-                        logger.debug(f"reward: {reward}")
-                        logger.debug(f"terminate: {done}\n")
-                        
-                        self.planner.update_info(info)
-                        img_path = self.env.save_image(obs)
-                        episode_info['reward'].append(reward)
-                        episode_info['num_invalid_actions'] += (info['last_action_success'] == 0)
-                
-                except Exception as e: 
-                    print(e)
-                    time.sleep(30)
+            # run single episode with MemVerse Agent
+            episode_info = self.agent.run_single_episode(obs, img_path, user_instruction)
 
-            # evaluation metrics
+            # Keep remaining metrics computation exactly as expected
             episode_info['instruction'] = user_instruction
-            episode_info['reward'] = np.mean(episode_info['reward'])
-            episode_info['task_success'] = info['task_success']
-            episode_info["task_progress"] = info['task_progress']
-            episode_info['num_steps'] = info["env_step"]
             episode_info['planner_steps'] = self.planner.planner_steps
             episode_info['planner_output_error'] = self.planner.output_json_error
-            episode_info["num_invalid_actions"] = episode_info['num_invalid_actions']
-            episode_info["num_invalid_action_ratio"] = episode_info['num_invalid_actions'] / info["env_step"] if info['env_step'] > 0 else 0
-            episode_info["episode_elapsed_seconds"] = info.get("episode_elapsed_seconds", time.time() - self.env._episode_start_time)
+            
+            # Use info context generated locally in planner or env, but for task progress we can get from env
+            current_info = self.planner.info if hasattr(self.planner, 'info') and self.planner.info else {}
+            # task_success, num_steps, reward, task_progress
+            episode_info['task_progress'] = current_info.get('task_progress', 0)
+            
+            # env info overrides if missing
+            env_step = episode_info.get('num_steps', self.env._current_step)
+            episode_info["num_invalid_actions"] = episode_info.get('num_invalid_actions', 0)
+            episode_info["num_invalid_action_ratio"] = episode_info['num_invalid_actions'] / env_step if env_step > 0 else 0
+            episode_info["episode_elapsed_seconds"] = time.time() - self.env._episode_start_time
 
             self.env.save_episode_log()
             self.save_episode_metric(episode_info)

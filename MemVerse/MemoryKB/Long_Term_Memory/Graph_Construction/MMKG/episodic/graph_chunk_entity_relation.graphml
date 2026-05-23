@@ -1,0 +1,1301 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d17" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d16" for="edge" attr.name="relation_type" attr.type="string" />
+  <key id="d15" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d14" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d13" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d12" for="edge" attr.name="description" attr.type="string" />
+  <key id="d11" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d10" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d9" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d8" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d7" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="node" attr.name="spatial" attr.type="string" />
+  <key id="d5" for="node" attr.name="temporal" attr.type="string" />
+  <key id="d4" for="node" attr.name="constraints" attr.type="string" />
+  <key id="d3" for="node" attr.name="affordances" attr.type="string" />
+  <key id="d2" for="node" attr.name="concept" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Tomatoes">
+      <data key="d0">Tomatoes</data>
+      <data key="d1">food</data>
+      <data key="d2">"Red spherical fruits often used in cooking"&lt;SEP&gt;"Vibrant red, ripe tomatoes with green star-shaped stems, quantity 2"</data>
+      <data key="d3">"N/A";"wash;microwave";slice</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"Countertop area, positioned mid-left"&lt;SEP&gt;"N/A"</data>
+      <data key="d7">The tomatoes are ripe and vibrant red, intended for drying in the microwave after being sliced.&lt;SEP&gt;Tomatoes are red and spherical, with a count of two observed on the dining table.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30&lt;SEP&gt;chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889666</data>
+    </node>
+    <node id="Bread">
+      <data key="d0">Bread</data>
+      <data key="d1">food</data>
+      <data key="d2">"Crusty oval-shaped food item"&lt;SEP&gt;"Oval-shaped, dark brown bread"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">Bread is crusty and oval in shape, located on the dining table.&lt;SEP&gt;The bread is present on the countertop and is part of the kitchen environment.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30&lt;SEP&gt;chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889666</data>
+    </node>
+    <node id="Spoon">
+      <data key="d0">Spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A utensil with a handle used for eating or serving"</data>
+      <data key="d3">"grasp;serve"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The spoon is oriented with the handle towards the viewer, observed on the dining table.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889193</data>
+    </node>
+    <node id="Egg">
+      <data key="d0">Egg</data>
+      <data key="d1">food</data>
+      <data key="d2">"Oval-shaped food item with a smooth shell"&lt;SEP&gt;"Small, white egg"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The egg is oval and has a smooth shell, placed on the dining table.&lt;SEP&gt;The egg is present among the additional objects on the countertop.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30&lt;SEP&gt;chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889666</data>
+    </node>
+    <node id="Bowl">
+      <data key="d0">Bowl</data>
+      <data key="d1">receptacle</data>
+      <data key="d2">"Container made of ceramic or metal"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"partially_hidden"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The bowl is partially hidden on the dining table and is made of ceramic or metal.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889193</data>
+    </node>
+    <node id="Soap Dispenser">
+      <data key="d0">Soap Dispenser</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"Device for dispensing soap"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The soap dispenser is light purple with a dark-colored pump, located on the dining table.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889193</data>
+    </node>
+    <node id="Salt Shaker">
+      <data key="d0">Salt Shaker</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"Container for dispensing salt"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The salt shaker has a metallic top and is placed on the dining table.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889193</data>
+    </node>
+    <node id="Cylindrical Container">
+      <data key="d0">Cylindrical Container</data>
+      <data key="d1">container</data>
+      <data key="d2">"Spice container with a cylindrical shape"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The cylindrical container has a purpose for spices and is located on the dining table.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889193</data>
+    </node>
+    <node id="Small Spoon">
+      <data key="d0">Small Spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A smaller version of a utensil for eating or serving"</data>
+      <data key="d3">"grasp;serve"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The small spoon is oriented in the opposite direction to the other spoon, found on the dining table.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889193</data>
+    </node>
+    <node id="Dining Table">
+      <data key="d0">Dining Table</data>
+      <data key="d1">furniture</data>
+      <data key="d2">"Table used for dining purposes"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The dining table is the main surface on which various kitchen items are arranged, observed in the dining area.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889194</data>
+    </node>
+    <node id="Dining Area">
+      <data key="d0">Dining Area</data>
+      <data key="d1">room</data>
+      <data key="d2">"An area designated for dining purposes"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The dining area is where the dining table and kitchen items are located and is associated with meal activities.</data>
+      <data key="d8">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889194</data>
+    </node>
+    <node id="Red Apple">
+      <data key="d0">Red Apple</data>
+      <data key="d1">food</data>
+      <data key="d2">"A medium-sized apple with a red color"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Red Apple is a medium-sized fruit characterized by its red color, often found in kitchens.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889285</data>
+    </node>
+    <node id="Green Apple">
+      <data key="d0">Green Apple</data>
+      <data key="d1">food</data>
+      <data key="d2">"A medium-sized apple with a green color"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Green Apple is a medium-sized fruit recognized by its green color, typically located in kitchen environments.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889285</data>
+    </node>
+    <node id="Fork">
+      <data key="d0">Fork</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A silver-colored fork used for eating"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Fork is a silver-colored eating utensil, found near the red apple and used for serving or eating food.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889285</data>
+    </node>
+    <node id="Knife">
+      <data key="d0">Knife</data>
+      <data key="d1">utensil</data>
+      <data key="d2">The knife is described as a yellow-colored kitchen utensil featuring a metallic blade and a yellow handle. It is positioned horizontally and is primarily used for cutting purposes. Based on the information, it is likely a butter knife, categorized as a metal utensil suitable for kitchen tasks.</data>
+      <data key="d3">"N/A";"cut;"grasp;grasp";lift;place";slice;slice"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Knife is characterized by its yellow color and features a metallic blade paired with a yellow handle. It is commonly used for cutting food items, particularly for slicing tomatoes during food preparation tasks. At the moment, the knife is positioned horizontally on the kitchen countertop, indicating that it is ready for use, but it is currently not in action.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-7d937e47755fdb5aad30964c7447e76f&lt;SEP&gt;chunk-d46d08be58d7922a29d84fed200baba6&lt;SEP&gt;chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772890938</data>
+    </node>
+    <node id="Silver Spoon">
+      <data key="d0">Silver Spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A silver-colored spoon used for eating"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Silver Spoon is a metallic utensil used for eating or serving, typically found in kitchen settings.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889285</data>
+    </node>
+    <node id="Golden Spoon">
+      <data key="d0">Golden Spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A gold-colored spoon used for eating"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Golden Spoon, characterized by its gold color, is a utensil commonly used for serving or eating food.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889285</data>
+    </node>
+    <node id="Pink Spherical Object">
+      <data key="d0">Pink Spherical Object</data>
+      <data key="d1">object</data>
+      <data key="d2">"An egg-like object with a pink color"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Pink Spherical Object is described as egg-like in shape and pink in color, located within the kitchen sink area.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889285</data>
+    </node>
+    <node id="Kitchen Sink">
+      <data key="d0">Kitchen Sink</data>
+      <data key="d1">receptacle</data>
+      <data key="d2">"A sink used for washing dishes and food"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Kitchen Sink is a fixture in kitchens designed for washing dishes and food items, containing various objects.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889285</data>
+    </node>
+    <node id="Countertop">
+      <data key="d0">Countertop</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A surface area in the kitchen for food preparation"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Countertop is a surface located in the kitchen environment, typically used for preparing food and placing kitchen items.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889286</data>
+    </node>
+    <node id="Beige Countertop">
+      <data key="d0">Beige Countertop</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A neutral-colored countertop used in the kitchen"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Beige Countertop serves as a surface for placing items and preparing food in the kitchen environment.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889286</data>
+    </node>
+    <node id="Cream-Colored Wall">
+      <data key="d0">Cream-Colored Wall</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A wall painted in a cream color, part of the kitchen decor"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Cream-Colored Wall adds to the visual aesthetic of the kitchen and serves as a backdrop to the items present.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889286</data>
+    </node>
+    <node id="Orange Cabinets">
+      <data key="d0">Orange Cabinets</data>
+      <data key="d1">furniture</data>
+      <data key="d2">"Cabinets in an orange color used for storage in the kitchen"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Orange Cabinets are functional units in the kitchen used to store kitchenware and food items.</data>
+      <data key="d8">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889286</data>
+    </node>
+    <node id="Coffee Maker">
+      <data key="d0">Coffee Maker</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"A modern coffee maker with a circular drip tray and black color."</data>
+      <data key="d3">"brew coffee;clean";operate</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The coffee maker is a modern appliance that brews coffee and has a circular drip tray, located against the beige wall.</data>
+      <data key="d8">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889363</data>
+    </node>
+    <node id="Toaster">
+      <data key="d0">Toaster</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"A compact silver toaster with two slots."</data>
+      <data key="d3">"toast;heat";slice</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The toaster is a compact appliance with a silver color and two slots, positioned parallel to the edge of the counter.</data>
+      <data key="d8">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889363</data>
+    </node>
+    <node id="Sponge">
+      <data key="d0">Sponge</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A flat, rectangular sponge with a green color and yellow border."</data>
+      <data key="d3">"clean;absorb";wash</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The sponge is a flat, rectangular utensil that has a green color with a yellow border, located in the upper-left corner of the kitchen countertop.</data>
+      <data key="d8">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889363</data>
+    </node>
+    <node id="Kitchen Countertop">
+      <data key="d0">Kitchen Countertop</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A flat surface for food preparation located in the kitchen."&lt;SEP&gt;"A surface in the kitchen environment where various objects are located."&lt;SEP&gt;"A flat surface used for food preparation and task execution in the kitchen."</data>
+      <data key="d3">"N/A";"hold;"support;place items;serve food";support"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The kitchen countertop is where the knife is placed horizontally and is part of the kitchen environment.&lt;SEP&gt;The kitchen countertop serves as a flat surface where the coffee maker, knife, toaster, and sponge are positioned, facilitating cooking and preparation activities.&lt;SEP&gt;The kitchen countertop serves as the primary workspace for food preparation activities, where various ingredients and utensils are placed.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-d46d08be58d7922a29d84fed200baba6&lt;SEP&gt;chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772890936</data>
+    </node>
+    <node id="Beige Wall">
+      <data key="d0">Beige Wall</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A wall with a beige color serving as a backdrop in the kitchen."</data>
+      <data key="d3">"support;define space"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The beige wall serves as a background against which the coffee maker is positioned, giving context to the kitchen environment.</data>
+      <data key="d8">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889363</data>
+    </node>
+    <node id="toaster">
+      <data key="d0">toaster</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"A medium-sized appliance for toasting bread and similar items"</data>
+      <data key="d3">"toast;operate";serve</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The toaster is a medium-sized kitchen appliance, metallic gray in color, designed for toasting bread.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="spoon">
+      <data key="d0">spoon</data>
+      <data key="d1">utensil</data>
+      <data key="d2">"A kitchen utensil used for stirring or serving food"</data>
+      <data key="d3">"stir;measure";serve</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The spoon is a metallic kitchen utensil with a light blue handle, typically used for stirring or serving food.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="sink">
+      <data key="d0">sink</data>
+      <data key="d1">receptacle</data>
+      <data key="d2">"A metallic receptacle used for washing dishes and other food preparation tasks"</data>
+      <data key="d3">"wash;drain";fill</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The sink is a metallic receptacle featuring a faucet and basin, located within the kitchen setup on the countertop.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="red apple">
+      <data key="d0">red apple</data>
+      <data key="d1">food</data>
+      <data key="d2">"A whole fruit with a red exterior, typically edible"</data>
+      <data key="d3">"consume;prepare";slice</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The red apple is a whole fruit located within the sink, indicating it may be part of food preparation activities.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="white egg">
+      <data key="d0">white egg</data>
+      <data key="d1">food</data>
+      <data key="d2">"An uncracked egg, commonly used in various recipes"</data>
+      <data key="d3">"cook;consume";prepare</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The white egg is an uncracked egg found within the sink, suggesting its use in food preparation.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="knife">
+      <data key="d0">knife</data>
+      <data key="d1">tool</data>
+      <data key="d2">"A long metallic tool used for cutting food"</data>
+      <data key="d3">"cut;chop";slice</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The knife has a long metallic blade and a dark handle, used in the kitchen for cutting ingredients.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="kitchen">
+      <data key="d0">kitchen</data>
+      <data key="d1">room</data>
+      <data key="d2">"A space designed for cooking and food preparation"</data>
+      <data key="d3">"prepare food;clean";store items</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The kitchen is a dedicated room for cooking and food preparation, equipped with various appliances and tools.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="countertop">
+      <data key="d0">countertop</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A flat surface in the kitchen used for food preparation and other tasks"</data>
+      <data key="d3">"support items;prepare food;work"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The countertop is a kitchen surface where various food preparation items are placed and used during cooking.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="cabinet doors">
+      <data key="d0">cabinet doors</data>
+      <data key="d1">structure</data>
+      <data key="d2">"Doors that enclose storage spaces in the kitchen"</data>
+      <data key="d3">"open;close;store items"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The cabinet doors are part of the kitchen structure, offering storage for kitchen items and maintaining the organization of the space.</data>
+      <data key="d8">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889444</data>
+    </node>
+    <node id="kitchen countertop">
+      <data key="d0">kitchen countertop</data>
+      <data key="d1">surface</data>
+      <data key="d2">"A kitchen countertop is the flat working surface in a kitchen."</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The kitchen countertop is where various kitchen objects are placed and interacted with, providing a workspace for food preparation.</data>
+      <data key="d8">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889505</data>
+    </node>
+    <node id="microwave">
+      <data key="d0">microwave</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"A black appliance used for cooking or heating food."</data>
+      <data key="d3">"heat;cook;warm"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The microwave is located on the right side of the kitchen countertop and is used for cooking or heating food.</data>
+      <data key="d8">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889505</data>
+    </node>
+    <node id="salt shaker">
+      <data key="d0">salt shaker</data>
+      <data key="d1">object</data>
+      <data key="d2">"A small clear salt shaker with a white cap, used to dispense salt."</data>
+      <data key="d3">"dispense;season"</data>
+      <data key="d4">"fragile;avoid_excessive_force"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The salt shaker is positioned to the left of the microwave on the kitchen countertop and contains salt for seasoning food.</data>
+      <data key="d8">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889505</data>
+    </node>
+    <node id="embodied_agent">
+      <data key="d0">embodied_agent</data>
+      <data key="d1">person</data>
+      <data key="d2">"N/A"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The embodied agent is referenced as the actor in the observation of the kitchen environment.</data>
+      <data key="d8">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889505</data>
+    </node>
+    <node id="User">
+      <data key="d0">User</data>
+      <data key="d1">person</data>
+      <data key="d2">"N/A"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">User is the actor involved in the task of preparing food in the context of a kitchen environment.</data>
+      <data key="d8">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889666</data>
+    </node>
+    <node id="Saucepan">
+      <data key="d0">Saucepan</data>
+      <data key="d1">container</data>
+      <data key="d2">"Metal saucepan showing signs of wear"</data>
+      <data key="d3">"cook;heat"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The saucepan is metallic and used for cooking, observed to be in worn condition.</data>
+      <data key="d8">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889666</data>
+    </node>
+    <node id="Two Ripe Tomatoes">
+      <data key="d0">Two Ripe Tomatoes</data>
+      <data key="d1">object</data>
+      <data key="d2">"Two ripe tomatoes, characterized by vibrant red color and green star-shaped stems"</data>
+      <data key="d3">"use;prepare"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The two ripe tomatoes are essential ingredients in the food preparation process, ready to be sliced and microwaved.</data>
+      <data key="d8">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772889666</data>
+    </node>
+    <node id="Sink">
+      <data key="d0">Sink</data>
+      <data key="d1">receptacle</data>
+      <data key="d2">"A receptacle used for washing dishes and utensils."&lt;SEP&gt;"A sink used for rinsing food"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The sink is empty and located next to the countertop.&lt;SEP&gt;The sink is mentioned as a used receptacle for rinsing the sliced tomato, and it is located near the countertop.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <node id="Kitchen">
+      <data key="d0">Kitchen</data>
+      <data key="d1">location</data>
+      <data key="d2">"A room or area equipped for cooking and food preparation."</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">The kitchen is the global location where the knife and sink are located, indicating the environment for the actions performed in the task.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772890936</data>
+    </node>
+    <node id="Embodied Agent">
+      <data key="d0">Embodied Agent</data>
+      <data key="d1">person</data>
+      <data key="d2">"An agent performing tasks in a food preparation context"&lt;SEP&gt;"N/A"</data>
+      <data key="d3">"N/A";"navigate;grasp;lift;place"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Embodied Agent is the actor involved in the task of placing the tomato in the microwave.&lt;SEP&gt;The embodied agent is the actor in the task who interacts with the knife and sink to complete the task of placing the knife in the sink.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <node id="Task Request">
+      <data key="d0">Task Request</data>
+      <data key="d1">event</data>
+      <data key="d2">"A request for a specific task to be completed."&lt;SEP&gt;"A request to perform a specific task related to food preparation"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Task Request outlines the goal to place a sliced tomato in the microwave for sauces and salads.&lt;SEP&gt;The task request specifies the action to place the knife in the sink after use.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <node id="Perception Update">
+      <data key="d0">Perception Update</data>
+      <data key="d1">event</data>
+      <data key="d2">"A notification indicating changes in the status of objects or actions."</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">N/A</data>
+      <data key="d7">Perception update involves changes in the status of the knife and sink as actions are performed.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772890936</data>
+    </node>
+    <node id="Action Execution">
+      <data key="d0">Action Execution</data>
+      <data key="d1">event</data>
+      <data key="d2">"An execution of a set of actions to fulfill a task request"&lt;SEP&gt;"The process of carrying out specific actions in response to a task request."</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">Action Execution encompasses the steps taken to complete the task of placing the tomato in the microwave.&lt;SEP&gt;Action execution involves the sequence of actions taken by the embodied agent to place the knife in the sink.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <node id="Success Outcome">
+      <data key="d0">Success Outcome</data>
+      <data key="d1">event</data>
+      <data key="d2">"The final result indicating the successful completion of a task"&lt;SEP&gt;"The final result of successfully completing a task."</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The Success Outcome confirms that the goal of placing the sliced tomato in the microwave was achieved.&lt;SEP&gt;The success outcome indicates that the goal of placing the knife in the sink has been achieved.</data>
+      <data key="d8">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <node id="Tomato">
+      <data key="d0">Tomato</data>
+      <data key="d1">food</data>
+      <data key="d2">"A sliced tomato intended for use in sauces and salads"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The tomato is described as sliced and was rinsed before being placed into the microwave for future use.</data>
+      <data key="d8">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <node id="Microwave">
+      <data key="d0">Microwave</data>
+      <data key="d1">appliance</data>
+      <data key="d2">"A functional and accessible microwave used for heating food"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The microwave is highlighted as functional and located on the countertop, where the sliced tomato was placed after rinsing.</data>
+      <data key="d8">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <node id="Kitchen Area">
+      <data key="d0">Kitchen Area</data>
+      <data key="d1">room</data>
+      <data key="d2">"A designated area for food preparation"</data>
+      <data key="d3">"N/A"</data>
+      <data key="d4">"N/A"</data>
+      <data key="d5">"N/A"</data>
+      <data key="d6">"N/A"</data>
+      <data key="d7">The kitchen area is the environment where the food preparation task took place, including interactions with the sink and microwave.</data>
+      <data key="d8">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d9">unknown_source</data>
+      <data key="d10">1772966743</data>
+    </node>
+    <edge source="Tomatoes" target="Bowl">
+      <data key="d11">6.0</data>
+      <data key="d12">Tomatoes are placed in or near a bowl, which is commonly used for serving food.</data>
+      <data key="d13">food presentation; serving utensil</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889197</data>
+    </edge>
+    <edge source="Tomatoes" target="Dining Table">
+      <data key="d11">7.0</data>
+      <data key="d12">Tomatoes are placed on the dining table, indicating its use for serving food.</data>
+      <data key="d13">food serving; meal preparation</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889197</data>
+    </edge>
+    <edge source="Tomatoes" target="User">
+      <data key="d11">8.0</data>
+      <data key="d12">User is preparing sliced tomatoes for microwaving as part of the food preparation task.</data>
+      <data key="d13">food preparation,task execution</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772889667</data>
+    </edge>
+    <edge source="Tomatoes" target="Knife">
+      <data key="d11">9.0</data>
+      <data key="d12">The knife is used to slice the tomatoes during the food preparation task.</data>
+      <data key="d13">cutting,preparation process</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889667</data>
+    </edge>
+    <edge source="Tomatoes" target="Bread">
+      <data key="d11">5.0</data>
+      <data key="d12">Tomatoes and bread are both food items present during the kitchen task.</data>
+      <data key="d13">food items,kitchen context</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889668</data>
+    </edge>
+    <edge source="Tomatoes" target="Kitchen Countertop">
+      <data key="d11">7.0</data>
+      <data key="d12">The tomatoes are placed on the kitchen countertop as part of the food preparation setup.</data>
+      <data key="d13">context,food preparation</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889668</data>
+    </edge>
+    <edge source="Bread" target="Spoon">
+      <data key="d11">4.0</data>
+      <data key="d12">Bread may be eaten or served with a spoon, linking their functionality in a dining setting.</data>
+      <data key="d13">dining; utensil use</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889197</data>
+    </edge>
+    <edge source="Bread" target="Dining Table">
+      <data key="d11">7.0</data>
+      <data key="d12">Bread is set on the dining table as part of the dining arrangement.</data>
+      <data key="d13">meal serving; dining setup</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889205</data>
+    </edge>
+    <edge source="Bread" target="Kitchen Countertop">
+      <data key="d11">6.0</data>
+      <data key="d12">Bread is also placed on the kitchen countertop, indicating it is part of the food preparation context.</data>
+      <data key="d13">food items,shared workspace</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889670</data>
+    </edge>
+    <edge source="Egg" target="Dining Table">
+      <data key="d11">6.0</data>
+      <data key="d12">The egg is presented on the dining table, contributing to the overall meal arrangement.</data>
+      <data key="d13">meal presentation; food arrangement</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889199</data>
+    </edge>
+    <edge source="Egg" target="User">
+      <data key="d11">4.0</data>
+      <data key="d12">The egg is part of the food preparation context observed by the user, although not interactive in this scenario.</data>
+      <data key="d13">food context,kitchen environment</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889670</data>
+    </edge>
+    <edge source="Egg" target="Kitchen Countertop">
+      <data key="d11">5.0</data>
+      <data key="d12">The egg is located on the kitchen countertop, indicating its presence during food preparation activities.</data>
+      <data key="d13">food items,kitchen context</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889671</data>
+    </edge>
+    <edge source="Bowl" target="Salt Shaker">
+      <data key="d11">5.0</data>
+      <data key="d12">The bowl and salt shaker are common kitchen items found together on the dining table.</data>
+      <data key="d13">kitchen items; dining essentials</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889197</data>
+    </edge>
+    <edge source="Bowl" target="Dining Table">
+      <data key="d11">6.0</data>
+      <data key="d12">The bowl is placed on the dining table, commonly used for serving food.</data>
+      <data key="d13">table settings; food service</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889206</data>
+    </edge>
+    <edge source="Soap Dispenser" target="Dining Table">
+      <data key="d11">5.0</data>
+      <data key="d12">The soap dispenser is located on the dining table, indicating its relevance in meal hygiene practices.</data>
+      <data key="d13">kitchen hygiene; dining area setup</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889202</data>
+    </edge>
+    <edge source="Salt Shaker" target="Dining Table">
+      <data key="d11">6.0</data>
+      <data key="d12">The salt shaker is kept on the dining table for seasoning food during meals.</data>
+      <data key="d13">food seasoning; dining essentials</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889204</data>
+    </edge>
+    <edge source="Dining Table" target="Dining Area">
+      <data key="d11">8.0</data>
+      <data key="d12">The dining area encompasses the dining table, creating a space for meals.</data>
+      <data key="d13">room function; dining setup</data>
+      <data key="d14">chunk-78fbc73910e0e30b7238f2cfbe705c30</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889205</data>
+    </edge>
+    <edge source="Red Apple" target="Silver Spoon">
+      <data key="d11">8.0</data>
+      <data key="d12">The Silver Spoon is located to the left of the Red Apple on the countertop, indicating a spatial relationship.</data>
+      <data key="d13">spatial arrangement</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889287</data>
+    </edge>
+    <edge source="Red Apple" target="Fork">
+      <data key="d11">7.0</data>
+      <data key="d12">The Fork is also positioned near the Red Apple, indicating its use in eating the apple.</data>
+      <data key="d13">eating,utensil function</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889288</data>
+    </edge>
+    <edge source="Green Apple" target="Knife">
+      <data key="d11">6.0</data>
+      <data key="d12">The Knife is a utensil typically used for cutting fruits, including the Green Apple.</data>
+      <data key="d13">cutting,food preparation</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889287</data>
+    </edge>
+    <edge source="Fork" target="Silver Spoon">
+      <data key="d11">8.0</data>
+      <data key="d12">The Silver Spoon overlaps with the Fork in the kitchen sink area, indicating their proximity.</data>
+      <data key="d13">utensil proximity</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889288</data>
+    </edge>
+    <edge source="Knife" target="Coffee Maker">
+      <data key="d11">5.0</data>
+      <data key="d12">The coffee maker is positioned to the left of the knife on the kitchen countertop.</data>
+      <data key="d13">object placement,spatial arrangement</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889365</data>
+    </edge>
+    <edge source="Knife" target="Toaster">
+      <data key="d11">5.0</data>
+      <data key="d12">The knife is positioned to the left of the toaster on the kitchen countertop.</data>
+      <data key="d13">object placement,spatial arrangement</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889365</data>
+    </edge>
+    <edge source="Knife" target="Beige Wall">
+      <data key="d11">6.0</data>
+      <data key="d12">The knife is positioned to the right of the coffee maker, which is against the beige wall.</data>
+      <data key="d13">relational positioning,spatial arrangement</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889372</data>
+    </edge>
+    <edge source="Knife" target="User">
+      <data key="d11">8.0</data>
+      <data key="d12">User utilizes the knife to slice the tomatoes as part of the task.</data>
+      <data key="d13">preparation action,tool usage</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772889670</data>
+    </edge>
+    <edge source="Knife" target="Two Ripe Tomatoes">
+      <data key="d11">8.0</data>
+      <data key="d12">The knife is specifically used for cutting the two ripe tomatoes during the preparation task.</data>
+      <data key="d13">cutting,food preparation</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772889673</data>
+    </edge>
+    <edge source="Knife" target="Sink">
+      <data key="d11">8.0</data>
+      <data key="d12">The knife was moved from the countertop to the sink during the task execution.</data>
+      <data key="d13">item placement,task outcome</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772890939</data>
+    </edge>
+    <edge source="Knife" target="Kitchen Countertop">
+      <data key="d11">9.0</data>
+      <data key="d12">The knife is positioned horizontally on the kitchen countertop before it is moved.</data>
+      <data key="d13">item placement,spatial arrangement</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772890940</data>
+    </edge>
+    <edge source="Kitchen Sink" target="Countertop">
+      <data key="d11">9.0</data>
+      <data key="d12">The Kitchen Sink and Countertop share the same kitchen environment, with items located in both areas.</data>
+      <data key="d13">item placement,kitchen layout</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889287</data>
+    </edge>
+    <edge source="Kitchen Sink" target="Beige Countertop">
+      <data key="d11">9.0</data>
+      <data key="d12">The Kitchen Sink is situated on or near the Beige Countertop, sharing the same kitchen area.</data>
+      <data key="d13">item arrangement,kitchen layout</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889288</data>
+    </edge>
+    <edge source="Beige Countertop" target="Cream-Colored Wall">
+      <data key="d11">7.0</data>
+      <data key="d12">The Beige Countertop is adjacent to the Cream-Colored Wall in the kitchen setting.</data>
+      <data key="d13">kitchen layout,spatial relationship</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889289</data>
+    </edge>
+    <edge source="Cream-Colored Wall" target="Orange Cabinets">
+      <data key="d11">8.0</data>
+      <data key="d12">The Orange Cabinets are part of the kitchen's decor and are positioned against the Cream-Colored Wall.</data>
+      <data key="d13">kitchen decor,spatial arrangement</data>
+      <data key="d14">chunk-7d937e47755fdb5aad30964c7447e76f</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889287</data>
+    </edge>
+    <edge source="Coffee Maker" target="Kitchen Countertop">
+      <data key="d11">8.0</data>
+      <data key="d12">The coffee maker is placed on the kitchen countertop, serving its function as an appliance.</data>
+      <data key="d13">appliance placement,functionality</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889371</data>
+    </edge>
+    <edge source="Coffee Maker" target="Beige Wall">
+      <data key="d11">6.0</data>
+      <data key="d12">The coffee maker is located against the beige wall in the kitchen environment.</data>
+      <data key="d13">contextual placement,spatial arrangement</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889371</data>
+    </edge>
+    <edge source="Toaster" target="Kitchen Countertop">
+      <data key="d11">8.0</data>
+      <data key="d12">The toaster is positioned on the kitchen countertop, indicating its use during cooking.</data>
+      <data key="d13">appliance placement,functionality</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889369</data>
+    </edge>
+    <edge source="Toaster" target="Beige Wall">
+      <data key="d11">6.0</data>
+      <data key="d12">The toaster is situated relative to the knife and coffee maker, which are also positioned near the beige wall.</data>
+      <data key="d13">contextual placement,spatial arrangement</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889372</data>
+    </edge>
+    <edge source="Sponge" target="Kitchen Countertop">
+      <data key="d11">7.0</data>
+      <data key="d12">The sponge is located on the kitchen countertop, contributing to cleaning tasks.</data>
+      <data key="d13">cleaning utensils,surface interaction</data>
+      <data key="d14">chunk-d46d08be58d7922a29d84fed200baba6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889365</data>
+    </edge>
+    <edge source="Kitchen Countertop" target="Saucepan">
+      <data key="d11">6.0</data>
+      <data key="d12">The saucepan is located on the kitchen countertop, indicating its role in the food preparation context.</data>
+      <data key="d13">cooking tools,location</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889670</data>
+    </edge>
+    <edge source="Kitchen Countertop" target="Sink">
+      <data key="d11">7.0</data>
+      <data key="d12">The sink is located next to the countertop, indicating a spatial relationship in the kitchen environment.</data>
+      <data key="d13">adjacency,spatial relationship</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772890942</data>
+    </edge>
+    <edge source="Kitchen Countertop" target="Kitchen">
+      <data key="d11">8.0</data>
+      <data key="d12">The kitchen countertop is part of the kitchen environment where tasks are performed.</data>
+      <data key="d13">environment component,spatial context</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772890943</data>
+    </edge>
+    <edge source="toaster" target="spoon">
+      <data key="d11">6.0</data>
+      <data key="d12">The toaster is a kitchen appliance that may work in conjunction with utensils like the spoon for serving toasted items.</data>
+      <data key="d13">cooking process,kitchen functions</data>
+      <data key="d14">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889445</data>
+    </edge>
+    <edge source="sink" target="red apple">
+      <data key="d11">8.0</data>
+      <data key="d12">The red apple is located within the sink, suggesting it may be washed or prepared there.</data>
+      <data key="d13">food preparation,location relation</data>
+      <data key="d14">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889445</data>
+    </edge>
+    <edge source="sink" target="white egg">
+      <data key="d11">8.0</data>
+      <data key="d12">The white egg is placed within the sink, indicating it is also part of the food preparation area.</data>
+      <data key="d13">food preparation,location relation</data>
+      <data key="d14">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889445</data>
+    </edge>
+    <edge source="sink" target="knife">
+      <data key="d11">7.0</data>
+      <data key="d12">The knife is a tool likely used for preparing food items near the sink</data>
+      <data key="d13">food preparation,kitchen tools</data>
+      <data key="d14">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889446</data>
+    </edge>
+    <edge source="kitchen" target="countertop">
+      <data key="d11">9.0</data>
+      <data key="d12">The countertop is located in the kitchen and serves as a preparation area for cooking.</data>
+      <data key="d13">cooking area,kitchen layout</data>
+      <data key="d14">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889445</data>
+    </edge>
+    <edge source="countertop" target="cabinet doors">
+      <data key="d11">8.0</data>
+      <data key="d12">The cabinet doors are part of the kitchen's structure that encloses storage above and below the countertop.</data>
+      <data key="d13">kitchen organization,storage</data>
+      <data key="d14">chunk-2963f8e9035b3b200ca774f3169508e9</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">COMPOSITION</data>
+      <data key="d17">1772889445</data>
+    </edge>
+    <edge source="kitchen countertop" target="microwave">
+      <data key="d11">16.0</data>
+      <data key="d12">The kitchen countertop serves as the surface on which the microwave is placed, indicating their spatial relationship.&lt;SEP&gt;The microwave is placed on the kitchen countertop, serving as an appliance within this surface area.</data>
+      <data key="d13">appliance placement,kitchen setup,spatial position,workspace</data>
+      <data key="d14">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889506</data>
+    </edge>
+    <edge source="kitchen countertop" target="salt shaker">
+      <data key="d11">16.0</data>
+      <data key="d12">The kitchen countertop is the location for the salt shaker, showing their arrangement in the kitchen.&lt;SEP&gt;The salt shaker is situated on the kitchen countertop, highlighting its role as an accessory for food preparation.</data>
+      <data key="d13">kitchen accessory,kitchen setup,object placement,spatial arrangement</data>
+      <data key="d14">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889509</data>
+    </edge>
+    <edge source="kitchen countertop" target="embodied_agent">
+      <data key="d11">7.0</data>
+      <data key="d12">The embodied agent observes the kitchen countertop area, indicating an active engagement with this space.</data>
+      <data key="d13">engagement,observation</data>
+      <data key="d14">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889510</data>
+    </edge>
+    <edge source="microwave" target="salt shaker">
+      <data key="d11">6.0</data>
+      <data key="d12">The microwave and salt shaker are both present on the kitchen countertop, contributing to the functionality of the kitchen area.</data>
+      <data key="d13">cooking tools,kitchen objects</data>
+      <data key="d14">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889506</data>
+    </edge>
+    <edge source="microwave" target="embodied_agent">
+      <data key="d11">7.0</data>
+      <data key="d12">The embodied agent observes the microwave as a part of the kitchen environment they are interacting with.</data>
+      <data key="d13">kitchen equipment,observation</data>
+      <data key="d14">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889510</data>
+    </edge>
+    <edge source="salt shaker" target="embodied_agent">
+      <data key="d11">6.0</data>
+      <data key="d12">The embodied agent observes the salt shaker along with other objects in the kitchen area.</data>
+      <data key="d13">kitchen accessory,observation</data>
+      <data key="d14">chunk-7ff75a470f251d1719d00d7848c0683b</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">ASSOCIATION</data>
+      <data key="d17">1772889511</data>
+    </edge>
+    <edge source="User" target="Saucepan">
+      <data key="d11">6.0</data>
+      <data key="d12">The saucepan is part of the kitchen context within which the user is preparing food.</data>
+      <data key="d13">cooking tools,kitchen environment</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772889667</data>
+    </edge>
+    <edge source="Saucepan" target="Two Ripe Tomatoes">
+      <data key="d11">7.0</data>
+      <data key="d12">The tomatoes may potentially be cooked in the saucepan after being sliced.</data>
+      <data key="d13">cooking process,ingredient preparation</data>
+      <data key="d14">chunk-d8ae87c199754cc49118e965ce5b8d6a</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772889670</data>
+    </edge>
+    <edge source="Sink" target="Tomato">
+      <data key="d11">8.0</data>
+      <data key="d12">The tomato was rinsed in the sink before being placed into the microwave.</data>
+      <data key="d13">cleaning,food preparation</data>
+      <data key="d14">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772966745</data>
+    </edge>
+    <edge source="Sink" target="Kitchen Area">
+      <data key="d11">8.0</data>
+      <data key="d12">The sink is located within the kitchen area where tasks are performed.</data>
+      <data key="d13">environment context,task location</data>
+      <data key="d14">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772966745</data>
+    </edge>
+    <edge source="Sink" target="Microwave">
+      <data key="d11">7.0</data>
+      <data key="d12">The sink and microwave are both located in the kitchen area where food preparation occurs.</data>
+      <data key="d13">environment context,kitchen appliances</data>
+      <data key="d14">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772966746</data>
+    </edge>
+    <edge source="Embodied Agent" target="Task Request">
+      <data key="d11">17.0</data>
+      <data key="d12">The embodied agent is responsible for executing the task request of placing the knife in the sink.&lt;SEP&gt;The embodied agent is the entity responsible for executing the task request related to the tomato.</data>
+      <data key="d13">agent responsibility,task execution</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772966745</data>
+    </edge>
+    <edge source="Embodied Agent" target="Action Execution">
+      <data key="d11">8.0</data>
+      <data key="d12">The embodied agent performs the action execution to complete the task request.</data>
+      <data key="d13">execution role,task performance</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772890939</data>
+    </edge>
+    <edge source="Task Request" target="Success Outcome">
+      <data key="d11">8.0</data>
+      <data key="d12">The task request results in a success outcome once the action execution is completed.</data>
+      <data key="d13">outcome,task initiation</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772890939</data>
+    </edge>
+    <edge source="Task Request" target="Action Execution">
+      <data key="d11">8.0</data>
+      <data key="d12">The task request initiates the action execution to place the sliced tomato in the microwave.</data>
+      <data key="d13">execution,task process</data>
+      <data key="d14">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772966744</data>
+    </edge>
+    <edge source="Action Execution" target="Success Outcome">
+      <data key="d11">19.0</data>
+      <data key="d12">The action execution leads to a success outcome, indicating task completion.&lt;SEP&gt;The action execution leads to a successful outcome, confirming the task's completion.</data>
+      <data key="d13">execution result,result,task completion,task success</data>
+      <data key="d14">chunk-d4465ddc7acc9a70b4c2a6b738e7bac6&lt;SEP&gt;chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772966745</data>
+    </edge>
+    <edge source="Tomato" target="Microwave">
+      <data key="d11">9.0</data>
+      <data key="d12">The sliced tomato was successfully placed into the microwave for heating purposes.</data>
+      <data key="d13">cooking,food preparation</data>
+      <data key="d14">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">CAUSALITY</data>
+      <data key="d17">1772966744</data>
+    </edge>
+    <edge source="Microwave" target="Kitchen Area">
+      <data key="d11">8.0</data>
+      <data key="d12">The microwave is situated in the kitchen area, making it accessible for food preparation tasks.</data>
+      <data key="d13">appliance location,environment context</data>
+      <data key="d14">chunk-c692da48e56bb098faf0ccf30a8f3588</data>
+      <data key="d15">unknown_source</data>
+      <data key="d16">SPATIAL</data>
+      <data key="d17">1772966746</data>
+    </edge>
+  </graph>
+</graphml>

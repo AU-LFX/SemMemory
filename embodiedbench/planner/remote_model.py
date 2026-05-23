@@ -45,7 +45,11 @@ class RemoteModel:
                     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
                 )
             elif "gpt" in self.model_name:
-                self.model = OpenAI()
+                # self.model = OpenAI()
+                self.model = OpenAI(
+                    api_key=os.environ.get("CHATANYWHERE_API_KEY"),
+                    base_url="https://api.chatanywhere.tech/v1"
+                )
             elif 'qwen' in self.model_name:
                 self.model = OpenAI(
                     api_key=os.getenv("DASHSCOPE_API_KEY"),

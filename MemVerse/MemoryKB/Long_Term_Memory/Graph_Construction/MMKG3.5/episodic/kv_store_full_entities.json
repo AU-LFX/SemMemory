@@ -1,0 +1,203 @@
+{
+  "doc-d0d8e5fb4310903f4c2231b266aa6d56": {
+    "entity_names": [
+      "Dark Gray Spherical Object",
+      "Robot Arm",
+      "Small Side Table",
+      "Task Goal",
+      "Environment Context",
+      "Brown Armchair",
+      "Task Request",
+      "Perception Update",
+      "Spatial Context",
+      "User"
+    ],
+    "count": 10,
+    "create_time": 1772703115,
+    "update_time": 1772703115,
+    "_id": "doc-d0d8e5fb4310903f4c2231b266aa6d56"
+  },
+  "doc-e4b89e749b87de9bd2b695656376100b": {
+    "entity_names": [
+      "Cabinet 7",
+      "Butter",
+      "Strawberry",
+      "Kitchen",
+      "Kitchen Countertop",
+      "Spatula",
+      "User",
+      "Kitchen Environment"
+    ],
+    "count": 8,
+    "create_time": 1772703154,
+    "update_time": 1772703154,
+    "_id": "doc-e4b89e749b87de9bd2b695656376100b"
+  },
+  "doc-679a0eca9dc0e5e9a48835d7ff7c466a": {
+    "entity_names": [
+      "Embodied Agent",
+      "Robotic Arm",
+      "Kitchen Countertop",
+      "Sink",
+      "Wrench",
+      "Countertop Space",
+      "event_type",
+      "Kitchen Area"
+    ],
+    "count": 8,
+    "create_time": 1772703179,
+    "update_time": 1772703179,
+    "_id": "doc-679a0eca9dc0e5e9a48835d7ff7c466a"
+  },
+  "doc-1058b785568123c9dd67809d1e3c64cc": {
+    "entity_names": [
+      "flat dark surface",
+      "perception update",
+      "task request",
+      "pear",
+      "hammer",
+      "embodied_agent",
+      "cabinet 5",
+      "lighter walls"
+    ],
+    "count": 8,
+    "create_time": 1772703206,
+    "update_time": 1772703206,
+    "_id": "doc-1058b785568123c9dd67809d1e3c64cc"
+  },
+  "doc-05b12ac4b5e7ef4ee723211268193b96": {
+    "entity_names": [
+      "Countertop",
+      "Hammer",
+      "Robotic Arm",
+      "Green Pear",
+      "Cabinet",
+      "Cabinet 4",
+      "Environment"
+    ],
+    "count": 7,
+    "create_time": 1772703235,
+    "update_time": 1772703235,
+    "_id": "doc-05b12ac4b5e7ef4ee723211268193b96"
+  },
+  "doc-53daedf4d04d6753bedcb7a46e631c8a": {
+    "entity_names": [
+      "Brown Furniture Component",
+      "Embodied Agent",
+      "Refrigerator Push Point",
+      "Action Sequence",
+      "Structural Elements",
+      "Visibility of the Environment",
+      "Task Request",
+      "Perception Update",
+      "Kitchen Area",
+      "Gray Wall"
+    ],
+    "count": 10,
+    "create_time": 1772703265,
+    "update_time": 1772703265,
+    "_id": "doc-53daedf4d04d6753bedcb7a46e631c8a"
+  },
+  "doc-12916031e53dc924d9fcb0c41475bf10": {
+    "entity_names": [
+      "Room",
+      "Chair",
+      "Embodied Agent",
+      "Action Sequence",
+      "Robot Arm",
+      "Environment Context",
+      "Mechanical Gripper",
+      "Spatial Context"
+    ],
+    "count": 8,
+    "create_time": 1772703293,
+    "update_time": 1772703293,
+    "_id": "doc-12916031e53dc924d9fcb0c41475bf10"
+  },
+  "doc-4efe4535ba7fd9b92fec1ad1e7648658": {
+    "entity_names": [
+      "Indoor Room",
+      "Small Blue Object",
+      "Embodied Agent",
+      "Apple",
+      "Plate",
+      "Perception Update",
+      "Table",
+      "Action Execution"
+    ],
+    "count": 8,
+    "create_time": 1772703330,
+    "update_time": 1772703330,
+    "_id": "doc-4efe4535ba7fd9b92fec1ad1e7648658"
+  },
+  "doc-386546b08f03613bd02a1961790cf077": {
+    "entity_names": [
+      "Black Monitor",
+      "Red Cone-like Object",
+      "Red Circular Plate",
+      "Yellow Toy Car",
+      "Action Sequence",
+      "Environment Context",
+      "Blue Robotic Arm",
+      "embodied_agent",
+      "Tabletop Scene",
+      "Spatial Context",
+      "Key",
+      "Red Cylindrical Object",
+      "Multi-Colored Cube",
+      "Orange Sphere"
+    ],
+    "count": 14,
+    "create_time": 1772703375,
+    "update_time": 1772703375,
+    "_id": "doc-386546b08f03613bd02a1961790cf077"
+  },
+  "doc-23745efea012edbe0cdbde575e6dd39e": {
+    "entity_names": [
+      "Fruit-Like Morphology",
+      "TV Stand",
+      "Robotic Arm",
+      "Grasping/Manipulation Functionality",
+      "Round Shape",
+      "Dark Brown Rectangular Item",
+      "Flat Property",
+      "Blue Color",
+      "embodied_agent",
+      "Living Room",
+      "Yellow-Orange Object",
+      "Blue Table",
+      "Red Spherical Object",
+      "White Accents",
+      "Metallic Tool"
+    ],
+    "count": 15,
+    "create_time": 1772703418,
+    "update_time": 1772703418,
+    "_id": "doc-23745efea012edbe0cdbde575e6dd39e"
+  },
+  "doc-5c4f8a99c2c3feb883c8a2b6716e4e6e": {
+    "entity_names": [
+      "orange cup",
+      "environment context",
+      "local relations",
+      "action sequence",
+      "purple object",
+      "blue-and-white robotic arm/appendage",
+      "perception_update",
+      "yellow rubber duck",
+      "sponge",
+      "sink",
+      "embodied_agent",
+      "kitchen",
+      "task_request",
+      "final outcome",
+      "power drill",
+      "global location",
+      "banana peel"
+    ],
+    "count": 17,
+    "create_time": 1772703463,
+    "update_time": 1772703463,
+    "_id": "doc-5c4f8a99c2c3feb883c8a2b6716e4e6e"
+  }
+}

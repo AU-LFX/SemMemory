@@ -38,7 +38,8 @@ GOALS = ["pick_and_place_simple",
          "pick_clean_then_place_in_recep",
          "pick_heat_then_place_in_recep",
          "pick_cool_then_place_in_recep",
-         "pick_and_place_with_movable_recep"]
+         "pick_and_place_with_movable_recep",
+         "pick_clean_slice_heat_and_place_with_movable_recep"]
 
 GOALS_VALID = {"pick_and_place_simple": {"Kitchen", "LivingRoom", "Bathroom", "Bedroom"},
                "pick_two_obj_and_place": {"Kitchen", "LivingRoom", "Bathroom", "Bedroom"},
@@ -46,7 +47,8 @@ GOALS_VALID = {"pick_and_place_simple": {"Kitchen", "LivingRoom", "Bathroom", "B
                "pick_clean_then_place_in_recep": {"Kitchen", "Bathroom"},
                "pick_heat_then_place_in_recep": {"Kitchen"},
                "pick_cool_then_place_in_recep": {"Kitchen"},
-               "pick_and_place_with_movable_recep": {"Kitchen", "LivingRoom", "Bedroom"}}
+               "pick_and_place_with_movable_recep": {"Kitchen", "LivingRoom", "Bedroom"},
+               "pick_clean_slice_heat_and_place_with_movable_recep": {"Kitchen"}}
 
 pddl_goal_type = "pick_and_place_simple"  # default goal type
 

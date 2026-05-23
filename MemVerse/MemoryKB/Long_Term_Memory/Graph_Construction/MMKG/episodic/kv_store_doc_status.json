@@ -1,0 +1,260 @@
+{
+  "doc-78fbc73910e0e30b7238f2cfbe705c30": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-78fbc73910e0e30b7238f2cfbe705c30"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Observed kitchen items on the dining table.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"dining area, dining table\",\n        \"Key obje...",
+    "content_length": 2519,
+    "created_at": "2026-03-07T13:12:58.639370+00:00",
+    "updated_at": "2026-03-07T13:13:26.774251+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211258_7b52f45f",
+    "metadata": {
+      "processing_start_time": 1772889178,
+      "processing_end_time": 1772889206
+    }
+  },
+  "doc-03c92fccc4ff4d2ef7327c538e8e85bf": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-9bcc15050b8adf34f86fc45460423efc",
+      "chunk-24184517eeb51a7190bfab3ab39b7dec"
+    ],
+    "content_summary": "1. **Analyze content:**\n   The input describes various objects found on a dining table, including ripe tomatoes, a loaf of bread, a spoon, an egg, a bowl, a soap dispenser, and two small containers. Each object has distinct properties and spatial arr...",
+    "content_length": 5461,
+    "created_at": "2026-03-07T13:13:26.782848+00:00",
+    "updated_at": "2026-03-07T13:13:47.724096+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211326_9d93e5bb",
+    "metadata": {
+      "processing_start_time": 1772889206,
+      "processing_end_time": 1772889227
+    }
+  },
+  "doc-7d937e47755fdb5aad30964c7447e76f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7d937e47755fdb5aad30964c7447e76f"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Received kitchen sink scene with various items.\",\n    \"details\": {\n        \"Task goal(s)\": \"N/A\",\n        \"Environment context\": \"kitchen sink area with a beige countertop again...",
+    "content_length": 2118,
+    "created_at": "2026-03-07T13:14:31.362302+00:00",
+    "updated_at": "2026-03-07T13:14:50.698885+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211431_21b7bb3c",
+    "metadata": {
+      "processing_start_time": 1772889271,
+      "processing_end_time": 1772889290
+    }
+  },
+  "doc-4c96285de09aa1526083af2c9e4bfbcd": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-cda57d5c0b34838d6f34cb9c65d686f1",
+      "chunk-1ba51ef045c090ad538ad11ded28523b"
+    ],
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:**\n   - New objects identified: red apple, green apple, silver fork, yellow-handled knife, silver spoon, golden spoon, sink, beige countertop.\n   - Spatial relationships and characteristics noted.\n   - Descrip...",
+    "content_length": 5333,
+    "created_at": "2026-03-07T13:14:50.753267+00:00",
+    "updated_at": "2026-03-07T13:15:14.372274+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211450_5ee9b876",
+    "metadata": {
+      "processing_start_time": 1772889290,
+      "processing_end_time": 1772889314
+    }
+  },
+  "doc-d46d08be58d7922a29d84fed200baba6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d46d08be58d7922a29d84fed200baba6"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Agent perceives knife, coffee maker, and toaster on kitchen countertop.\",\n    \"details\": {\n        \"Task goals\": \"N/A\",\n        \"Environment context\": \"kitchen countertop\",\n        \"K...",
+    "content_length": 2374,
+    "created_at": "2026-03-07T13:15:51.949773+00:00",
+    "updated_at": "2026-03-07T13:16:13.384711+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211551_e20a8958",
+    "metadata": {
+      "processing_start_time": 1772889351,
+      "processing_end_time": 1772889373
+    }
+  },
+  "doc-1182cc5890ab6a14f097e918d60efe2a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1182cc5890ab6a14f097e918d60efe2a"
+    ],
+    "content_summary": "After analyzing the provided information, I will create and update the semantic memory entries accordingly:\n\n1. **Entry for Coffee Maker:**\n\n   - **Name:** Coffee Maker\n   - **Summary:** A modern kitchen appliance used for brewing coffee, characteriz...",
+    "content_length": 3024,
+    "created_at": "2026-03-07T13:16:13.399266+00:00",
+    "updated_at": "2026-03-07T13:16:36.540281+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211613_40151b31",
+    "metadata": {
+      "processing_start_time": 1772889373,
+      "processing_end_time": 1772889396
+    }
+  },
+  "doc-2963f8e9035b3b200ca774f3169508e9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2963f8e9035b3b200ca774f3169508e9"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Observed kitchen countertop with various food preparation items.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"kitchen, countertop\",\n  ...",
+    "content_length": 1530,
+    "created_at": "2026-03-07T13:17:11.067005+00:00",
+    "updated_at": "2026-03-07T13:17:27.103477+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211711_2b5f7155",
+    "metadata": {
+      "processing_start_time": 1772889431,
+      "processing_end_time": 1772889447
+    }
+  },
+  "doc-3b966f23a6dd49feb49e5a635468b01d": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-2ebda067ff889ba496dd85808b48733b",
+      "chunk-a54ed1a2fe17f8e84e3e1d2fe1cb75f1"
+    ],
+    "content_summary": "1. **Analyze Content**: The input provides a detailed description of kitchen countertop objects and their uses. The key items include a toaster, spoon, sink, red apple, white egg, and a knife. The countertop's main role as a workspace for food prepar...",
+    "content_length": 5347,
+    "created_at": "2026-03-07T13:17:27.122551+00:00",
+    "updated_at": "2026-03-07T13:17:50.114491+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211727_9727c0e7",
+    "metadata": {
+      "processing_start_time": 1772889447,
+      "processing_end_time": 1772889470
+    }
+  },
+  "doc-7ff75a470f251d1719d00d7848c0683b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7ff75a470f251d1719d00d7848c0683b"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Agent observes kitchen countertop with microwave and other objects.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"kitchen countertop ar...",
+    "content_length": 1286,
+    "created_at": "2026-03-07T13:18:16.619279+00:00",
+    "updated_at": "2026-03-07T13:18:31.953172+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211816_5bf66dd0",
+    "metadata": {
+      "processing_start_time": 1772889496,
+      "processing_end_time": 1772889511
+    }
+  },
+  "doc-12b74d52b5dd9f7030a90d4441cd8466": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-12b74d52b5dd9f7030a90d4441cd8466"
+    ],
+    "content_summary": "**Update Process:**\n\n1. **Analyze Content**: The input provides several objects in a kitchen scene, notably the microwave, along with its location, characteristics, and the surrounding context. New information about the microwave and its position rel...",
+    "content_length": 2211,
+    "created_at": "2026-03-07T13:18:31.974905+00:00",
+    "updated_at": "2026-03-07T13:18:41.831638+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_211831_7545c9d6",
+    "metadata": {
+      "processing_start_time": 1772889511,
+      "processing_end_time": 1772889521
+    }
+  },
+  "doc-d8ae87c199754cc49118e965ce5b8d6a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d8ae87c199754cc49118e965ce5b8d6a"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\"task_request\", \"perception_update\"],\n        \"summary\": \"User instructed to prepare and microwave sliced tomatoes.\",\n        \"details\": {\n            \"Task_goal\": \"Place a slice of rinsed tomatoes in the microw...",
+    "content_length": 1838,
+    "created_at": "2026-03-07T13:20:50.380402+00:00",
+    "updated_at": "2026-03-07T13:21:14.044514+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_212050_d373761f",
+    "metadata": {
+      "processing_start_time": 1772889650,
+      "processing_end_time": 1772889674
+    }
+  },
+  "doc-47e863c85da107c94adb93b1c1763edc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-47e863c85da107c94adb93b1c1763edc"
+    ],
+    "content_summary": "**Memory Update:**\n\n1. **Analyze content:** The input contains a set of instructions and a description of a kitchen scene, particularly focusing on tomatoes and their preparation. As a result, the semantic memory will be updated with information abou...",
+    "content_length": 2846,
+    "created_at": "2026-03-07T13:21:14.067049+00:00",
+    "updated_at": "2026-03-07T13:21:26.625182+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_212114_35083b0f",
+    "metadata": {
+      "processing_start_time": 1772889674,
+      "processing_end_time": 1772889686
+    }
+  },
+  "doc-d4465ddc7acc9a70b4c2a6b738e7bac6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d4465ddc7acc9a70b4c2a6b738e7bac6"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\",\n        \"action_execution\",\n        \"success_outcome\"\n    ],\n    \"summary\": \"Place the knife in the sink after use.\",\n    \"details\": {\n        \"task_goal\": \"Place the ...",
+    "content_length": 1865,
+    "created_at": "2026-03-07T13:42:04.923420+00:00",
+    "updated_at": "2026-03-07T13:42:24.952245+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_214204_b56f2234",
+    "metadata": {
+      "processing_start_time": 1772890924,
+      "processing_end_time": 1772890944
+    }
+  },
+  "doc-b3c55d614f6a325da3ec95df73e827c5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b3c55d614f6a325da3ec95df73e827c5"
+    ],
+    "content_summary": "1. **Analyze content**: The messages contain descriptive details about a kitchen scene and mention the placement of a knife. The focus is on the knife's characteristics and its need to be placed in the sink after use.\n\n2. **Decide what to save**: The...",
+    "content_length": 1322,
+    "created_at": "2026-03-07T13:42:24.982440+00:00",
+    "updated_at": "2026-03-07T13:42:33.866019+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_214224_75f64f36",
+    "metadata": {
+      "processing_start_time": 1772890944,
+      "processing_end_time": 1772890953
+    }
+  },
+  "doc-c692da48e56bb098faf0ccf30a8f3588": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c692da48e56bb098faf0ccf30a8f3588"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"action_execution\",\n        \"success_outcome\"\n    ],\n    \"summary\": \"The agent successfully placed a sliced tomato in the microwave after rinsing it to prepare for use in sauces and salads.\",\n    ...",
+    "content_length": 2048,
+    "created_at": "2026-03-08T10:45:33.538496+00:00",
+    "updated_at": "2026-03-08T10:45:47.259029+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260308_184533_ec727d25",
+    "metadata": {
+      "processing_start_time": 1772966733,
+      "processing_end_time": 1772966747
+    }
+  }
+}

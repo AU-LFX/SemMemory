@@ -1,0 +1,205 @@
+{
+  "doc-d0d8e5fb4310903f4c2231b266aa6d56": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d0d8e5fb4310903f4c2231b266aa6d56"
+    ],
+    "content_summary": "```json\n[\n    {\n        \"event_type\": [\n            \"task_request\",\n            \"perception_update\"\n        ],\n        \"summary\": \"Task initiated to move one of the pear items to the indicated sofa; environment observed.\",\n        \"details\": {\n      ...",
+    "content_length": 1972,
+    "created_at": "2026-03-05T09:31:29.176824+00:00",
+    "updated_at": "2026-03-05T09:31:55.936884+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173129_1b32c274",
+    "metadata": {
+      "processing_start_time": 1772703089,
+      "processing_end_time": 1772703115
+    }
+  },
+  "doc-e4b89e749b87de9bd2b695656376100b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e4b89e749b87de9bd2b695656376100b"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"User navigated to the kitchen cabinet to observe the environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Observe the kitchen environment and assess the objects pr...",
+    "content_length": 2241,
+    "created_at": "2026-03-05T09:31:56.158535+00:00",
+    "updated_at": "2026-03-05T09:32:34.693357+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173156_04eeb58c",
+    "metadata": {
+      "processing_start_time": 1772703116,
+      "processing_end_time": 1772703154
+    }
+  },
+  "doc-679a0eca9dc0e5e9a48835d7ff7c466a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-679a0eca9dc0e5e9a48835d7ff7c466a"
+    ],
+    "content_summary": "1. **event_type:** \n   - perception_update \n\n2. **summary:** \n   - Observed kitchen countertop with tools and food items.\n\n3. **details:** \n   - Task goal: N/A (observational activity, no specific task)\n   - Environment context: Kitchen area, specifi...",
+    "content_length": 1253,
+    "created_at": "2026-03-05T09:32:34.940828+00:00",
+    "updated_at": "2026-03-05T09:32:59.023619+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173234_70369e7f",
+    "metadata": {
+      "processing_start_time": 1772703154,
+      "processing_end_time": 1772703179
+    }
+  },
+  "doc-1058b785568123c9dd67809d1e3c64cc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1058b785568123c9dd67809d1e3c64cc"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to cabinet 5 and observed contents.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to cabinet 5 for observation.\",\n        \"Environment context...",
+    "content_length": 1336,
+    "created_at": "2026-03-05T09:32:59.234348+00:00",
+    "updated_at": "2026-03-05T09:33:26.742550+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173259_239b3769",
+    "metadata": {
+      "processing_start_time": 1772703179,
+      "processing_end_time": 1772703206
+    }
+  },
+  "doc-05b12ac4b5e7ef4ee723211268193b96": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-05b12ac4b5e7ef4ee723211268193b96"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Robotic arm navigated to cabinet 4 and observed environment.\",\n    \"details\": {\n        \"Task goal(s)\": \"Navigate to cabinet 4. Prepare to interact with objects in the environme...",
+    "content_length": 1714,
+    "created_at": "2026-03-05T09:33:26.982840+00:00",
+    "updated_at": "2026-03-05T09:33:55.323411+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173326_acf2804d",
+    "metadata": {
+      "processing_start_time": 1772703206,
+      "processing_end_time": 1772703235
+    }
+  },
+  "doc-53daedf4d04d6753bedcb7a46e631c8a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-53daedf4d04d6753bedcb7a46e631c8a"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the refrigerator push point; observing surrounding environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to ...",
+    "content_length": 1366,
+    "created_at": "2026-03-05T09:33:55.567767+00:00",
+    "updated_at": "2026-03-05T09:34:25.061880+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173355_53aecd07",
+    "metadata": {
+      "processing_start_time": 1772703235,
+      "processing_end_time": 1772703265
+    }
+  },
+  "doc-12916031e53dc924d9fcb0c41475bf10": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-12916031e53dc924d9fcb0c41475bf10"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\",\n        \"action_execution\"\n    ],\n    \"summary\": \"Navigated to the chair and observed the environment.\",\n    \"details\": {\n        \"Task goal\": \"Navigate to the chair.\",\n        \"Environment context\":...",
+    "content_length": 1323,
+    "created_at": "2026-03-05T09:34:25.283582+00:00",
+    "updated_at": "2026-03-05T09:34:53.321218+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173425_bfe33615",
+    "metadata": {
+      "processing_start_time": 1772703265,
+      "processing_end_time": 1772703293
+    }
+  },
+  "doc-4efe4535ba7fd9b92fec1ad1e7648658": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4efe4535ba7fd9b92fec1ad1e7648658"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\", \"action_execution\"],\n    \"summary\": \"Navigated to the table and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Navigate to the table for observation.\",\n        \"Envi...",
+    "content_length": 1745,
+    "created_at": "2026-03-05T09:34:53.571683+00:00",
+    "updated_at": "2026-03-05T09:35:30.373824+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173453_838e3413",
+    "metadata": {
+      "processing_start_time": 1772703293,
+      "processing_end_time": 1772703330
+    }
+  },
+  "doc-386546b08f03613bd02a1961790cf077": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-386546b08f03613bd02a1961790cf077"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Agent observed the tabletop scene with various objects.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"Tabletop scene agai...",
+    "content_length": 2787,
+    "created_at": "2026-03-05T09:35:30.653547+00:00",
+    "updated_at": "2026-03-05T09:36:15.812696+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173530_a0326316",
+    "metadata": {
+      "processing_start_time": 1772703330,
+      "processing_end_time": 1772703375
+    }
+  },
+  "doc-23745efea012edbe0cdbde575e6dd39e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-23745efea012edbe0cdbde575e6dd39e"
+    ],
+    "content_summary": "```json\n{\n  \"event_type\": [\"perception_update\"],\n  \"summary\": \"The agent navigated to the TV stand and observed the environment.\",\n  \"details\": {\n    \"Task goal(s) and any constraints\": \"Navigate to the TV stand and observe the environment.\",\n    \"En...",
+    "content_length": 1942,
+    "created_at": "2026-03-05T09:36:16.029353+00:00",
+    "updated_at": "2026-03-05T09:36:58.438982+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173616_34eb932c",
+    "metadata": {
+      "processing_start_time": 1772703376,
+      "processing_end_time": 1772703418
+    }
+  },
+  "doc-5c4f8a99c2c3feb883c8a2b6716e4e6e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5c4f8a99c2c3feb883c8a2b6716e4e6e"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Navigated to the sink in the kitchen and observed the environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"To survey the environm...",
+    "content_length": 3013,
+    "created_at": "2026-03-05T09:36:58.687716+00:00",
+    "updated_at": "2026-03-05T09:37:43.721360+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173658_7f751cb0",
+    "metadata": {
+      "processing_start_time": 1772703418,
+      "processing_end_time": 1772703463
+    }
+  },
+  "doc-9f4b6af94a6822cfe2dcbf1cfd9ea301": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9f4b6af94a6822cfe2dcbf1cfd9ea301"
+    ],
+    "content_summary": "```json\n{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Observed kitchen counter with a pear, hammer, wrench, and robotic arm.\",\n    \"details\": {\n        \"Task goal\": \"N/A\",\n        \"Environment context\": \"Kitchen, countertop\",\n        \"Ke...",
+    "content_length": 1733,
+    "created_at": "2026-03-05T09:37:43.979487+00:00",
+    "updated_at": "2026-03-05T09:37:43.981221+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_173743_b1ad1f6b",
+    "metadata": {
+      "processing_start_time": 1772703463
+    }
+  }
+}

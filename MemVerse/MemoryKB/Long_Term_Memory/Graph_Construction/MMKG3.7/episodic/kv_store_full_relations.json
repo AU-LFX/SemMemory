@@ -1,0 +1,138 @@
+{
+  "doc-5b177bd9c702eeed3f097f492ce125d4": {
+    "relation_pairs": [
+      [
+        "Spatula",
+        "User"
+      ],
+      [
+        "Left Counter",
+        "Living Area"
+      ],
+      [
+        "Left Counter",
+        "Right Counter"
+      ],
+      [
+        "Living Area",
+        "Right Counter"
+      ],
+      [
+        "Bowl of Fruits or Vegetables",
+        "Left Counter"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772884329,
+    "update_time": 1772884329,
+    "_id": "doc-5b177bd9c702eeed3f097f492ce125d4"
+  },
+  "doc-0346d8a26b63afee1c369808a8fc2e6b": {
+    "relation_pairs": [
+      [
+        "cabinet",
+        "countertop"
+      ],
+      [
+        "countertop",
+        "wire/cable"
+      ],
+      [
+        "cabinet",
+        "embodied_agent"
+      ],
+      [
+        "embodied_agent",
+        "robotic arm"
+      ],
+      [
+        "action sequence",
+        "embodied_agent"
+      ],
+      [
+        "action sequence",
+        "environment"
+      ],
+      [
+        "countertop",
+        "pliers"
+      ],
+      [
+        "countertop",
+        "sink"
+      ],
+      [
+        "embodied_agent",
+        "environment"
+      ],
+      [
+        "countertop",
+        "cylindrical object"
+      ],
+      [
+        "blue bottle cap",
+        "countertop"
+      ],
+      [
+        "embodied_agent",
+        "workbench"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772884357,
+    "update_time": 1772884357,
+    "_id": "doc-0346d8a26b63afee1c369808a8fc2e6b"
+  },
+  "doc-dda92007452858ad56b7b9efe42feda0": {
+    "relation_pairs": [
+      [
+        "Robotic Arm",
+        "Small Gray Object"
+      ],
+      [
+        "Kitchen",
+        "Navigation to Cabinet 6"
+      ],
+      [
+        "Kitchen Countertop",
+        "Yellow-Green Fruit"
+      ],
+      [
+        "Knife",
+        "Small Red Fruit"
+      ],
+      [
+        "Kitchen",
+        "Knife"
+      ],
+      [
+        "Kitchen Countertop",
+        "Red Pan"
+      ],
+      [
+        "Kitchen Countertop",
+        "Small Red Fruit"
+      ],
+      [
+        "Kitchen",
+        "Yellow-Green Fruit"
+      ],
+      [
+        "Kitchen",
+        "Red Pan"
+      ],
+      [
+        "Observation",
+        "Task Goal"
+      ],
+      [
+        "Cabinet 6",
+        "Kitchen"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772884382,
+    "update_time": 1772884382,
+    "_id": "doc-dda92007452858ad56b7b9efe42feda0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc-5b177bd9c702eeed3f097f492ce125d4": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5b177bd9c702eeed3f097f492ce125d4"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"task_request\",\n        \"perception_update\"\n    ],\n    \"summary\": \"Task to move spatula initiated; environment observed.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"Move a spatula from the right count...",
+    "content_length": 1990,
+    "created_at": "2026-03-07T11:51:37.301403+00:00",
+    "updated_at": "2026-03-07T11:52:09.569078+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_195137_dc53354e",
+    "metadata": {
+      "processing_start_time": 1772884297,
+      "processing_end_time": 1772884329
+    }
+  },
+  "doc-0346d8a26b63afee1c369808a8fc2e6b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0346d8a26b63afee1c369808a8fc2e6b"
+    ],
+    "content_summary": "{\n    \"event_type\": [\n        \"perception_update\"\n    ],\n    \"summary\": \"Agent navigated to the cabinet and is observing the workspace environment.\",\n    \"details\": {\n        \"Task goal(s) and any constraints\": \"N/A\",\n        \"Environment context\": \"...",
+    "content_length": 2141,
+    "created_at": "2026-03-07T11:52:09.690041+00:00",
+    "updated_at": "2026-03-07T11:52:37.475120+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_195209_1e934c79",
+    "metadata": {
+      "processing_start_time": 1772884329,
+      "processing_end_time": 1772884357
+    }
+  },
+  "doc-dda92007452858ad56b7b9efe42feda0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dda92007452858ad56b7b9efe42feda0"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"perception_update\"],\n    \"summary\": \"Navigated to the kitchen cabinet and observed environmental context.\",\n    \"details\": {\n        \"Task goal\": \"Observe environment after navigating to cabinet 6.\",\n        \"Environment context...",
+    "content_length": 2051,
+    "created_at": "2026-03-07T11:52:37.609447+00:00",
+    "updated_at": "2026-03-07T11:53:02.871487+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_195237_47bf636f",
+    "metadata": {
+      "processing_start_time": 1772884357,
+      "processing_end_time": 1772884382
+    }
+  },
+  "doc-a560004a654689859efd2f3eb3e3dde2": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a560004a654689859efd2f3eb3e3dde2"
+    ],
+    "content_summary": "{\n    \"event_type\": [\"task_request\", \"perception_update\"],\n    \"summary\": \"Navigated to cabinet 5 and observed the tabletop scene.\",\n    \"details\": {\n        \"Task goal(s) and constraints\": \"Navigate to cabinet 5 to possibly interact with objects on ...",
+    "content_length": 2157,
+    "created_at": "2026-03-07T11:53:02.994768+00:00",
+    "updated_at": "2026-03-07T11:53:02.995929+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260307_195302_adc090c3",
+    "metadata": {
+      "processing_start_time": 1772884382
+    }
+  }
+}
