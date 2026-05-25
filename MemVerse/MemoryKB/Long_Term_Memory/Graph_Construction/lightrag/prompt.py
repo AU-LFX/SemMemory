@@ -9,7 +9,7 @@ PROMPTS["DEFAULT_TUPLE_DELIMITER"] = "<|>"
 PROMPTS["DEFAULT_RECORD_DELIMITER"] = "##"
 PROMPTS["DEFAULT_COMPLETION_DELIMITER"] = "<|COMPLETE|>"
 
-PROMPTS["DEFAULT_ENTITY_TYPES"] = ["organization", "person", "geo", "event", "object", "furniture", "receptacle", "container", "appliance", "tool", "utensil", "food", "beverage", "electronics", "room", "vehicle", "clothing", "animal", "plant", "liquid", "material", "surface", "location", "structure", "instrument", "artwork", "document", "concept"]
+PROMPTS["DEFAULT_ENTITY_TYPES"] = ["organization", "person", "geo", "event", "object", "furniture", "receptacle", "container", "appliance", "tool", "utensil", "food", "beverage", "electronics", "room", "vehicle", "clothing", "animal", "plant", "liquid", "material", "surface", "location", "structure", "instrument", "artwork", "document", "concept", "schema", "rule", "phase", "hypothesis", "correction", "episodic_case", "semantic_experience_graph", "action", "constraint"]
 
 PROMPTS["DEFAULT_USER_PROMPT"] = "n/a"
 
@@ -17,9 +17,19 @@ PROMPTS["entity_extraction"] = """---Goal---
 Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
 Use {language} as output language.
 
+If the text contains [SemMemory] records, preserve SemMemory structure:
+- Preserve explicit ids such as event:..., entity:..., receptacle:..., phase:..., rule:..., schema:..., hypothesis:..., correction:..., and case:... as entity_name. Do not replace these ids with broad labels.
+- Treat event, schema, rule, phase, hypothesis, correction, episodic_case, semantic_experience_graph, action, object, receptacle, location, and constraint as valid entity types when present in the text.
+- Map entity_semantics to concept and affordances.
+- Map spatial_semantics to spatial.
+- Map temporal_semantics to temporal.
+- Map rule_semantics, preconditions, effects, failure_conditions, and constraints to constraints and entity_description.
+- Preserve explicit relationship names such as acts_on, requires, causes, violates, supports, before, located_at, has_precondition, has_effect, fails_when, supported_by, and applies_to in relationship_keywords and relationship_description.
+- Keep relationship_type limited to SYNONYMY, ANTONYMY, METAPHOR, INHERITANCE, COMPOSITION, CAUSALITY, TEMPORAL, SPATIAL, or ASSOCIATION.
+
 ---Steps---
 1. Identify all entities. For each identified entity, extract the following information:
-- entity_name: Name of the entity, use same language as input text. If English, capitalized the name. Important: Extract specific, concrete entities (e.g., "Wooden Table", "Red Apple"). DO NOT extract broad, abstract categories or general terms (e.g., "receptacle", "furniture", "container") as entity names.
+- entity_name: Name of the entity, use same language as input text. If English, capitalized the name unless the input provides an explicit SemMemory id such as event:..., entity:..., schema:..., rule:..., phase:..., hypothesis:..., correction:..., or case:.... Important: Extract specific, concrete entities (e.g., "Wooden Table", "Red Apple"). DO NOT extract broad, abstract categories or general terms (e.g., "receptacle", "furniture", "container") as entity names unless they are explicit SemMemory node ids.
 - entity_type: One of the following types: [{entity_types}]
 - concept: What the entity is, its stable and essential properties (e.g., material, color, shape, components). If not available, output "N/A".
 - affordances: What actions can be performed with or on the entity, separated by semicolons (e.g., "cut;grasp;open"). If not available, output "N/A".
@@ -166,10 +176,20 @@ Output:
 PROMPTS["entity_continue_extraction"] = """
 MANY entities and relationships were missed in the last extraction. Please find only the missing entities and relationships from previous text.
 
+If the text contains [SemMemory] records, preserve SemMemory structure:
+- Preserve explicit ids such as event:..., entity:..., receptacle:..., phase:..., rule:..., schema:..., hypothesis:..., correction:..., and case:... as entity_name. Do not replace these ids with broad labels.
+- Treat event, schema, rule, phase, hypothesis, correction, episodic_case, semantic_experience_graph, action, object, receptacle, location, and constraint as valid entity types when present in the text.
+- Map entity_semantics to concept and affordances.
+- Map spatial_semantics to spatial.
+- Map temporal_semantics to temporal.
+- Map rule_semantics, preconditions, effects, failure_conditions, and constraints to constraints and entity_description.
+- Preserve explicit relationship names such as acts_on, requires, causes, violates, supports, before, located_at, has_precondition, has_effect, fails_when, supported_by, and applies_to in relationship_keywords and relationship_description.
+- Keep relationship_type limited to SYNONYMY, ANTONYMY, METAPHOR, INHERITANCE, COMPOSITION, CAUSALITY, TEMPORAL, SPATIAL, or ASSOCIATION.
+
 ---Remember Steps---
 
 1. Identify all entities. For each identified entity, extract the following information:
-- entity_name: Name of the entity, use same language as input text. If English, capitalized the name. Important: Extract specific, concrete entities (e.g., "Wooden Table", "Red Apple"). DO NOT extract broad, abstract categories or general terms (e.g., "receptacle", "furniture", "container") as entity names.
+- entity_name: Name of the entity, use same language as input text. If English, capitalized the name unless the input provides an explicit SemMemory id such as event:..., entity:..., schema:..., rule:..., phase:..., hypothesis:..., correction:..., or case:.... Important: Extract specific, concrete entities (e.g., "Wooden Table", "Red Apple"). DO NOT extract broad, abstract categories or general terms (e.g., "receptacle", "furniture", "container") as entity names unless they are explicit SemMemory node ids.
 - entity_type: One of the following types: [{entity_types}]
 - concept: What the entity is, its stable and essential properties (e.g., material, color, shape, components). If not available, output "N/A".
 - affordances: What actions can be performed with or on the entity, separated by semicolons (e.g., "cut;grasp;open"). If not available, output "N/A".

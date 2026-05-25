@@ -1,0 +1,537 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d10" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d9" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d8" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d7" for="edge" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="User">
+      <data key="d0">User</data>
+      <data key="d1">person</data>
+      <data key="d2">User is an individual interested in kitchen tools and utensils and engages in food preparation or cooking activities.&lt;SEP&gt;User is an individual with a strong interest in visual content, particularly in toys, mechanical pieces, and robotics. This interest is evident from the details of their workspace and the images they are drawn to, which often include various mechanical or robotic objects. User engages attentively with scenes, exhibiting a keen eye for detail, especially concerning the arrangement and manipulation of objects. Their fascination with robotics indicates potential involvement in projects related to robotic assembly or manipulation, further emphasizing their passion for mechanical innovation.</data>
+      <data key="d3">chunk-cd9709f69b32d1da331a945b8c829af0&lt;SEP&gt;chunk-6caa640db9f0cdf9ae711ebf96f8f696&lt;SEP&gt;chunk-2accd17993f35419e51f645c32b030b7&lt;SEP&gt;chunk-f769320a2af7ac4a44ea65e2235458fb&lt;SEP&gt;chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Robotic Arm">
+      <data key="d0">Robotic Arm</data>
+      <data key="d1">category</data>
+      <data key="d2">Robotic arm is a mechanical piece that plays a role in the user's engagement with robotics and possibly suggests an interest in technology.&lt;SEP&gt;Robotic arm refers to a type of mechanical device used in robotics for manipulation and assembly purposes.</data>
+      <data key="d3">chunk-7fb03b6571310f209acec07571d08186&lt;SEP&gt;chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987269</data>
+    </node>
+    <node id="Laboratory">
+      <data key="d0">Laboratory</data>
+      <data key="d1">geo</data>
+      <data key="d2">Laboratory is a controlled environment where robotic manipulation or assembly projects may take place.</data>
+      <data key="d3">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986862</data>
+    </node>
+    <node id="Workshop">
+      <data key="d0">Workshop</data>
+      <data key="d1">geo</data>
+      <data key="d2">Workshop is a space that may be utilized for projects related to robotics, focusing on manipulation and assembly activities.</data>
+      <data key="d3">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986862</data>
+    </node>
+    <node id="Robotic Manipulation Projects">
+      <data key="d0">Robotic Manipulation Projects</data>
+      <data key="d1">event</data>
+      <data key="d2">Robotic Manipulation Projects refers to activities that involve using robotic systems to manipulate objects within a controlled environment.</data>
+      <data key="d3">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986862</data>
+    </node>
+    <node id="Controlled Environment">
+      <data key="d0">Controlled Environment</data>
+      <data key="d1">category</data>
+      <data key="d2">Controlled Environment describes settings like laboratories and workshops where specific conditions are maintained for robotics projects.</data>
+      <data key="d3">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986862</data>
+    </node>
+    <node id="Mechanical Appendage">
+      <data key="d0">Mechanical Appendage</data>
+      <data key="d1">category</data>
+      <data key="d2">Mechanical Appendage refers to a type of robotic object that captures the user's interest.</data>
+      <data key="d3">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986882</data>
+    </node>
+    <node id="Tools">
+      <data key="d0">Tools</data>
+      <data key="d1">category</data>
+      <data key="d2">Tools refers to items that suggest user engagement in activities related to assembly or manipulation of mechanical parts.</data>
+      <data key="d3">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986882</data>
+    </node>
+    <node id="Toy-like Object with Wheels">
+      <data key="d0">Toy-like Object with Wheels</data>
+      <data key="d1">category</data>
+      <data key="d2">Toy-like Object with Wheels is an item indicating the user's interaction with playful or mechanical objects in their workspace.</data>
+      <data key="d3">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986882</data>
+    </node>
+    <node id="Mechanical Objects">
+      <data key="d0">Mechanical Objects</data>
+      <data key="d1">category</data>
+      <data key="d2">Mechanical Objects refer to various items that are related to machinery and robotics, indicating the user's interests in such items.</data>
+      <data key="d3">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986882</data>
+    </node>
+    <node id="Workspace Environment">
+      <data key="d0">Workspace Environment</data>
+      <data key="d1">category</data>
+      <data key="d2">Workspace Environment pertains to the user's physical space where mechanical items are organized or manipulated.</data>
+      <data key="d3">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768986882</data>
+    </node>
+    <node id="Colorful Objects">
+      <data key="d0">Colorful Objects</data>
+      <data key="d1">category</data>
+      <data key="d2">Colorful objects are visual stimuli that signify the user's interest in toys or creative items.</data>
+      <data key="d3">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987269</data>
+    </node>
+    <node id="Visual Content">
+      <data key="d0">Visual Content</data>
+      <data key="d1">category</data>
+      <data key="d2">Visual content refers to images and descriptions of objects that the user engages with, indicating their preference for visual stimuli.</data>
+      <data key="d3">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987269</data>
+    </node>
+    <node id="Scenes">
+      <data key="d0">Scenes</data>
+      <data key="d1">category</data>
+      <data key="d2">Scenes represent the arrangements and characteristics of objects that the user observes and describes with attention to detail.</data>
+      <data key="d3">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987269</data>
+    </node>
+    <node id="Toys">
+      <data key="d0">Toys</data>
+      <data key="d1">category</data>
+      <data key="d2">Toys are playful objects that the user may have an interest in, as inferred from the colorful objects described.</data>
+      <data key="d3">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987269</data>
+    </node>
+    <node id="Core Memory">
+      <data key="d0">Core Memory</data>
+      <data key="d1">category</data>
+      <data key="d2">Core Memory refers to the central concept which involves user preferences in visual imagery and interaction.</data>
+      <data key="d3">chunk-cd9709f69b32d1da331a945b8c829af0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987744</data>
+    </node>
+    <node id="Interactive Components">
+      <data key="d0">Interactive Components</data>
+      <data key="d1">category</data>
+      <data key="d2">Interactive Components refers to elements that allow user engagement and participation, potentially involving mechanical tasks as described in the text.</data>
+      <data key="d3">chunk-cd9709f69b32d1da331a945b8c829af0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987744</data>
+    </node>
+    <node id="Mechanical Tasks">
+      <data key="d0">Mechanical Tasks</data>
+      <data key="d1">category</data>
+      <data key="d2">Mechanical Tasks involve activities that require physical interaction with components, aligning with the user's interests as noted in the text.</data>
+      <data key="d3">chunk-cd9709f69b32d1da331a945b8c829af0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1768987744</data>
+    </node>
+    <node id="Kitchen Tools and Utensils">
+      <data key="d0">Kitchen Tools and Utensils</data>
+      <data key="d1">category</data>
+      <data key="d2">Kitchen Tools and Utensils refer to various objects used in food preparation and cooking, which User has an interest in.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Kitchen Workspace">
+      <data key="d0">Kitchen Workspace</data>
+      <data key="d1">geo</data>
+      <data key="d2">User's kitchen workspace includes a countertop designed for accessibility, equipped with various tools and objects.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Scissors">
+      <data key="d0">Scissors</data>
+      <data key="d1">organization</data>
+      <data key="d2">User possesses a pair of scissors with light-colored handles and metal blades, typically used for cutting tasks in the kitchen.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Red Circular Plate">
+      <data key="d0">Red Circular Plate</data>
+      <data key="d1">organization</data>
+      <data key="d2">User has a bright red circular plate, used for serving or presenting food.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Metallic Circular Wire or Chain">
+      <data key="d0">Metallic Circular Wire or Chain</data>
+      <data key="d1">organization</data>
+      <data key="d2">User possesses a metallic circular wire or chain, which may serve a specific kitchen function.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Beige Kitchen Tool or Utensil">
+      <data key="d0">Beige Kitchen Tool or Utensil</data>
+      <data key="d1">organization</data>
+      <data key="d2">User has a beige kitchen tool or utensil, though its specific use is not detailed in the text.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Blue and White Cylindrical Object">
+      <data key="d0">Blue and White Cylindrical Object</data>
+      <data key="d1">organization</data>
+      <data key="d2">User has a blue and white cylindrical object, which might be a sleeve or plastic item used in the kitchen.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Brown Loaf of Bread">
+      <data key="d0">Brown Loaf of Bread</data>
+      <data key="d1">organization</data>
+      <data key="d2">User has a brown loaf of bread or similar item, indicating their engagement in food preparation or storage.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Small Black-Handled Tool with Red Grip">
+      <data key="d0">Small Black-Handled Tool with Red Grip</data>
+      <data key="d1">organization</data>
+      <data key="d2">User possesses a small black-handled tool with a red grip, resembling a screwdriver or kitchen implement, indicating its use in cooking or food preparation.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Light-Colored Scissors">
+      <data key="d0">Light-Colored Scissors</data>
+      <data key="d1">organization</data>
+      <data key="d2">User possesses a pair of light-colored scissors with metal blades, which are typically used for cutting in the kitchen.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245261</data>
+    </node>
+    <node id="Metal Blades">
+      <data key="d0">Metal Blades</data>
+      <data key="d1">organization</data>
+      <data key="d2">The metal blades are part of the scissors User owns, enhancing their cutting capabilities.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245262</data>
+    </node>
+    <node id="Bright Red Color Plate">
+      <data key="d0">Bright Red Color Plate</data>
+      <data key="d1">organization</data>
+      <data key="d2">The bright red color of the circular plate owned by User may indicate its use for decorative or functional purposes in food presentation.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245262</data>
+    </node>
+    <node id="Cylindrical Blue and White Object">
+      <data key="d0">Cylindrical Blue and White Object</data>
+      <data key="d1">organization</data>
+      <data key="d2">User has a blue and white cylindrical object which might serve a specific purpose in the kitchen, details not specified in the text.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245262</data>
+    </node>
+    <node id="Metal Circular Wire or Chain">
+      <data key="d0">Metal Circular Wire or Chain</data>
+      <data key="d1">organization</data>
+      <data key="d2">User possesses a metallic circular wire or chain that may have a function related to kitchen tasks, though not explicitly stated.</data>
+      <data key="d3">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1769245262</data>
+    </node>
+    <edge source="User" target="Robotic Arm">
+      <data key="d6">15.0</data>
+      <data key="d7">User's interest in robotics suggests involvement with robotic arms for manipulation projects.&lt;SEP&gt;User's interest includes robotics, indicated by the robotic arm mentioned alongside toys and colorful objects.</data>
+      <data key="d8">engagement,interest,interest in technology,robotics</data>
+      <data key="d9">chunk-7fb03b6571310f209acec07571d08186&lt;SEP&gt;chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987271</data>
+    </edge>
+    <edge source="User" target="Laboratory">
+      <data key="d6">7.0</data>
+      <data key="d7">User may be working on robotic projects in a laboratory environment.</data>
+      <data key="d8">project location,robotics</data>
+      <data key="d9">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986864</data>
+    </edge>
+    <edge source="User" target="Workshop">
+      <data key="d6">7.0</data>
+      <data key="d7">User may also be engaging in robotics projects within a workshop setting.</data>
+      <data key="d8">project location,robotics</data>
+      <data key="d9">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986864</data>
+    </edge>
+    <edge source="User" target="Robotic Manipulation Projects">
+      <data key="d6">8.0</data>
+      <data key="d7">User may be involved in projects that focus on robotic manipulation, indicating practical application of their interests.</data>
+      <data key="d8">project participation,robotics</data>
+      <data key="d9">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986866</data>
+    </edge>
+    <edge source="User" target="Mechanical Appendage">
+      <data key="d6">8.0</data>
+      <data key="d7">User has a specific interest in mechanical appendages, implying engagement with robotic technology.</data>
+      <data key="d8">interest,technology</data>
+      <data key="d9">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986884</data>
+    </edge>
+    <edge source="User" target="Tools">
+      <data key="d6">7.0</data>
+      <data key="d7">The presence of tools in the user's environment suggests involvement in assembly and manipulation of mechanical items.</data>
+      <data key="d8">activities,engagement</data>
+      <data key="d9">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986886</data>
+    </edge>
+    <edge source="User" target="Toy-like Object with Wheels">
+      <data key="d6">6.0</data>
+      <data key="d7">The toy-like object suggests the user's interest in playful mechanical objects, linking it to their interests in robotics.</data>
+      <data key="d8">interest,mechanical play</data>
+      <data key="d9">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986886</data>
+    </edge>
+    <edge source="User" target="Mechanical Objects">
+      <data key="d6">7.0</data>
+      <data key="d7">The user's interest in mechanical objects encompasses various types of items that relate to robotics and machinery.</data>
+      <data key="d8">interest,mechanical category</data>
+      <data key="d9">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986887</data>
+    </edge>
+    <edge source="User" target="Workspace Environment">
+      <data key="d6">8.0</data>
+      <data key="d7">The workspace environment suggests that the user is involved in organizing or manipulating mechanical items in a structured setting.</data>
+      <data key="d8">organizational activities,workspace</data>
+      <data key="d9">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986888</data>
+    </edge>
+    <edge source="User" target="Colorful Objects">
+      <data key="d6">8.0</data>
+      <data key="d7">User shows interest in colorful objects, suggesting a preference for toys and creative items.</data>
+      <data key="d8">engagement,interest</data>
+      <data key="d9">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987271</data>
+    </edge>
+    <edge source="User" target="Visual Content">
+      <data key="d6">9.0</data>
+      <data key="d7">User engages with visual content, highlighting their interaction with various images and descriptions.</data>
+      <data key="d8">engagement,visual stimuli</data>
+      <data key="d9">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987272</data>
+    </edge>
+    <edge source="User" target="Scenes">
+      <data key="d6">8.0</data>
+      <data key="d7">User observes and describes scenes, indicating their focus on the arrangement and characteristics of objects.</data>
+      <data key="d8">detail focus,observation</data>
+      <data key="d9">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987273</data>
+    </edge>
+    <edge source="User" target="Toys">
+      <data key="d6">7.0</data>
+      <data key="d7">User's interest in toys is suggested by the presence of colorful objects in the text.</data>
+      <data key="d8">colorful objects,interest in play</data>
+      <data key="d9">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987274</data>
+    </edge>
+    <edge source="User" target="Core Memory">
+      <data key="d6">8.0</data>
+      <data key="d7">User's interests in visual elements are represented within the concept of Core Memory, which encapsulates their preferences for imagery.</data>
+      <data key="d8">interest representation,user preferences</data>
+      <data key="d9">chunk-cd9709f69b32d1da331a945b8c829af0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987748</data>
+    </edge>
+    <edge source="User" target="Interactive Components">
+      <data key="d6">7.0</data>
+      <data key="d7">User expresses appreciation for scenes depicting interactive components, indicating a direct interest in this category."|&gt;"user interest, visual engagement</data>
+      <data key="d8">7</data>
+      <data key="d9">chunk-cd9709f69b32d1da331a945b8c829af0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987749</data>
+    </edge>
+    <edge source="User" target="Mechanical Tasks">
+      <data key="d6">7.0</data>
+      <data key="d7">User may appreciate scenes that depict mechanical tasks, highlighting their interest in engaging and detailed visual representations."|&gt;"user interest, engagement</data>
+      <data key="d8">7</data>
+      <data key="d9">chunk-cd9709f69b32d1da331a945b8c829af0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987750</data>
+    </edge>
+    <edge source="User" target="Kitchen Tools and Utensils">
+      <data key="d6">8.0</data>
+      <data key="d7">User has an interest in Kitchen Tools and Utensils, indicating a relation based on cooking activities.</data>
+      <data key="d8">cooking,interest</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245263</data>
+    </edge>
+    <edge source="User" target="Kitchen Workspace">
+      <data key="d6">9.0</data>
+      <data key="d7">User's kitchen workspace is designed for food preparation, reflecting their engagement in cooking activities.</data>
+      <data key="d8">cooking,workspace</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245263</data>
+    </edge>
+    <edge source="User" target="Scissors">
+      <data key="d6">7.0</data>
+      <data key="d7">User possesses scissors, showing their intention to use it for cutting tasks in the kitchen.</data>
+      <data key="d8">kitchen use,tools</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245264</data>
+    </edge>
+    <edge source="User" target="Red Circular Plate">
+      <data key="d6">8.0</data>
+      <data key="d7">User owns a red circular plate, which is likely used in their food preparation activities.</data>
+      <data key="d8">kitchen use,serving</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245265</data>
+    </edge>
+    <edge source="User" target="Brown Loaf of Bread">
+      <data key="d6">9.0</data>
+      <data key="d7">User has a brown loaf of bread, indicating involvement in food preparation.</data>
+      <data key="d8">food preparation,ingredients</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245265</data>
+    </edge>
+    <edge source="User" target="Small Black-Handled Tool with Red Grip">
+      <data key="d6">7.0</data>
+      <data key="d7">User possesses a tool which might assist in their cooking or food preparation tasks.</data>
+      <data key="d8">implements,kitchen use</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245266</data>
+    </edge>
+    <edge source="User" target="Light-Colored Scissors">
+      <data key="d6">8.0</data>
+      <data key="d7">User uses light-colored scissors for various kitchen tasks, indicating the tool's practicality in their cooking activities.</data>
+      <data key="d8">kitchen tools,practicality</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245267</data>
+    </edge>
+    <edge source="User" target="Metal Blades">
+      <data key="d6">7.0</data>
+      <data key="d7">The metal blades of User's scissors contribute to their cutting abilities, indicating the scissors' utility in food preparation.</data>
+      <data key="d8">cutting tools,kitchen utility</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245267</data>
+    </edge>
+    <edge source="User" target="Bright Red Color Plate">
+      <data key="d6">8.0</data>
+      <data key="d7">User's bright red plate is likely utilized for serving or showcasing food, reflecting its role in the cooking process.</data>
+      <data key="d8">food presentation,serving</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245268</data>
+    </edge>
+    <edge source="User" target="Cylindrical Blue and White Object">
+      <data key="d6">6.0</data>
+      <data key="d7">User's possession of a blue and white cylindrical object suggests its relevance in their kitchen activities, though specifics are unclear.</data>
+      <data key="d8">ambiguity,kitchen tools</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245269</data>
+    </edge>
+    <edge source="User" target="Metal Circular Wire or Chain">
+      <data key="d6">7.0</data>
+      <data key="d7">User has a metallic circular wire or chain which might be utilized for specific kitchen purposes, indicating its potential functionality.</data>
+      <data key="d8">functionality,kitchen tools</data>
+      <data key="d9">chunk-f769320a2af7ac4a44ea65e2235458fb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1769245269</data>
+    </edge>
+    <edge source="Robotic Arm" target="Robotic Manipulation Projects">
+      <data key="d6">9.0</data>
+      <data key="d7">Robotic arms are likely used within robotic manipulation projects for tasks such as assembly or object handling.</data>
+      <data key="d8">equipment use,project focus</data>
+      <data key="d9">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986866</data>
+    </edge>
+    <edge source="Laboratory" target="Controlled Environment">
+      <data key="d6">8.0</data>
+      <data key="d7">Laboratories serve as a type of controlled environment suitable for executing robotic projects.</data>
+      <data key="d8">environment type,robotics</data>
+      <data key="d9">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986864</data>
+    </edge>
+    <edge source="Workshop" target="Controlled Environment">
+      <data key="d6">8.0</data>
+      <data key="d7">Workshops also function as a controlled environment where robotics activities and projects can be conducted.</data>
+      <data key="d8">environment type,robotics</data>
+      <data key="d9">chunk-2accd17993f35419e51f645c32b030b7</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986866</data>
+    </edge>
+    <edge source="Mechanical Objects" target="Workspace Environment">
+      <data key="d6">6.0</data>
+      <data key="d7">The mechanical objects in the workspace environment signify that the user engages with these items regularly for assembly or manipulation.</data>
+      <data key="d8">activity context,interaction</data>
+      <data key="d9">chunk-6caa640db9f0cdf9ae711ebf96f8f696</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768986888</data>
+    </edge>
+    <edge source="Visual Content" target="Scenes">
+      <data key="d6">8.0</data>
+      <data key="d7">Visual content encompasses scenes that the user observes, focusing on their arrangement and description.</data>
+      <data key="d8">engagement,visual observation</data>
+      <data key="d9">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987274</data>
+    </edge>
+    <edge source="Visual Content" target="Toys">
+      <data key="d6">6.0</data>
+      <data key="d7">Visual content includes images and descriptions of toys, indicating a thematic connection."&lt;&lt;"thematic connection, engagement</data>
+      <data key="d8">6</data>
+      <data key="d9">chunk-7fb03b6571310f209acec07571d08186</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1768987275</data>
+    </edge>
+  </graph>
+</graphml>

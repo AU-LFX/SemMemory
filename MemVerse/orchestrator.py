@@ -14,6 +14,7 @@ from MemoryKB.User_Conversation import process_image as pi
 from MemoryKB.User_Conversation import process_video as pv
 from MemoryKB.User_Conversation import process_audio as pa
 from MemoryKB import build_memory as bm
+from MemoryKB.SemMemory import SemMemoryService
 from MemoryKB.Long_Term_Memory.Graph_Construction import lightrag_openai_demo as Lgraph
 from MemoryKB.Long_Term_Memory.Graph_Construction.lightrag import LightRAG, QueryParam
 from MemoryKB.Long_Term_Memory.Graph_Construction.lightrag.llm.openai import openai_embed, gpt_4o_mini_complete
@@ -51,6 +52,7 @@ RAG_INITIALIZED = False
 mem_core = None
 mem_epi = None
 mem_sem = None
+sem_memory = None
 
 # ======================================================
 #       Logging
@@ -135,13 +137,16 @@ async def insert_chunks_from_json(rag: LightRAG, json_path: str):
                 chunk = json.loads(line)
                 text = chunk.get("output_text")
                 if text:
-                    await rag.ainsert(text)
+                    raw_chunk_id = chunk.get("id")
+                    chunk_id = str(raw_chunk_id) if raw_chunk_id else None
+                    file_path = chunk.get("file_path") or json_path
+                    await rag.ainsert(text, ids=chunk_id, file_paths=file_path)
             except json.JSONDecodeError as e:
                 print(f"Warning: Invalid JSON format at line {line_num}, skipping this line: {e}")
                 continue
 
 async def initialize_rag():
-    global RAG_INITIALIZED, mem_core, mem_epi, mem_sem
+    global RAG_INITIALIZED, mem_core, mem_epi, mem_sem, sem_memory
     configure_logging()
     initialize_share_data(workers=1) # Important!
     for d in [CORE_DIR, EPISODIC_DIR, SEMANTIC_DIR]:
@@ -152,6 +157,14 @@ async def initialize_rag():
     mem_sem = await initialize_single_rag(SEMANTIC_DIR)
 
     await initialize_pipeline_status()
+    sem_memory = SemMemoryService(
+        storage_dir=os.path.join("MemoryKB", "Long_Term_Memory", "semmemory"),
+        episodic_rag=mem_epi,
+        semantic_rag=mem_sem,
+        llm_client=client,
+        insert_chunks_from_json=insert_chunks_from_json,
+    )
+    RAG_INITIALIZED = True
 
 # ======================================================
 #       File Saving (Multi-modal)
@@ -304,3 +317,26 @@ async def handle_query(query: str, mode: str, use_pm: bool):
         "rag_memory": rag_memory,
         "final_answer": final_answer,
     }
+
+
+async def handle_alfred_start_episode(payload: dict):
+    if sem_memory is None:
+        return {"status": "error", "message": "SemMemory is not initialized"}
+    return sem_memory.start_episode(payload)
+
+
+async def handle_alfred_retrieve_long_term(payload: dict):
+    if sem_memory is None:
+        return {
+            "status": "error",
+            "long_term_context": "",
+            "structured_long_term_memory": {},
+            "debug": {"message": "SemMemory is not initialized"},
+        }
+    return await sem_memory.retrieve_long_term(payload)
+
+
+async def handle_alfred_end_episode(payload: dict):
+    if sem_memory is None:
+        return {"status": "error", "message": "SemMemory is not initialized"}
+    return await sem_memory.end_episode(payload)

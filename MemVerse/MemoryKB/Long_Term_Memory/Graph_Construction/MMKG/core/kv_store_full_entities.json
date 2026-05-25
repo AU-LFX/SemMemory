@@ -1,0 +1,132 @@
+{
+  "doc-2accd17993f35419e51f645c32b030b7": {
+    "entity_names": [
+      "Controlled Environment",
+      "Robotic Manipulation Projects",
+      "User",
+      "Robotic Arm",
+      "Laboratory",
+      "Workshop"
+    ],
+    "count": 6,
+    "create_time": 1768986867,
+    "update_time": 1768986867,
+    "_id": "doc-2accd17993f35419e51f645c32b030b7"
+  },
+  "doc-6caa640db9f0cdf9ae711ebf96f8f696": {
+    "entity_names": [
+      "Tools",
+      "Mechanical Objects",
+      "User",
+      "Workspace Environment",
+      "Toy-like Object with Wheels",
+      "Mechanical Appendage"
+    ],
+    "count": 6,
+    "create_time": 1768986890,
+    "update_time": 1768986890,
+    "_id": "doc-6caa640db9f0cdf9ae711ebf96f8f696"
+  },
+  "doc-3f43e7fa193665f9caa48641a47cc263": {
+    "entity_names": [
+      "Dark Surface",
+      "Yellow Object",
+      "User",
+      "Image",
+      "Robotic Arm",
+      "Black Object",
+      "Controlled Environment"
+    ],
+    "count": 7,
+    "create_time": 1768986918,
+    "update_time": 1768986918,
+    "_id": "doc-3f43e7fa193665f9caa48641a47cc263"
+  },
+  "doc-61635e83552c7cc2a802f5e9d64a4afe": {
+    "entity_names": [
+      "Dark Surface",
+      "Black Tool with Red Tips",
+      "User",
+      "Robotic Arm",
+      "Workspace Setup",
+      "Yellow Textured Object",
+      "Grayish-Brown Background"
+    ],
+    "count": 7,
+    "create_time": 1768986942,
+    "update_time": 1768986942,
+    "_id": "doc-61635e83552c7cc2a802f5e9d64a4afe"
+  },
+  "doc-8299c0ee385c26bbbbe2e37089c3f95e": {
+    "entity_names": [
+      "strawberry",
+      "semantic memory",
+      "robotic arm",
+      "image"
+    ],
+    "count": 4,
+    "create_time": 1768986953,
+    "update_time": 1768986953,
+    "_id": "doc-8299c0ee385c26bbbbe2e37089c3f95e"
+  },
+  "doc-fc0c706cc8f716cb0c533856a7836ee9": {
+    "entity_names": [
+      "strawberry",
+      "mechanical objects",
+      "workspace"
+    ],
+    "count": 3,
+    "create_time": 1768986962,
+    "update_time": 1768986962,
+    "_id": "doc-fc0c706cc8f716cb0c533856a7836ee9"
+  },
+  "doc-7fb03b6571310f209acec07571d08186": {
+    "entity_names": [
+      "User",
+      "Colorful Objects",
+      "Robotic Arm",
+      "Scenes",
+      "Visual Content",
+      "Toys"
+    ],
+    "count": 6,
+    "create_time": 1768987276,
+    "update_time": 1768987276,
+    "_id": "doc-7fb03b6571310f209acec07571d08186"
+  },
+  "doc-cd9709f69b32d1da331a945b8c829af0": {
+    "entity_names": [
+      "Interactive Components",
+      "User",
+      "Mechanical Tasks",
+      "Core Memory"
+    ],
+    "count": 4,
+    "create_time": 1768987751,
+    "update_time": 1768987751,
+    "_id": "doc-cd9709f69b32d1da331a945b8c829af0"
+  },
+  "doc-f769320a2af7ac4a44ea65e2235458fb": {
+    "entity_names": [
+      "Metallic Circular Wire or Chain",
+      "Bright Red Color Plate",
+      "Metal Circular Wire or Chain",
+      "Red Circular Plate",
+      "Beige Kitchen Tool or Utensil",
+      "Brown Loaf of Bread",
+      "User",
+      "Small Black-Handled Tool with Red Grip",
+      "Kitchen Tools and Utensils",
+      "Scissors",
+      "Light-Colored Scissors",
+      "Cylindrical Blue and White Object",
+      "Kitchen Workspace",
+      "Metal Blades",
+      "Blue and White Cylindrical Object"
+    ],
+    "count": 15,
+    "create_time": 1769245270,
+    "update_time": 1769245270,
+    "_id": "doc-f769320a2af7ac4a44ea65e2235458fb"
+  }
+}

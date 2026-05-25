@@ -1,0 +1,298 @@
+{
+  "doc-2accd17993f35419e51f645c32b030b7": {
+    "relation_pairs": [
+      [
+        "Robotic Arm",
+        "Robotic Manipulation Projects"
+      ],
+      [
+        "Controlled Environment",
+        "Workshop"
+      ],
+      [
+        "Robotic Arm",
+        "User"
+      ],
+      [
+        "Controlled Environment",
+        "Laboratory"
+      ],
+      [
+        "Laboratory",
+        "User"
+      ],
+      [
+        "Robotic Manipulation Projects",
+        "User"
+      ],
+      [
+        "User",
+        "Workshop"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1768986867,
+    "update_time": 1768986867,
+    "_id": "doc-2accd17993f35419e51f645c32b030b7"
+  },
+  "doc-6caa640db9f0cdf9ae711ebf96f8f696": {
+    "relation_pairs": [
+      [
+        "Toy-like Object with Wheels",
+        "User"
+      ],
+      [
+        "User",
+        "Workspace Environment"
+      ],
+      [
+        "Mechanical Objects",
+        "User"
+      ],
+      [
+        "Mechanical Appendage",
+        "User"
+      ],
+      [
+        "Tools",
+        "User"
+      ],
+      [
+        "Mechanical Objects",
+        "Workspace Environment"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1768986890,
+    "update_time": 1768986890,
+    "_id": "doc-6caa640db9f0cdf9ae711ebf96f8f696"
+  },
+  "doc-3f43e7fa193665f9caa48641a47cc263": {
+    "relation_pairs": [
+      [
+        "Dark Surface",
+        "Robotic Arm"
+      ],
+      [
+        "Dark Surface",
+        "Yellow Object"
+      ],
+      [
+        "Controlled Environment",
+        "Robotic Arm"
+      ],
+      [
+        "Image",
+        "User"
+      ],
+      [
+        "Black Object",
+        "Robotic Arm"
+      ],
+      [
+        "Robotic Arm",
+        "User"
+      ],
+      [
+        "Black Object",
+        "Dark Surface"
+      ],
+      [
+        "Robotic Arm",
+        "Yellow Object"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1768986918,
+    "update_time": 1768986918,
+    "_id": "doc-3f43e7fa193665f9caa48641a47cc263"
+  },
+  "doc-61635e83552c7cc2a802f5e9d64a4afe": {
+    "relation_pairs": [
+      [
+        "Dark Surface",
+        "Robotic Arm"
+      ],
+      [
+        "Dark Surface",
+        "Yellow Textured Object"
+      ],
+      [
+        "Black Tool with Red Tips",
+        "Dark Surface"
+      ],
+      [
+        "Grayish-Brown Background",
+        "Yellow Textured Object"
+      ],
+      [
+        "Black Tool with Red Tips",
+        "Workspace Setup"
+      ],
+      [
+        "Black Tool with Red Tips",
+        "Grayish-Brown Background"
+      ],
+      [
+        "User",
+        "Workspace Setup"
+      ],
+      [
+        "Robotic Arm",
+        "Workspace Setup"
+      ],
+      [
+        "Workspace Setup",
+        "Yellow Textured Object"
+      ],
+      [
+        "Grayish-Brown Background",
+        "Robotic Arm"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1768986942,
+    "update_time": 1768986942,
+    "_id": "doc-61635e83552c7cc2a802f5e9d64a4afe"
+  },
+  "doc-8299c0ee385c26bbbbe2e37089c3f95e": {
+    "relation_pairs": [
+      [
+        "robotic arm",
+        "strawberry"
+      ],
+      [
+        "image",
+        "semantic memory"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1768986953,
+    "update_time": 1768986953,
+    "_id": "doc-8299c0ee385c26bbbbe2e37089c3f95e"
+  },
+  "doc-fc0c706cc8f716cb0c533856a7836ee9": {
+    "relation_pairs": [
+      [
+        "semantic memory",
+        "strawberry"
+      ],
+      [
+        "mechanical objects",
+        "workspace"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1768986962,
+    "update_time": 1768986962,
+    "_id": "doc-fc0c706cc8f716cb0c533856a7836ee9"
+  },
+  "doc-7fb03b6571310f209acec07571d08186": {
+    "relation_pairs": [
+      [
+        "User",
+        "Visual Content"
+      ],
+      [
+        "Robotic Arm",
+        "User"
+      ],
+      [
+        "Toys",
+        "User"
+      ],
+      [
+        "Toys",
+        "Visual Content"
+      ],
+      [
+        "Scenes",
+        "User"
+      ],
+      [
+        "Scenes",
+        "Visual Content"
+      ],
+      [
+        "Colorful Objects",
+        "User"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1768987276,
+    "update_time": 1768987276,
+    "_id": "doc-7fb03b6571310f209acec07571d08186"
+  },
+  "doc-cd9709f69b32d1da331a945b8c829af0": {
+    "relation_pairs": [
+      [
+        "Mechanical Tasks",
+        "User"
+      ],
+      [
+        "Core Memory",
+        "User"
+      ],
+      [
+        "Interactive Components",
+        "User"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1768987751,
+    "update_time": 1768987751,
+    "_id": "doc-cd9709f69b32d1da331a945b8c829af0"
+  },
+  "doc-f769320a2af7ac4a44ea65e2235458fb": {
+    "relation_pairs": [
+      [
+        "Brown Loaf of Bread",
+        "User"
+      ],
+      [
+        "Scissors",
+        "User"
+      ],
+      [
+        "Kitchen Tools and Utensils",
+        "User"
+      ],
+      [
+        "Red Circular Plate",
+        "User"
+      ],
+      [
+        "Light-Colored Scissors",
+        "User"
+      ],
+      [
+        "Bright Red Color Plate",
+        "User"
+      ],
+      [
+        "Small Black-Handled Tool with Red Grip",
+        "User"
+      ],
+      [
+        "Kitchen Workspace",
+        "User"
+      ],
+      [
+        "Metal Blades",
+        "User"
+      ],
+      [
+        "Metal Circular Wire or Chain",
+        "User"
+      ],
+      [
+        "Cylindrical Blue and White Object",
+        "User"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1769245270,
+    "update_time": 1769245270,
+    "_id": "doc-f769320a2af7ac4a44ea65e2235458fb"
+  }
+}
